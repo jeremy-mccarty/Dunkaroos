@@ -1,0 +1,22 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "{2EEB3A86-433B-05BB-40EE-45829031B163}",
+	"Category": "",
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "Dunkaroos",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "ModelingToolsEditorMode",
+			"Enabled": true,
+			"TargetAllowList": [
+				"Editor"
+			]
+		}
+	]
+}

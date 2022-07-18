@@ -1,0 +1,220 @@
+﻿  Microsoft (R) Build Engine version 17.2.0+41abc5629 for .NET
+  Copyright (C) Microsoft Corporation. All rights reserved.
+  
+  
+  Build succeeded.
+      0 Warning(s)
+      0 Error(s)
+  
+  Time Elapsed 00:00:01.28
+  Cleaning DunkaroosEditor, ShaderCompileWorker and UnrealHeaderTool binaries...
+  Using bundled DotNet SDK
+  Log file: D:\Repos\Personal\UE5\Engine\Programs\UnrealBuildTool\Log.txt
+  Using 'git status' to determine working set for adaptive non-unity build (D:\Repos\Personal\UE5).
+  Using 'git status' to determine working set for adaptive non-unity build (D:\Repos\Personal\Dunkaroos).
+  Creating makefile for DunkaroosEditor (no existing makefile)
+  Creating makefile for UnrealHeaderTool (no existing makefile)
+  Determining max actions to execute in parallel (4 physical cores, 8 logical cores)
+    Executing up to 4 processes, one per physical core
+  Building 71 actions with 4 processes...
+  [1/71] Resource Default.rc2
+  [2/71] Compile MiMalloc.c
+  [3/71] Compile SharedPCH.Core.ShadowErrors.cpp
+  [4/71] Compile SharedPCH.Core.ShadowErrors.TypeCastWarnings.cpp
+  [5/71] Compile Module.TraceLog.cpp
+  [6/71] Compile PCH.Core.cpp
+  [7/71] Compile Module.Projects.cpp
+  [8/71] Compile PCH.CoreUObject.cpp
+  [9/71] Compile Module.Core.6_of_18.cpp
+  [10/71] Compile Module.Core.16_of_18.cpp
+  [11/71] Compile Module.Core.14_of_18.cpp
+  [12/71] Compile Module.Core.4_of_18.cpp
+  [13/71] Compile Module.Core.5_of_18.cpp
+  [14/71] Compile Module.Core.1_of_18.cpp
+  [15/71] Compile Module.DerivedDataCache.cpp
+  [16/71] Compile Module.Core.7_of_18.cpp
+  [17/71] Compile Module.Core.8_of_18.cpp
+  [18/71] Compile Module.Core.10_of_18.cpp
+  [19/71] Compile Module.Core.12_of_18.cpp
+  [20/71] Compile Module.Core.15_of_18.cpp
+  [21/71] Compile Module.Core.3_of_18.cpp
+  [22/71] Compile Module.Core.2_of_18.cpp
+  [23/71] Compile Module.Core.18_of_18.cpp
+  [24/71] Compile Module.Core.9_of_18.cpp
+  [25/71] Compile Module.Core.17_of_18.cpp
+  [26/71] Compile Module.Sockets.cpp
+  [27/71] Compile Module.Core.13_of_18.cpp
+  [28/71] Compile Module.CoreUObject.3_of_10.cpp
+  [29/71] Compile Module.CoreUObject.5_of_10.cpp
+  [30/71] Compile Module.CoreUObject.2_of_10.cpp
+  [31/71] Compile Module.CoreUObject.10_of_10.cpp
+  [32/71] Compile Module.Zen.cpp
+  [33/71] Compile NetCommonModule.cpp
+  [34/71] Compile Module.CoreUObject.9_of_10.cpp
+  [35/71] Compile Module.CoreUObject.4_of_10.cpp
+  [36/71] Compile BuildSettings.cpp
+  [37/71] Compile Module.CoreUObject.7_of_10.cpp
+  [38/71] Compile Module.CoreUObject.6_of_10.cpp
+  [39/71] Link UnrealHeaderTool-TraceLog.dll
+     Creating library ..\Intermediate\Build\Win64\UnrealHeaderTool\Development\TraceLog\UnrealHeaderTool-TraceLog.suppressed.lib and object ..\Intermediate\Build\Win64\UnrealHeaderTool\Development\TraceLog\UnrealHeaderTool-TraceLog.suppressed.exp
+  [40/71] Link UnrealHeaderTool-BuildSettings.dll
+     Creating library ..\Intermediate\Build\Win64\UnrealHeaderTool\Development\BuildSettings\UnrealHeaderTool-BuildSettings.suppressed.lib and object ..\Intermediate\Build\Win64\UnrealHeaderTool\Development\BuildSettings\UnrealHeaderTool-BuildSettings.suppressed.exp
+  [41/71] Compile Module.CoreUObject.8_of_10.cpp
+  [42/71] Compile Module.Core.11_of_18.cpp
+  [43/71] Compile Module.UnrealHeaderTool.2_of_2.cpp
+  [44/71] Compile Module.Json.cpp
+  [45/71] Link UnrealHeaderTool-Json.lib
+     Creating library ..\Intermediate\Build\Win64\UnrealHeaderTool\Development\Json\UnrealHeaderTool-Json.lib and object ..\Intermediate\Build\Win64\UnrealHeaderTool\Development\Json\UnrealHeaderTool-Json.exp
+  [46/71] Compile Module.SSL.cpp
+  [47/71] Link UnrealHeaderTool-Projects.lib
+     Creating library ..\Intermediate\Build\Win64\UnrealHeaderTool\Development\Projects\UnrealHeaderTool-Projects.lib and object ..\Intermediate\Build\Win64\UnrealHeaderTool\Development\Projects\UnrealHeaderTool-Projects.exp
+  [48/71] Link UnrealHeaderTool-SSL.lib
+     Creating library ..\Intermediate\Build\Win64\UnrealHeaderTool\Development\SSL\UnrealHeaderTool-SSL.lib and object ..\Intermediate\Build\Win64\UnrealHeaderTool\Development\SSL\UnrealHeaderTool-SSL.exp
+  [49/71] Link UnrealHeaderTool-TraceLog.lib
+     Creating library ..\Intermediate\Build\Win64\UnrealHeaderTool\Development\TraceLog\UnrealHeaderTool-TraceLog.lib and object ..\Intermediate\Build\Win64\UnrealHeaderTool\Development\TraceLog\UnrealHeaderTool-TraceLog.exp
+  [50/71] Link UnrealHeaderTool-NetCommon.lib
+     Creating library ..\Intermediate\Build\Win64\UnrealHeaderTool\Development\NetCommon\UnrealHeaderTool-NetCommon.lib and object ..\Intermediate\Build\Win64\UnrealHeaderTool\Development\NetCommon\UnrealHeaderTool-NetCommon.exp
+  [51/71] Link UnrealHeaderTool-Zen.lib
+     Creating library ..\Intermediate\Build\Win64\UnrealHeaderTool\Development\Zen\UnrealHeaderTool-Zen.lib and object ..\Intermediate\Build\Win64\UnrealHeaderTool\Development\Zen\UnrealHeaderTool-Zen.exp
+  [52/71] Link UnrealHeaderTool-Sockets.lib
+     Creating library ..\Intermediate\Build\Win64\UnrealHeaderTool\Development\Sockets\UnrealHeaderTool-Sockets.lib and object ..\Intermediate\Build\Win64\UnrealHeaderTool\Development\Sockets\UnrealHeaderTool-Sockets.exp
+  [53/71] Link UnrealHeaderTool-DerivedDataCache.lib
+     Creating library ..\Intermediate\Build\Win64\UnrealHeaderTool\Development\DerivedDataCache\UnrealHeaderTool-DerivedDataCache.lib and object ..\Intermediate\Build\Win64\UnrealHeaderTool\Development\DerivedDataCache\UnrealHeaderTool-DerivedDataCache.exp
+  [54/71] Link UnrealHeaderTool-BuildSettings.lib
+     Creating library ..\Intermediate\Build\Win64\UnrealHeaderTool\Development\BuildSettings\UnrealHeaderTool-BuildSettings.lib and object ..\Intermediate\Build\Win64\UnrealHeaderTool\Development\BuildSettings\UnrealHeaderTool-BuildSettings.exp
+  [55/71] Link UnrealHeaderTool-Core.lib
+     Creating library ..\Intermediate\Build\Win64\UnrealHeaderTool\Development\Core\UnrealHeaderTool-Core.lib and object ..\Intermediate\Build\Win64\UnrealHeaderTool\Development\Core\UnrealHeaderTool-Core.exp
+  [56/71] Link UnrealHeaderTool-SSL.dll
+     Creating library ..\Intermediate\Build\Win64\UnrealHeaderTool\Development\SSL\UnrealHeaderTool-SSL.suppressed.lib and object ..\Intermediate\Build\Win64\UnrealHeaderTool\Development\SSL\UnrealHeaderTool-SSL.suppressed.exp
+  [57/71] Link UnrealHeaderTool-Core.dll
+     Creating library ..\Intermediate\Build\Win64\UnrealHeaderTool\Development\Core\UnrealHeaderTool-Core.suppressed.lib and object ..\Intermediate\Build\Win64\UnrealHeaderTool\Development\Core\UnrealHeaderTool-Core.suppressed.exp
+  [58/71] Link UnrealHeaderTool-NetCommon.dll
+     Creating library ..\Intermediate\Build\Win64\UnrealHeaderTool\Development\NetCommon\UnrealHeaderTool-NetCommon.suppressed.lib and object ..\Intermediate\Build\Win64\UnrealHeaderTool\Development\NetCommon\UnrealHeaderTool-NetCommon.suppressed.exp
+  [59/71] Link UnrealHeaderTool-Projects.dll
+     Creating library ..\Intermediate\Build\Win64\UnrealHeaderTool\Development\Projects\UnrealHeaderTool-Projects.suppressed.lib and object ..\Intermediate\Build\Win64\UnrealHeaderTool\Development\Projects\UnrealHeaderTool-Projects.suppressed.exp
+  [60/71] Link UnrealHeaderTool-Json.dll
+     Creating library ..\Intermediate\Build\Win64\UnrealHeaderTool\Development\Json\UnrealHeaderTool-Json.suppressed.lib and object ..\Intermediate\Build\Win64\UnrealHeaderTool\Development\Json\UnrealHeaderTool-Json.suppressed.exp
+  [61/71] Link UnrealHeaderTool-Sockets.dll
+     Creating library ..\Intermediate\Build\Win64\UnrealHeaderTool\Development\Sockets\UnrealHeaderTool-Sockets.suppressed.lib and object ..\Intermediate\Build\Win64\UnrealHeaderTool\Development\Sockets\UnrealHeaderTool-Sockets.suppressed.exp
+  [62/71] Link UnrealHeaderTool-DerivedDataCache.dll
+     Creating library ..\Intermediate\Build\Win64\UnrealHeaderTool\Development\DerivedDataCache\UnrealHeaderTool-DerivedDataCache.suppressed.lib and object ..\Intermediate\Build\Win64\UnrealHeaderTool\Development\DerivedDataCache\UnrealHeaderTool-DerivedDataCache.suppressed.exp
+  [63/71] Compile Module.UnrealHeaderTool.1_of_2.cpp
+  [64/71] Link UnrealHeaderTool-Zen.dll
+     Creating library ..\Intermediate\Build\Win64\UnrealHeaderTool\Development\Zen\UnrealHeaderTool-Zen.suppressed.lib and object ..\Intermediate\Build\Win64\UnrealHeaderTool\Development\Zen\UnrealHeaderTool-Zen.suppressed.exp
+  [65/71] Link UnrealHeaderTool.lib
+     Creating library ..\Intermediate\Build\Win64\UnrealHeaderTool\Development\UnrealHeaderTool.lib and object ..\Intermediate\Build\Win64\UnrealHeaderTool\Development\UnrealHeaderTool.exp
+  [66/71] Compile Module.CoreUObject.1_of_10.cpp
+  [67/71] Link UnrealHeaderTool-CoreUObject.lib
+     Creating library ..\Intermediate\Build\Win64\UnrealHeaderTool\Development\CoreUObject\UnrealHeaderTool-CoreUObject.lib and object ..\Intermediate\Build\Win64\UnrealHeaderTool\Development\CoreUObject\UnrealHeaderTool-CoreUObject.exp
+  [68/71] Link UnrealHeaderTool.exe
+  [69/71] Link UnrealHeaderTool-CoreUObject.dll
+     Creating library ..\Intermediate\Build\Win64\UnrealHeaderTool\Development\CoreUObject\UnrealHeaderTool-CoreUObject.suppressed.lib and object ..\Intermediate\Build\Win64\UnrealHeaderTool\Development\CoreUObject\UnrealHeaderTool-CoreUObject.suppressed.exp
+  [70/71] WriteMetadata UnrealHeaderTool.version
+  [71/71] WriteMetadata UnrealHeaderTool.target
+  Total time in Parallel executor: 132.86 seconds
+  Parsing headers for DunkaroosEditor
+    Running UnrealHeaderTool "D:\Repos\Personal\Dunkaroos\Dunkaroos\Dunkaroos.uproject" "D:\Repos\Personal\Dunkaroos\Dunkaroos\Intermediate\Build\Win64\DunkaroosEditor\Development\DunkaroosEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="D:\Repos\Personal\UE5\Engine\Programs\UnrealBuildTool\Log_UHT.txt"
+  Reflection code generated for DunkaroosEditor in 36.2451722 seconds
+  Creating makefile for ShaderCompileWorker (no existing makefile)
+  Parsing headers for ShaderCompileWorker
+    Running UnrealHeaderTool ShaderCompileWorker "D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\ShaderCompileWorker\Development\ShaderCompileWorker.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="D:\Repos\Personal\UE5\Engine\Programs\UnrealBuildTool\Log_UHT.txt"
+  Reflection code generated for ShaderCompileWorker in 2.3381321 seconds
+  Building DunkaroosEditor and ShaderCompileWorker...
+  Using Visual Studio 2022 14.32.31332 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.32.31326) and Windows 10.0.20348.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+  Determining max actions to execute in parallel (4 physical cores, 8 logical cores)
+    Executing up to 4 processes, one per physical core
+  Building 3068 actions with 4 processes...
+  [1/3068] Compile BonePose.ispc
+  [2/3068] Compile AnimEncoding_ConstantKeyLerp.ispc
+  [3/3068] Compile AnimationRuntime.ispc
+  [4/3068] Compile AnimEncoding_VariableKeyLerp.ispc
+  [5/3068] Compile GPUSkinVertexFactory.ispc
+  [6/3068] Compile SkeletalMeshComponent.ispc
+  [7/3068] Compile KAggregateGeom.ispc
+  [8/3068] Compile AnimEncoding_PerTrackCompression.ispc
+  [9/3068] Compile BonePose.ispc
+  [10/3068] Compile KAggregateGeom.ispc
+  [11/3068] Compile GPUSkinVertexFactory.ispc
+  [12/3068] Compile AnimEncoding_ConstantKeyLerp.ispc
+  [13/3068] Compile SkeletalMeshComponent.ispc
+  [14/3068] Compile AnimationRuntime.ispc
+  [15/3068] Compile AnimEncoding_VariableKeyLerp.ispc
+  [16/3068] Compile AnimEncoding_PerTrackCompression.ispc
+  [17/3068] Compile PBDMinEvolution.ispc
+  [18/3068] Compile PBDEvolution.ispc
+  [19/3068] Compile PBDJointSolverGaussSeidel.ispc
+  [20/3068] Compile PBDSpringConstraints.ispc
+  [21/3068] Compile VelocityField.ispc
+  [22/3068] Compile PerParticleDampVelocity.ispc
+  [23/3068] Compile AABB.ispc
+  [24/3068] Compile TriangleMesh.ispc
+  [25/3068] Compile PerParticlePBDCollisionConstraint.ispc
+  [26/3068] Compile PBDSphericalConstraint.ispc
+  [27/3068] Compile PBDAxialSpringConstraints.ispc
+  [28/3068] Compile NiagaraDataInterfaceVectorField.ispc
+  [29/3068] Compile PBDLongRangeConstraints.ispc
+  [30/3068] Compile VelocityField.ispc
+  [31/3068] Compile PBDSphericalConstraint.ispc
+  [32/3068] Compile PBDLongRangeConstraints.ispc
+  [33/3068] Compile PBDCollisionConstraints.ispc
+  [34/3068] Compile PBDAxialSpringConstraints.ispc
+  [35/3068] Compile AABB.ispc
+  [36/3068] Compile PBDMinEvolution.ispc
+  [37/3068] Compile PBDSpringConstraints.ispc
+  [38/3068] Compile TriangleMesh.ispc
+  [39/3068] Compile PerParticleDampVelocity.ispc
+  [40/3068] Compile PBDEvolution.ispc
+  [41/3068] Compile GeometryCollectionComponent.ispc
+  [42/3068] Compile PBDJointSolverGaussSeidel.ispc
+  [43/3068] Compile GeometryCollectionSceneProxy.ispc
+  [44/3068] Compile PerParticlePBDCollisionConstraint.ispc
+  [45/3068] Compile GeometryCollectionSceneProxy.ispc
+  [46/3068] Compile GeometryCollectionComponent.ispc
+  [47/3068] Compile ChaosClothingSimulationMesh.ispc
+  [48/3068] Compile NiagaraDataInterfaceVectorField.ispc
+  [49/3068] Compile PBDCollisionConstraints.ispc
+  [50/3068] Resource Default.rc2
+  [51/3068] Compile ChaosClothingSimulation.ispc
+  [52/3068] Compile ChaosClothingSimulationMesh.ispc
+  [53/3068] Compile ChaosClothingSimulationSolver.ispc
+  [54/3068] Compile ChaosClothingSimulation.ispc
+  [55/3068] Compile SharedPCH.CoreUObject.ShadowErrors.cpp
+  [56/3068] Compile ChaosClothingSimulationSolver.ispc
+  [57/3068] Compile MiMalloc.c
+  [58/3068] Compile PCH.Core.cpp
+  [59/3068] Compile SharedPCH.Core.ShadowErrors.cpp
+  [60/3068] Compile Module.Core.3_of_18.cpp
+  [61/3068] Compile Module.Core.5_of_18.cpp
+  [62/3068] Compile Module.Core.6_of_18.cpp
+  [63/3068] Compile SharedPCH.UnrealEd.ShadowErrors.cpp
+  [64/3068] Compile Module.Core.4_of_18.cpp
+  [65/3068] Compile Module.Core.8_of_18.cpp
+  [66/3068] Compile Module.Core.7_of_18.cpp
+  [67/3068] Compile SharedPCH.Engine.ShadowErrors.cpp
+  [68/3068] Compile Module.Core.14_of_18.cpp
+  [69/3068] Compile Module.Core.10_of_18.cpp
+  [70/3068] Compile Module.Core.15_of_18.cpp
+  [71/3068] Compile Module.Core.16_of_18.cpp
+  [72/3068] Compile Module.Core.18_of_18.cpp
+  [73/3068] Compile Module.Core.11_of_18.cpp
+  [74/3068] Compile Module.Core.12_of_18.cpp
+  [75/3068] Compile Module.Core.2_of_18.cpp
+  [76/3068] Compile Module.Core.17_of_18.cpp
+  [77/3068] Compile Module.Core.1_of_18.cpp
+  [78/3068] Compile PCH.CoreUObject.cpp
+  [79/3068] Compile Module.Core.13_of_18.cpp
+  [80/3068] Compile SharedPCH.Slate.ShadowErrors.cpp
+  [81/3068] Compile Module.CoreUObject.3_of_10.cpp
+  [82/3068] Compile Module.CoreUObject.4_of_10.cpp
+  [83/3068] Compile Module.CoreUObject.7_of_10.cpp
+  [84/3068] Compile Module.CoreUObject.6_of_10.cpp
+  [85/3068] Compile Module.CoreUObject.gen.cpp
+  [86/3068] Compile Module.CoreUObject.8_of_10.cpp
+  [87/3068] Compile Module.CoreUObject.9_of_10.cpp
+  [88/3068] Compile Module.CoreUObject.1_of_10.cpp
+  [89/3068] Compile Module.CoreUObject.2_of_10.cpp
+  [90/3068] Compile PCH.UnrealEd.cpp
+  [91/3068] Compile Module.Slate.3_of_6.cpp
+  [92/3068] Compile Module.Slate.1_of_6.cpp
+  [93/3068] Compile Module.Slate.gen.cpp
+  [94/3068] Compile Module.Slate.6_of_6.cpp

@@ -1,0 +1,300 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Invalid|x64">
+      <Configuration>Invalid</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug_Program|x64">
+      <Configuration>Debug_Program</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="DebugGame_Program|x64">
+      <Configuration>DebugGame_Program</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Development_Program|x64">
+      <Configuration>Development_Program</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Test_Program|x64">
+      <Configuration>Test_Program</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Shipping_Program|x64">
+      <Configuration>Shipping_Program</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{F20D4EFE-E987-39D1-84CA-825FCC1F1B27}</ProjectGuid>
+    <Keyword>MakeFileProj</Keyword>
+    <RootNamespace>UnrealHeaderTool</RootNamespace>
+    <PlatformToolset>v143</PlatformToolset>
+    <MinimumVisualStudioVersion>17.0</MinimumVisualStudioVersion>
+    <VCProjectVersion>17.0</VCProjectVersion>
+    <NMakeUseOemCodePage>true</NMakeUseOemCodePage>
+    <TargetRuntime>Native</TargetRuntime>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Invalid|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Program|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Program|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development_Program|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Test_Program|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Shipping_Program|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings" />
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Invalid|x64'">
+    <NMakeBuildCommandLine>echo The selected platform/configuration is not valid for this target.</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>echo The selected platform/configuration is not valid for this target.</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>echo The selected platform/configuration is not valid for this target.</NMakeCleanCommandLine>
+    <NMakeOutput>Invalid Output</NMakeOutput>
+    <OutDir>D:\Repos\Personal\UE5\Engine\Intermediate\Build\Unused\</OutDir>
+    <IntDir>D:\Repos\Personal\UE5\Engine\Intermediate\Build\Unused\</IntDir>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Program|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Program|x64'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>D:\Repos\Personal\UE5\Engine\Build\BatchFiles\Build.bat UnrealHeaderTool Win64 Debug -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>D:\Repos\Personal\UE5\Engine\Build\BatchFiles\Rebuild.bat UnrealHeaderTool Win64 Debug -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>D:\Repos\Personal\UE5\Engine\Build\BatchFiles\Clean.bat UnrealHeaderTool Win64 Debug -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>D:\Repos\Personal\UE5\Engine\Binaries\Win64\UnrealHeaderTool-Win64-Debug.exe</NMakeOutput>
+    <AdditionalOptions>/std:c++17</AdditionalOptions>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Program|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Program|x64'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>D:\Repos\Personal\UE5\Engine\Build\BatchFiles\Build.bat UnrealHeaderTool Win64 DebugGame -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>D:\Repos\Personal\UE5\Engine\Build\BatchFiles\Rebuild.bat UnrealHeaderTool Win64 DebugGame -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>D:\Repos\Personal\UE5\Engine\Build\BatchFiles\Clean.bat UnrealHeaderTool Win64 DebugGame -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>D:\Repos\Personal\UE5\Engine\Binaries\Win64\UnrealHeaderTool-Win64-DebugGame.exe</NMakeOutput>
+    <AdditionalOptions>/std:c++17</AdditionalOptions>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Development_Program|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development_Program|x64'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>D:\Repos\Personal\UE5\Engine\Build\BatchFiles\Build.bat UnrealHeaderTool Win64 Development -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>D:\Repos\Personal\UE5\Engine\Build\BatchFiles\Rebuild.bat UnrealHeaderTool Win64 Development -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>D:\Repos\Personal\UE5\Engine\Build\BatchFiles\Clean.bat UnrealHeaderTool Win64 Development -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>D:\Repos\Personal\UE5\Engine\Binaries\Win64\UnrealHeaderTool.exe</NMakeOutput>
+    <AdditionalOptions>/std:c++17</AdditionalOptions>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Test_Program|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Test_Program|x64'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>D:\Repos\Personal\UE5\Engine\Build\BatchFiles\Build.bat UnrealHeaderTool Win64 Test -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>D:\Repos\Personal\UE5\Engine\Build\BatchFiles\Rebuild.bat UnrealHeaderTool Win64 Test -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>D:\Repos\Personal\UE5\Engine\Build\BatchFiles\Clean.bat UnrealHeaderTool Win64 Test -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>D:\Repos\Personal\UE5\Engine\Binaries\Win64\UnrealHeaderTool-Win64-Test.exe</NMakeOutput>
+    <AdditionalOptions>/std:c++17</AdditionalOptions>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Shipping_Program|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Shipping_Program|x64'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>D:\Repos\Personal\UE5\Engine\Build\BatchFiles\Build.bat UnrealHeaderTool Win64 Shipping -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>D:\Repos\Personal\UE5\Engine\Build\BatchFiles\Rebuild.bat UnrealHeaderTool Win64 Shipping -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>D:\Repos\Personal\UE5\Engine\Build\BatchFiles\Clean.bat UnrealHeaderTool Win64 Shipping -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>D:\Repos\Personal\UE5\Engine\Binaries\Win64\UnrealHeaderTool-Win64-Shipping.exe</NMakeOutput>
+    <AdditionalOptions>/std:c++17</AdditionalOptions>
+  </PropertyGroup>
+  <PropertyGroup>
+    <NMakePreprocessorDefinitions>$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+    <IncludePath>$(IncludePath);D:\Repos\Personal\UE5\Engine\Source;D:\Repos\Personal\UE5\Engine\Source\Runtime\Launch\Private;D:\Repos\Personal\UE5\Engine\Source\Runtime\RHI\Public;D:\Repos\Personal\UE5\Engine\Source\Programs\UnrealHeaderTool\Private;D:\Repos\Personal\UE5\Engine\Source\Runtime\RigVM\Public;D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\UnrealHeaderTool\Inc\Core;D:\Repos\Personal\UE5\Engine\Source\Runtime;D:\Repos\Personal\UE5\Engine\Source\Runtime\TraceLog\Public;D:\Repos\Personal\UE5\Engine\Source\Runtime\Core\Public;D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\UnrealHeaderTool\Inc\TraceLog;D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\UnrealHeaderTool\Inc\CoreUObject;D:\Repos\Personal\UE5\Engine\Source\Runtime\CoreUObject\Public;D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\UnrealHeaderTool\Inc\Json;D:\Repos\Personal\UE5\Engine\Source\Runtime\Json\Public;D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\UnrealHeaderTool\Inc\Projects;D:\Repos\Personal\UE5\Engine\Source\Runtime\Projects\Public;D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\UnrealHeaderTool\Inc\UnrealHeaderTool;D:\Repos\Personal\UE5\Engine\Source\Programs;D:\Repos\Personal\UE5\Engine\Source\Runtime\Launch\Public;D:\Repos\Personal\UE5\Engine\Source\Programs\UnrealHeaderTool\Public;C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.32.31326\INCLUDE;C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um;C:\Program Files (x86)\Windows Kits\10\include\10.0.20348.0\ucrt;C:\Program Files (x86)\Windows Kits\10\include\10.0.20348.0\shared;C:\Program Files (x86)\Windows Kits\10\include\10.0.20348.0\um;C:\Program Files (x86)\Windows Kits\10\include\10.0.20348.0\winrt;;</IncludePath>
+    <NMakeForcedIncludes>$(NMakeForcedIncludes)</NMakeForcedIncludes>
+    <NMakeAssemblySearchPath>$(NMakeAssemblySearchPath)</NMakeAssemblySearchPath>
+    <AdditionalOptions>/std:c++17</AdditionalOptions>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="..\..\..\UE5\Engine\Source\Programs\UnrealHeaderTool\UnrealHeaderTool.Target.cs"/>
+    <None Include="..\..\..\UE5\Engine\Programs\UnrealHeaderTool\Config\DefaultEngine.ini"/>
+    <None Include="..\..\..\UE5\Engine\Source\Programs\UnrealHeaderTool\UnrealHeaderTool.Build.cs"/>
+    <ClCompile Include="..\..\..\UE5\Engine\Source\Programs\UnrealHeaderTool\Private\BaseParser.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\Repos\Personal\UE5\Engine\Source\ThirdParty\mimalloc\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\UnrealHeaderTool\Development\UnrealHeaderTool\Definitions.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="..\..\..\UE5\Engine\Source\Programs\UnrealHeaderTool\Private\BaseParser.h"/>
+    <ClCompile Include="..\..\..\UE5\Engine\Source\Programs\UnrealHeaderTool\Private\ClassMaps.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\Repos\Personal\UE5\Engine\Source\ThirdParty\mimalloc\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\UnrealHeaderTool\Development\UnrealHeaderTool\Definitions.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="..\..\..\UE5\Engine\Source\Programs\UnrealHeaderTool\Private\ClassMaps.h"/>
+    <ClCompile Include="..\..\..\UE5\Engine\Source\Programs\UnrealHeaderTool\Private\CodeGenerator.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\Repos\Personal\UE5\Engine\Source\ThirdParty\mimalloc\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\UnrealHeaderTool\Development\UnrealHeaderTool\Definitions.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="..\..\..\UE5\Engine\Source\Programs\UnrealHeaderTool\Private\EngineAPI.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\Repos\Personal\UE5\Engine\Source\ThirdParty\mimalloc\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\UnrealHeaderTool\Development\UnrealHeaderTool\Definitions.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="..\..\..\UE5\Engine\Source\Programs\UnrealHeaderTool\Private\EngineAPI.h"/>
+    <ClCompile Include="..\..\..\UE5\Engine\Source\Programs\UnrealHeaderTool\Private\Exceptions.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\Repos\Personal\UE5\Engine\Source\ThirdParty\mimalloc\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\UnrealHeaderTool\Development\UnrealHeaderTool\Definitions.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="..\..\..\UE5\Engine\Source\Programs\UnrealHeaderTool\Private\Exceptions.h"/>
+    <ClInclude Include="..\..\..\UE5\Engine\Source\Programs\UnrealHeaderTool\Private\GeneratedCodeVersion.h"/>
+    <ClCompile Include="..\..\..\UE5\Engine\Source\Programs\UnrealHeaderTool\Private\HeaderParser.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\Repos\Personal\UE5\Engine\Source\ThirdParty\mimalloc\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\UnrealHeaderTool\Development\UnrealHeaderTool\Definitions.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="..\..\..\UE5\Engine\Source\Programs\UnrealHeaderTool\Private\HeaderParser.h"/>
+    <ClCompile Include="..\..\..\UE5\Engine\Source\Programs\UnrealHeaderTool\Private\HeaderProvider.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\Repos\Personal\UE5\Engine\Source\ThirdParty\mimalloc\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\UnrealHeaderTool\Development\UnrealHeaderTool\Definitions.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="..\..\..\UE5\Engine\Source\Programs\UnrealHeaderTool\Private\HeaderProvider.h"/>
+    <ClCompile Include="..\..\..\UE5\Engine\Source\Programs\UnrealHeaderTool\Private\IScriptGeneratorPluginInterface.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\Repos\Personal\UE5\Engine\Source\ThirdParty\mimalloc\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\UnrealHeaderTool\Development\UnrealHeaderTool\Definitions.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="..\..\..\UE5\Engine\Source\Programs\UnrealHeaderTool\Private\Manifest.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\Repos\Personal\UE5\Engine\Source\ThirdParty\mimalloc\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\UnrealHeaderTool\Development\UnrealHeaderTool\Definitions.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="..\..\..\UE5\Engine\Source\Programs\UnrealHeaderTool\Private\Manifest.h"/>
+    <ClInclude Include="..\..\..\UE5\Engine\Source\Programs\UnrealHeaderTool\Private\NativeClassExporter.h"/>
+    <ClCompile Include="..\..\..\UE5\Engine\Source\Programs\UnrealHeaderTool\Private\ParserHelper.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\Repos\Personal\UE5\Engine\Source\ThirdParty\mimalloc\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\UnrealHeaderTool\Development\UnrealHeaderTool\Definitions.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="..\..\..\UE5\Engine\Source\Programs\UnrealHeaderTool\Private\ParserHelper.h"/>
+    <ClCompile Include="..\..\..\UE5\Engine\Source\Programs\UnrealHeaderTool\Private\PropertyTypes.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\Repos\Personal\UE5\Engine\Source\ThirdParty\mimalloc\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\UnrealHeaderTool\Development\UnrealHeaderTool\Definitions.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="..\..\..\UE5\Engine\Source\Programs\UnrealHeaderTool\Private\PropertyTypes.h"/>
+    <ClCompile Include="..\..\..\UE5\Engine\Source\Programs\UnrealHeaderTool\Private\Scope.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\Repos\Personal\UE5\Engine\Source\ThirdParty\mimalloc\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\UnrealHeaderTool\Development\UnrealHeaderTool\Definitions.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="..\..\..\UE5\Engine\Source\Programs\UnrealHeaderTool\Private\Scope.h"/>
+    <ClCompile Include="..\..\..\UE5\Engine\Source\Programs\UnrealHeaderTool\Private\StringUtils.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\Repos\Personal\UE5\Engine\Source\ThirdParty\mimalloc\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\UnrealHeaderTool\Development\UnrealHeaderTool\Definitions.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="..\..\..\UE5\Engine\Source\Programs\UnrealHeaderTool\Private\StringUtils.h"/>
+    <ClInclude Include="..\..\..\UE5\Engine\Source\Programs\UnrealHeaderTool\Private\UnrealHeaderTool.h"/>
+    <ClInclude Include="..\..\..\UE5\Engine\Source\Programs\UnrealHeaderTool\Private\UnrealHeaderToolGlobals.h"/>
+    <ClCompile Include="..\..\..\UE5\Engine\Source\Programs\UnrealHeaderTool\Private\UnrealHeaderToolMain.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\Repos\Personal\UE5\Engine\Source\ThirdParty\mimalloc\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\UnrealHeaderTool\Development\UnrealHeaderTool\Definitions.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClCompile Include="..\..\..\UE5\Engine\Source\Programs\UnrealHeaderTool\Private\UnrealHeaderToolStats.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\Repos\Personal\UE5\Engine\Source\ThirdParty\mimalloc\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\UnrealHeaderTool\Development\UnrealHeaderTool\Definitions.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="..\..\..\UE5\Engine\Source\Programs\UnrealHeaderTool\Private\UnrealHeaderToolStats.h"/>
+    <ClCompile Include="..\..\..\UE5\Engine\Source\Programs\UnrealHeaderTool\Private\UnrealSourceFile.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\Repos\Personal\UE5\Engine\Source\ThirdParty\mimalloc\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\UnrealHeaderTool\Development\UnrealHeaderTool\Definitions.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="..\..\..\UE5\Engine\Source\Programs\UnrealHeaderTool\Private\UnrealSourceFile.h"/>
+    <ClCompile Include="..\..\..\UE5\Engine\Source\Programs\UnrealHeaderTool\Private\UnrealTypeDefinitionInfo.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\Repos\Personal\UE5\Engine\Source\ThirdParty\mimalloc\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\UnrealHeaderTool\Development\UnrealHeaderTool\Definitions.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="..\..\..\UE5\Engine\Source\Programs\UnrealHeaderTool\Private\UnrealTypeDefinitionInfo.h"/>
+    <None Include="..\..\..\UE5\Engine\Source\Programs\UnrealHeaderTool\Private\Specifiers\CheckedMetadataSpecifiers.def"/>
+    <ClInclude Include="..\..\..\UE5\Engine\Source\Programs\UnrealHeaderTool\Private\Specifiers\CheckedMetadataSpecifiers.h"/>
+    <None Include="..\..\..\UE5\Engine\Source\Programs\UnrealHeaderTool\Private\Specifiers\ClassMetadataSpecifiers.def"/>
+    <ClInclude Include="..\..\..\UE5\Engine\Source\Programs\UnrealHeaderTool\Private\Specifiers\ClassMetadataSpecifiers.h"/>
+    <None Include="..\..\..\UE5\Engine\Source\Programs\UnrealHeaderTool\Private\Specifiers\EnumSpecifiers.def"/>
+    <ClInclude Include="..\..\..\UE5\Engine\Source\Programs\UnrealHeaderTool\Private\Specifiers\EnumSpecifiers.h"/>
+    <None Include="..\..\..\UE5\Engine\Source\Programs\UnrealHeaderTool\Private\Specifiers\FunctionSpecifiers.def"/>
+    <ClInclude Include="..\..\..\UE5\Engine\Source\Programs\UnrealHeaderTool\Private\Specifiers\FunctionSpecifiers.h"/>
+    <None Include="..\..\..\UE5\Engine\Source\Programs\UnrealHeaderTool\Private\Specifiers\InterfaceSpecifiers.def"/>
+    <ClInclude Include="..\..\..\UE5\Engine\Source\Programs\UnrealHeaderTool\Private\Specifiers\InterfaceSpecifiers.h"/>
+    <ClCompile Include="..\..\..\UE5\Engine\Source\Programs\UnrealHeaderTool\Private\Specifiers\SpecifierArrays.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\Repos\Personal\UE5\Engine\Source\ThirdParty\mimalloc\include;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\UnrealHeaderTool\Development\UnrealHeaderTool\Definitions.h</ForcedIncludeFiles>
+    </ClCompile>
+    <None Include="..\..\..\UE5\Engine\Source\Programs\UnrealHeaderTool\Private\Specifiers\StructSpecifiers.def"/>
+    <ClInclude Include="..\..\..\UE5\Engine\Source\Programs\UnrealHeaderTool\Private\Specifiers\StructSpecifiers.h"/>
+    <None Include="..\..\..\UE5\Engine\Source\Programs\UnrealHeaderTool\Private\Specifiers\VariableSpecifiers.def"/>
+    <ClInclude Include="..\..\..\UE5\Engine\Source\Programs\UnrealHeaderTool\Private\Specifiers\VariableSpecifiers.h"/>
+    <ClInclude Include="..\..\..\UE5\Engine\Source\Programs\UnrealHeaderTool\Public\IScriptGeneratorPluginInterface.h"/>
+    <Manifest Include="..\..\..\UE5\Engine\Source\Programs\UnrealHeaderTool\Resources\UHTDebugging.manifest"/>
+    <ClInclude Include="..\..\..\UE5\Engine\Source\Programs\UnrealHeaderTool\Resources\UHTDebugging\DocumentationObjects.h"/>
+    <ClInclude Include="..\..\..\UE5\Engine\Source\Programs\UnrealHeaderTool\Resources\UHTDebugging\EnumOnlyHeader.h"/>
+    <ClInclude Include="..\..\..\UE5\Engine\Source\Programs\UnrealHeaderTool\Resources\UHTDebugging\RigVMStructHeader.h"/>
+    <ClInclude Include="..\..\..\UE5\Engine\Source\Programs\UnrealHeaderTool\Resources\UHTDebugging\StructOnlyHeader.h"/>
+    <ClInclude Include="..\..\..\UE5\Engine\Source\Programs\UnrealHeaderTool\Resources\UHTDebugging\TestDeprecatedObject.h"/>
+    <ClInclude Include="..\..\..\UE5\Engine\Source\Programs\UnrealHeaderTool\Resources\UHTDebugging\TestInterface.h"/>
+    <ClInclude Include="..\..\..\UE5\Engine\Source\Programs\UnrealHeaderTool\Resources\UHTDebugging\TestInterfaceObject.h"/>
+    <ClInclude Include="..\..\..\UE5\Engine\Source\Programs\UnrealHeaderTool\Resources\UHTDebugging\TestObject.h"/>
+    <ClInclude Include="..\..\..\UE5\Engine\Source\Programs\UnrealHeaderTool\Resources\UHTDebugging\TestObjectSerializers.h"/>
+  </ItemGroup>
+  <ItemDefinitionGroup>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <PropertyGroup>
+    <CleanDependsOn> $(CleanDependsOn); </CleanDependsOn>
+    <CppCleanDependsOn></CppCleanDependsOn>
+  </PropertyGroup>
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

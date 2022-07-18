@@ -1,0 +1,582 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Invalid|x64">
+      <Configuration>Invalid</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Invalid|arm64">
+      <Configuration>Invalid</Configuration>
+      <Platform>arm64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|arm64">
+      <Configuration>Debug</Configuration>
+      <Platform>arm64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug_Editor|x64">
+      <Configuration>Debug_Editor</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug_Editor|arm64">
+      <Configuration>Debug_Editor</Configuration>
+      <Platform>arm64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="DebugGame|x64">
+      <Configuration>DebugGame</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="DebugGame|arm64">
+      <Configuration>DebugGame</Configuration>
+      <Platform>arm64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="DebugGame_Editor|x64">
+      <Configuration>DebugGame_Editor</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="DebugGame_Editor|arm64">
+      <Configuration>DebugGame_Editor</Configuration>
+      <Platform>arm64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Development|x64">
+      <Configuration>Development</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Development|arm64">
+      <Configuration>Development</Configuration>
+      <Platform>arm64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Development_Editor|x64">
+      <Configuration>Development_Editor</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Development_Editor|arm64">
+      <Configuration>Development_Editor</Configuration>
+      <Platform>arm64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Test|x64">
+      <Configuration>Test</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Test|arm64">
+      <Configuration>Test</Configuration>
+      <Platform>arm64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Shipping|x64">
+      <Configuration>Shipping</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Shipping|arm64">
+      <Configuration>Shipping</Configuration>
+      <Platform>arm64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{ED90DDD3-E257-3A56-81BC-FC45AAAC0D50}</ProjectGuid>
+    <Keyword>MakeFileProj</Keyword>
+    <RootNamespace>Dunkaroos</RootNamespace>
+    <PlatformToolset>v143</PlatformToolset>
+    <MinimumVisualStudioVersion>17.0</MinimumVisualStudioVersion>
+    <VCProjectVersion>17.0</VCProjectVersion>
+    <NMakeUseOemCodePage>true</NMakeUseOemCodePage>
+    <TargetRuntime>Native</TargetRuntime>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|arm64'" Label="Configuration">
+		<AppContainerApplication>true</AppContainerApplication>
+		<ApplicationType>Windows Store</ApplicationType>
+		<ApplicationTypeRevision>10.0</ApplicationTypeRevision>
+		<WindowsAppContainer>true</WindowsAppContainer>
+		<AppxPackage>true</AppxPackage>
+		<WindowsTargetPlatformVersion>10.0.20348.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Editor|arm64'" Label="Configuration">
+		<AppContainerApplication>true</AppContainerApplication>
+		<ApplicationType>Windows Store</ApplicationType>
+		<ApplicationTypeRevision>10.0</ApplicationTypeRevision>
+		<WindowsAppContainer>true</WindowsAppContainer>
+		<AppxPackage>true</AppxPackage>
+		<WindowsTargetPlatformVersion>10.0.20348.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame|arm64'" Label="Configuration">
+		<AppContainerApplication>true</AppContainerApplication>
+		<ApplicationType>Windows Store</ApplicationType>
+		<ApplicationTypeRevision>10.0</ApplicationTypeRevision>
+		<WindowsAppContainer>true</WindowsAppContainer>
+		<AppxPackage>true</AppxPackage>
+		<WindowsTargetPlatformVersion>10.0.20348.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Editor|arm64'" Label="Configuration">
+		<AppContainerApplication>true</AppContainerApplication>
+		<ApplicationType>Windows Store</ApplicationType>
+		<ApplicationTypeRevision>10.0</ApplicationTypeRevision>
+		<WindowsAppContainer>true</WindowsAppContainer>
+		<AppxPackage>true</AppxPackage>
+		<WindowsTargetPlatformVersion>10.0.20348.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development|arm64'" Label="Configuration">
+		<AppContainerApplication>true</AppContainerApplication>
+		<ApplicationType>Windows Store</ApplicationType>
+		<ApplicationTypeRevision>10.0</ApplicationTypeRevision>
+		<WindowsAppContainer>true</WindowsAppContainer>
+		<AppxPackage>true</AppxPackage>
+		<WindowsTargetPlatformVersion>10.0.20348.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development_Editor|arm64'" Label="Configuration">
+		<AppContainerApplication>true</AppContainerApplication>
+		<ApplicationType>Windows Store</ApplicationType>
+		<ApplicationTypeRevision>10.0</ApplicationTypeRevision>
+		<WindowsAppContainer>true</WindowsAppContainer>
+		<AppxPackage>true</AppxPackage>
+		<WindowsTargetPlatformVersion>10.0.20348.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Test|arm64'" Label="Configuration">
+		<AppContainerApplication>true</AppContainerApplication>
+		<ApplicationType>Windows Store</ApplicationType>
+		<ApplicationTypeRevision>10.0</ApplicationTypeRevision>
+		<WindowsAppContainer>true</WindowsAppContainer>
+		<AppxPackage>true</AppxPackage>
+		<WindowsTargetPlatformVersion>10.0.20348.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Shipping|arm64'" Label="Configuration">
+		<AppContainerApplication>true</AppContainerApplication>
+		<ApplicationType>Windows Store</ApplicationType>
+		<ApplicationTypeRevision>10.0</ApplicationTypeRevision>
+		<WindowsAppContainer>true</WindowsAppContainer>
+		<AppxPackage>true</AppxPackage>
+		<WindowsTargetPlatformVersion>10.0.20348.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Invalid|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Invalid|arm64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|arm64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Editor|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Editor|arm64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame|arm64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Editor|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Editor|arm64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development|arm64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development_Editor|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development_Editor|arm64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Test|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Test|arm64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Shipping|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Shipping|arm64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings" />
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Invalid|x64'">
+    <NMakeBuildCommandLine>echo The selected platform/configuration is not valid for this target.</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>echo The selected platform/configuration is not valid for this target.</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>echo The selected platform/configuration is not valid for this target.</NMakeCleanCommandLine>
+    <NMakeOutput>Invalid Output</NMakeOutput>
+    <OutDir>D:\Repos\Personal\UE5\Engine\Intermediate\Build\Unused\</OutDir>
+    <IntDir>D:\Repos\Personal\UE5\Engine\Intermediate\Build\Unused\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Invalid|arm64'">
+    <NMakeBuildCommandLine>echo The selected platform/configuration is not valid for this target.</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>echo The selected platform/configuration is not valid for this target.</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>echo The selected platform/configuration is not valid for this target.</NMakeCleanCommandLine>
+    <NMakeOutput>Invalid Output</NMakeOutput>
+    <OutDir>D:\Repos\Personal\UE5\Engine\Intermediate\Build\Unused\</OutDir>
+    <IntDir>D:\Repos\Personal\UE5\Engine\Intermediate\Build\Unused\</IntDir>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>D:\Repos\Personal\UE5\Engine\Build\BatchFiles\Build.bat Dunkaroos Win64 Debug -Project="$(SolutionDir)Dunkaroos.uproject" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>D:\Repos\Personal\UE5\Engine\Build\BatchFiles\Rebuild.bat Dunkaroos Win64 Debug -Project="$(SolutionDir)Dunkaroos.uproject" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>D:\Repos\Personal\UE5\Engine\Build\BatchFiles\Clean.bat Dunkaroos Win64 Debug -Project="$(SolutionDir)Dunkaroos.uproject" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>..\..\Binaries\Win64\Dunkaroos-Win64-Debug.exe</NMakeOutput>
+    <AdditionalOptions>/std:c++17</AdditionalOptions>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Editor|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Editor|x64'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>D:\Repos\Personal\UE5\Engine\Build\BatchFiles\Build.bat -Target="DunkaroosEditor Win64 Debug -Project=\"$(SolutionDir)Dunkaroos.uproject\"" -Target="ShaderCompileWorker Win64 Development -Quiet" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>D:\Repos\Personal\UE5\Engine\Build\BatchFiles\Rebuild.bat -Target="DunkaroosEditor Win64 Debug -Project=\"$(SolutionDir)Dunkaroos.uproject\"" -Target="ShaderCompileWorker Win64 Development -Quiet" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>D:\Repos\Personal\UE5\Engine\Build\BatchFiles\Clean.bat -Target="DunkaroosEditor Win64 Debug -Project=\"$(SolutionDir)Dunkaroos.uproject\"" -Target="ShaderCompileWorker Win64 Development -Quiet" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>D:\Repos\Personal\UE5\Engine\Binaries\Win64\UnrealEditor-Win64-Debug.exe</NMakeOutput>
+    <AdditionalOptions>/std:c++17</AdditionalOptions>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|arm64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|arm64'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>D:\Repos\Personal\UE5\Engine\Build\BatchFiles\Build.bat Dunkaroos HoloLens Debug -Project="$(SolutionDir)Dunkaroos.uproject" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>D:\Repos\Personal\UE5\Engine\Build\BatchFiles\Rebuild.bat Dunkaroos HoloLens Debug -Project="$(SolutionDir)Dunkaroos.uproject" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>D:\Repos\Personal\UE5\Engine\Build\BatchFiles\Clean.bat Dunkaroos HoloLens Debug -Project="$(SolutionDir)Dunkaroos.uproject" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>..\..\Binaries\HoloLens\Dunkaroos-HoloLens-Debug.exe</NMakeOutput>
+    <AdditionalOptions>/std:c++17</AdditionalOptions>
+		<AdditionalOptions>/ZW /ZW:nostdlib</AdditionalOptions>
+		<NMakePreprocessorDefinitions>$(NMakePreprocessorDefinitions);PLATFORM_HOLOLENS=1;HOLOLENS=1;</NMakePreprocessorDefinitions>
+		<NMakeAssemblySearchPath>$(NMakeAssemblySearchPath);C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.32.31326\lib\x86\Store\references</NMakeAssemblySearchPath>
+		<NMakeForcedUsingAssemblies>$(NMakeForcedUsingAssemblies);C:\Program Files (x86)\Windows Kits\10\References\10.0.20348.0\Windows.Foundation.FoundationContract\4.0.0.0\Windows.Foundation.FoundationContract.winmd;C:\Program Files (x86)\Windows Kits\10\References\10.0.20348.0\Windows.Foundation.UniversalApiContract\12.0.0.0\Windows.Foundation.UniversalApiContract.winmd;platform.winmd</NMakeForcedUsingAssemblies>
+  </PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|arm64'">
+		<RemoveExtraDeployFiles>false</RemoveExtraDeployFiles>
+		<LayoutDir>D:\Repos\Personal\Dunkaroos\Binaries\HoloLens\AppX</LayoutDir>
+		<AppxPackageRecipe>D:\Repos\Personal\Dunkaroos\Binaries\HoloLens\Dunkaroos.build.appxrecipe</AppxPackageRecipe>
+	</PropertyGroup>
+    <ItemGroup Condition="'$(Configuration)|$(Platform)'=='Debug|arm64'">
+		<PropertyPageSchema Include="$(VCTargetsPath)$(LangID)\AppHostDebugger_Local.xml" />
+		<PropertyPageSchema Include="$(VCTargetsPath)$(LangID)\AppHostDebugger_Simulator.xml" />
+		<PropertyPageSchema Include="$(VCTargetsPath)$(LangID)\AppHostDebugger_Remote.xml" />
+    </ItemGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame|x64'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>D:\Repos\Personal\UE5\Engine\Build\BatchFiles\Build.bat Dunkaroos Win64 DebugGame -Project="$(SolutionDir)Dunkaroos.uproject" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>D:\Repos\Personal\UE5\Engine\Build\BatchFiles\Rebuild.bat Dunkaroos Win64 DebugGame -Project="$(SolutionDir)Dunkaroos.uproject" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>D:\Repos\Personal\UE5\Engine\Build\BatchFiles\Clean.bat Dunkaroos Win64 DebugGame -Project="$(SolutionDir)Dunkaroos.uproject" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>..\..\Binaries\Win64\Dunkaroos-Win64-DebugGame.exe</NMakeOutput>
+    <AdditionalOptions>/std:c++17</AdditionalOptions>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Editor|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Editor|x64'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>D:\Repos\Personal\UE5\Engine\Build\BatchFiles\Build.bat -Target="DunkaroosEditor Win64 DebugGame -Project=\"$(SolutionDir)Dunkaroos.uproject\"" -Target="ShaderCompileWorker Win64 Development -Quiet" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>D:\Repos\Personal\UE5\Engine\Build\BatchFiles\Rebuild.bat -Target="DunkaroosEditor Win64 DebugGame -Project=\"$(SolutionDir)Dunkaroos.uproject\"" -Target="ShaderCompileWorker Win64 Development -Quiet" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>D:\Repos\Personal\UE5\Engine\Build\BatchFiles\Clean.bat -Target="DunkaroosEditor Win64 DebugGame -Project=\"$(SolutionDir)Dunkaroos.uproject\"" -Target="ShaderCompileWorker Win64 Development -Quiet" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>D:\Repos\Personal\UE5\Engine\Binaries\Win64\UnrealEditor-Win64-DebugGame.exe</NMakeOutput>
+    <AdditionalOptions>/std:c++17</AdditionalOptions>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame|arm64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame|arm64'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>D:\Repos\Personal\UE5\Engine\Build\BatchFiles\Build.bat Dunkaroos HoloLens DebugGame -Project="$(SolutionDir)Dunkaroos.uproject" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>D:\Repos\Personal\UE5\Engine\Build\BatchFiles\Rebuild.bat Dunkaroos HoloLens DebugGame -Project="$(SolutionDir)Dunkaroos.uproject" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>D:\Repos\Personal\UE5\Engine\Build\BatchFiles\Clean.bat Dunkaroos HoloLens DebugGame -Project="$(SolutionDir)Dunkaroos.uproject" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>..\..\Binaries\HoloLens\Dunkaroos-HoloLens-DebugGame.exe</NMakeOutput>
+    <AdditionalOptions>/std:c++17</AdditionalOptions>
+		<AdditionalOptions>/ZW /ZW:nostdlib</AdditionalOptions>
+		<NMakePreprocessorDefinitions>$(NMakePreprocessorDefinitions);PLATFORM_HOLOLENS=1;HOLOLENS=1;</NMakePreprocessorDefinitions>
+		<NMakeAssemblySearchPath>$(NMakeAssemblySearchPath);C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.32.31326\lib\x86\Store\references</NMakeAssemblySearchPath>
+		<NMakeForcedUsingAssemblies>$(NMakeForcedUsingAssemblies);C:\Program Files (x86)\Windows Kits\10\References\10.0.20348.0\Windows.Foundation.FoundationContract\4.0.0.0\Windows.Foundation.FoundationContract.winmd;C:\Program Files (x86)\Windows Kits\10\References\10.0.20348.0\Windows.Foundation.UniversalApiContract\12.0.0.0\Windows.Foundation.UniversalApiContract.winmd;platform.winmd</NMakeForcedUsingAssemblies>
+  </PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame|arm64'">
+		<RemoveExtraDeployFiles>false</RemoveExtraDeployFiles>
+		<LayoutDir>D:\Repos\Personal\Dunkaroos\Binaries\HoloLens\AppX</LayoutDir>
+		<AppxPackageRecipe>D:\Repos\Personal\Dunkaroos\Binaries\HoloLens\Dunkaroos.build.appxrecipe</AppxPackageRecipe>
+	</PropertyGroup>
+    <ItemGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame|arm64'">
+		<PropertyPageSchema Include="$(VCTargetsPath)$(LangID)\AppHostDebugger_Local.xml" />
+		<PropertyPageSchema Include="$(VCTargetsPath)$(LangID)\AppHostDebugger_Simulator.xml" />
+		<PropertyPageSchema Include="$(VCTargetsPath)$(LangID)\AppHostDebugger_Remote.xml" />
+    </ItemGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Development|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development|x64'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>D:\Repos\Personal\UE5\Engine\Build\BatchFiles\Build.bat Dunkaroos Win64 Development -Project="$(SolutionDir)Dunkaroos.uproject" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>D:\Repos\Personal\UE5\Engine\Build\BatchFiles\Rebuild.bat Dunkaroos Win64 Development -Project="$(SolutionDir)Dunkaroos.uproject" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>D:\Repos\Personal\UE5\Engine\Build\BatchFiles\Clean.bat Dunkaroos Win64 Development -Project="$(SolutionDir)Dunkaroos.uproject" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>..\..\Binaries\Win64\Dunkaroos.exe</NMakeOutput>
+    <AdditionalOptions>/std:c++17</AdditionalOptions>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Development_Editor|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development_Editor|x64'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>D:\Repos\Personal\UE5\Engine\Build\BatchFiles\Build.bat -Target="DunkaroosEditor Win64 Development -Project=\"$(SolutionDir)Dunkaroos.uproject\"" -Target="ShaderCompileWorker Win64 Development -Quiet" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>D:\Repos\Personal\UE5\Engine\Build\BatchFiles\Rebuild.bat -Target="DunkaroosEditor Win64 Development -Project=\"$(SolutionDir)Dunkaroos.uproject\"" -Target="ShaderCompileWorker Win64 Development -Quiet" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>D:\Repos\Personal\UE5\Engine\Build\BatchFiles\Clean.bat -Target="DunkaroosEditor Win64 Development -Project=\"$(SolutionDir)Dunkaroos.uproject\"" -Target="ShaderCompileWorker Win64 Development -Quiet" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>D:\Repos\Personal\UE5\Engine\Binaries\Win64\UnrealEditor.exe</NMakeOutput>
+    <AdditionalOptions>/std:c++17</AdditionalOptions>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Development|arm64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development|arm64'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>D:\Repos\Personal\UE5\Engine\Build\BatchFiles\Build.bat Dunkaroos HoloLens Development -Project="$(SolutionDir)Dunkaroos.uproject" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>D:\Repos\Personal\UE5\Engine\Build\BatchFiles\Rebuild.bat Dunkaroos HoloLens Development -Project="$(SolutionDir)Dunkaroos.uproject" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>D:\Repos\Personal\UE5\Engine\Build\BatchFiles\Clean.bat Dunkaroos HoloLens Development -Project="$(SolutionDir)Dunkaroos.uproject" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>..\..\Binaries\HoloLens\Dunkaroos.exe</NMakeOutput>
+    <AdditionalOptions>/std:c++17</AdditionalOptions>
+		<AdditionalOptions>/ZW /ZW:nostdlib</AdditionalOptions>
+		<NMakePreprocessorDefinitions>$(NMakePreprocessorDefinitions);PLATFORM_HOLOLENS=1;HOLOLENS=1;</NMakePreprocessorDefinitions>
+		<NMakeAssemblySearchPath>$(NMakeAssemblySearchPath);C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.32.31326\lib\x86\Store\references</NMakeAssemblySearchPath>
+		<NMakeForcedUsingAssemblies>$(NMakeForcedUsingAssemblies);C:\Program Files (x86)\Windows Kits\10\References\10.0.20348.0\Windows.Foundation.FoundationContract\4.0.0.0\Windows.Foundation.FoundationContract.winmd;C:\Program Files (x86)\Windows Kits\10\References\10.0.20348.0\Windows.Foundation.UniversalApiContract\12.0.0.0\Windows.Foundation.UniversalApiContract.winmd;platform.winmd</NMakeForcedUsingAssemblies>
+  </PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development|arm64'">
+		<RemoveExtraDeployFiles>false</RemoveExtraDeployFiles>
+		<LayoutDir>D:\Repos\Personal\Dunkaroos\Binaries\HoloLens\AppX</LayoutDir>
+		<AppxPackageRecipe>D:\Repos\Personal\Dunkaroos\Binaries\HoloLens\Dunkaroos.build.appxrecipe</AppxPackageRecipe>
+	</PropertyGroup>
+    <ItemGroup Condition="'$(Configuration)|$(Platform)'=='Development|arm64'">
+		<PropertyPageSchema Include="$(VCTargetsPath)$(LangID)\AppHostDebugger_Local.xml" />
+		<PropertyPageSchema Include="$(VCTargetsPath)$(LangID)\AppHostDebugger_Simulator.xml" />
+		<PropertyPageSchema Include="$(VCTargetsPath)$(LangID)\AppHostDebugger_Remote.xml" />
+    </ItemGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Test|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Test|x64'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>D:\Repos\Personal\UE5\Engine\Build\BatchFiles\Build.bat Dunkaroos Win64 Test -Project="$(SolutionDir)Dunkaroos.uproject" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>D:\Repos\Personal\UE5\Engine\Build\BatchFiles\Rebuild.bat Dunkaroos Win64 Test -Project="$(SolutionDir)Dunkaroos.uproject" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>D:\Repos\Personal\UE5\Engine\Build\BatchFiles\Clean.bat Dunkaroos Win64 Test -Project="$(SolutionDir)Dunkaroos.uproject" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>..\..\Binaries\Win64\Dunkaroos-Win64-Test.exe</NMakeOutput>
+    <AdditionalOptions>/std:c++17</AdditionalOptions>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Test|arm64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Test|arm64'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>D:\Repos\Personal\UE5\Engine\Build\BatchFiles\Build.bat Dunkaroos HoloLens Test -Project="$(SolutionDir)Dunkaroos.uproject" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>D:\Repos\Personal\UE5\Engine\Build\BatchFiles\Rebuild.bat Dunkaroos HoloLens Test -Project="$(SolutionDir)Dunkaroos.uproject" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>D:\Repos\Personal\UE5\Engine\Build\BatchFiles\Clean.bat Dunkaroos HoloLens Test -Project="$(SolutionDir)Dunkaroos.uproject" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>..\..\Binaries\HoloLens\Dunkaroos-HoloLens-Test.exe</NMakeOutput>
+    <AdditionalOptions>/std:c++17</AdditionalOptions>
+		<AdditionalOptions>/ZW /ZW:nostdlib</AdditionalOptions>
+		<NMakePreprocessorDefinitions>$(NMakePreprocessorDefinitions);PLATFORM_HOLOLENS=1;HOLOLENS=1;</NMakePreprocessorDefinitions>
+		<NMakeAssemblySearchPath>$(NMakeAssemblySearchPath);C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.32.31326\lib\x86\Store\references</NMakeAssemblySearchPath>
+		<NMakeForcedUsingAssemblies>$(NMakeForcedUsingAssemblies);C:\Program Files (x86)\Windows Kits\10\References\10.0.20348.0\Windows.Foundation.FoundationContract\4.0.0.0\Windows.Foundation.FoundationContract.winmd;C:\Program Files (x86)\Windows Kits\10\References\10.0.20348.0\Windows.Foundation.UniversalApiContract\12.0.0.0\Windows.Foundation.UniversalApiContract.winmd;platform.winmd</NMakeForcedUsingAssemblies>
+  </PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Test|arm64'">
+		<RemoveExtraDeployFiles>false</RemoveExtraDeployFiles>
+		<LayoutDir>D:\Repos\Personal\Dunkaroos\Binaries\HoloLens\AppX</LayoutDir>
+		<AppxPackageRecipe>D:\Repos\Personal\Dunkaroos\Binaries\HoloLens\Dunkaroos.build.appxrecipe</AppxPackageRecipe>
+	</PropertyGroup>
+    <ItemGroup Condition="'$(Configuration)|$(Platform)'=='Test|arm64'">
+		<PropertyPageSchema Include="$(VCTargetsPath)$(LangID)\AppHostDebugger_Local.xml" />
+		<PropertyPageSchema Include="$(VCTargetsPath)$(LangID)\AppHostDebugger_Simulator.xml" />
+		<PropertyPageSchema Include="$(VCTargetsPath)$(LangID)\AppHostDebugger_Remote.xml" />
+    </ItemGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Shipping|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Shipping|x64'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>D:\Repos\Personal\UE5\Engine\Build\BatchFiles\Build.bat Dunkaroos Win64 Shipping -Project="$(SolutionDir)Dunkaroos.uproject" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>D:\Repos\Personal\UE5\Engine\Build\BatchFiles\Rebuild.bat Dunkaroos Win64 Shipping -Project="$(SolutionDir)Dunkaroos.uproject" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>D:\Repos\Personal\UE5\Engine\Build\BatchFiles\Clean.bat Dunkaroos Win64 Shipping -Project="$(SolutionDir)Dunkaroos.uproject" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>..\..\Binaries\Win64\Dunkaroos-Win64-Shipping.exe</NMakeOutput>
+    <AdditionalOptions>/std:c++17</AdditionalOptions>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Shipping|arm64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Shipping|arm64'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>D:\Repos\Personal\UE5\Engine\Build\BatchFiles\Build.bat Dunkaroos HoloLens Shipping -Project="$(SolutionDir)Dunkaroos.uproject" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>D:\Repos\Personal\UE5\Engine\Build\BatchFiles\Rebuild.bat Dunkaroos HoloLens Shipping -Project="$(SolutionDir)Dunkaroos.uproject" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>D:\Repos\Personal\UE5\Engine\Build\BatchFiles\Clean.bat Dunkaroos HoloLens Shipping -Project="$(SolutionDir)Dunkaroos.uproject" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+    <NMakeOutput>..\..\Binaries\HoloLens\Dunkaroos-HoloLens-Shipping.exe</NMakeOutput>
+    <AdditionalOptions>/std:c++17</AdditionalOptions>
+		<AdditionalOptions>/ZW /ZW:nostdlib</AdditionalOptions>
+		<NMakePreprocessorDefinitions>$(NMakePreprocessorDefinitions);PLATFORM_HOLOLENS=1;HOLOLENS=1;</NMakePreprocessorDefinitions>
+		<NMakeAssemblySearchPath>$(NMakeAssemblySearchPath);C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.32.31326\lib\x86\Store\references</NMakeAssemblySearchPath>
+		<NMakeForcedUsingAssemblies>$(NMakeForcedUsingAssemblies);C:\Program Files (x86)\Windows Kits\10\References\10.0.20348.0\Windows.Foundation.FoundationContract\4.0.0.0\Windows.Foundation.FoundationContract.winmd;C:\Program Files (x86)\Windows Kits\10\References\10.0.20348.0\Windows.Foundation.UniversalApiContract\12.0.0.0\Windows.Foundation.UniversalApiContract.winmd;platform.winmd</NMakeForcedUsingAssemblies>
+  </PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Shipping|arm64'">
+		<RemoveExtraDeployFiles>false</RemoveExtraDeployFiles>
+		<LayoutDir>D:\Repos\Personal\Dunkaroos\Binaries\HoloLens\AppX</LayoutDir>
+		<AppxPackageRecipe>D:\Repos\Personal\Dunkaroos\Binaries\HoloLens\Dunkaroos.build.appxrecipe</AppxPackageRecipe>
+	</PropertyGroup>
+    <ItemGroup Condition="'$(Configuration)|$(Platform)'=='Shipping|arm64'">
+		<PropertyPageSchema Include="$(VCTargetsPath)$(LangID)\AppHostDebugger_Local.xml" />
+		<PropertyPageSchema Include="$(VCTargetsPath)$(LangID)\AppHostDebugger_Simulator.xml" />
+		<PropertyPageSchema Include="$(VCTargetsPath)$(LangID)\AppHostDebugger_Remote.xml" />
+    </ItemGroup>
+  <PropertyGroup>
+    <NMakePreprocessorDefinitions>$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+    <IncludePath>$(IncludePath);D:\Repos\Personal\UE5\Engine\Source;..\Build\Win64\UnrealEditor\Inc\Dunkaroos;..\..\Source;D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\Core;D:\Repos\Personal\UE5\Engine\Source\Runtime;D:\Repos\Personal\UE5\Engine\Source\Runtime\TraceLog\Public;D:\Repos\Personal\UE5\Engine\Source\Runtime\Core\Public;D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\TraceLog;D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\CoreUObject;D:\Repos\Personal\UE5\Engine\Source\Runtime\CoreUObject\Public;D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\Engine;D:\Repos\Personal\UE5\Engine\Shaders\Shared;D:\Repos\Personal\UE5\Engine\Source\Runtime\Engine\Classes;D:\Repos\Personal\UE5\Engine\Source\Runtime\Engine\Public;D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\CoreOnline;D:\Repos\Personal\UE5\Engine\Source\Runtime\CoreOnline\Public;D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\NetCore;D:\Repos\Personal\UE5\Engine\Source\Runtime\Net;D:\Repos\Personal\UE5\Engine\Source\Runtime\Net\Core\Classes;D:\Repos\Personal\UE5\Engine\Source\Runtime\Net\Core\Public;D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\NetCommon;D:\Repos\Personal\UE5\Engine\Source\Runtime\Net\Common\Public;D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\ApplicationCore;D:\Repos\Personal\UE5\Engine\Source\Runtime\ApplicationCore\Public;D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\RHI;D:\Repos\Personal\UE5\Engine\Source\Runtime\RHI\Public;D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\Json;D:\Repos\Personal\UE5\Engine\Source\Runtime\Json\Public;D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\JsonUtilities;D:\Repos\Personal\UE5\Engine\Source\Runtime\JsonUtilities\Public;D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\SlateCore;D:\Repos\Personal\UE5\Engine\Source\Runtime\SlateCore\Public;D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\InputCore;D:\Repos\Personal\UE5\Engine\Source\Runtime\InputCore\Classes;D:\Repos\Personal\UE5\Engine\Source\Runtime\InputCore\Public;D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\Slate;D:\Repos\Personal\UE5\Engine\Source\Runtime\Slate\Public;D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\ImageWrapper;D:\Repos\Personal\UE5\Engine\Source\Runtime\ImageWrapper\Public;D:\Repos\Personal\UE5\Engine\Source\ThirdParty;D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\Messaging;D:\Repos\Personal\UE5\Engine\Source\Runtime\Messaging\Public;D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\MessagingCommon;D:\Repos\Personal\UE5\Engine\Source\Runtime\MessagingCommon\Public;D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\RenderCore;D:\Repos\Personal\UE5\Engine\Source\Runtime\RenderCore\Public;D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\AnalyticsET;D:\Repos\Personal\UE5\Engine\Source\Runtime\Analytics;D:\Repos\Personal\UE5\Engine\Source\Runtime\Analytics\AnalyticsET\Public;D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\Analytics;D:\Repos\Personal\UE5\Engine\Source\Runtime\Analytics\Analytics\Public;D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\Sockets;D:\Repos\Personal\UE5\Engine\Source\Runtime\Sockets\Public;D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\AssetRegistry;D:\Repos\Personal\UE5\Engine\Source\Runtime\AssetRegistry\Public;D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\EngineMessages;D:\Repos\Personal\UE5\Engine\Source\Runtime\EngineMessages\Public;D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\EngineSettings;D:\Repos\Personal\UE5\Engine\Source\Runtime\EngineSettings\Classes;D:\Repos\Personal\UE5\Engine\Source\Runtime\EngineSettings\Public;D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\SynthBenchmark;D:\Repos\Personal\UE5\Engine\Source\Runtime\SynthBenchmark\Public;D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\Renderer;D:\Repos\Personal\UE5\Engine\Source\Runtime\Renderer\Public;D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\GameplayTags;D:\Repos\Personal\UE5\Engine\Source\Runtime\GameplayTags\Classes;D:\Repos\Personal\UE5\Engine\Source\Runtime\GameplayTags\Public;D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\DeveloperSettings;D:\Repos\Personal\UE5\Engine\Source\Runtime\DeveloperSettings\Public;D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\PacketHandler;D:\Repos\Personal\UE5\Engine\Source\Runtime\PacketHandlers;D:\Repos\Personal\UE5\Engine\Source\Runtime\PacketHandlers\PacketHandler\Classes;D:\Repos\Personal\UE5\Engine\Source\Runtime\PacketHandlers\PacketHandler\Public;D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\ReliabilityHandlerComponent;D:\Repos\Personal\UE5\Engine\Source\Runtime\PacketHandlers\ReliabilityHandlerComponent\Public;D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\AudioPlatformConfiguration;D:\Repos\Personal\UE5\Engine\Source\Runtime\AudioPlatformConfiguration\Public;D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\MeshDescription;D:\Repos\Personal\UE5\Engine\Source\Runtime\MeshDescription\Public;D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\StaticMeshDescription;D:\Repos\Personal\UE5\Engine\Source\Runtime\StaticMeshDescription\Public;D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\SkeletalMeshDescription;D:\Repos\Personal\UE5\Engine\Source\Runtime\SkeletalMeshDescription\Public;D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\AnimationCore;D:\Repos\Personal\UE5\Engine\Source\Runtime\AnimationCore\Public;D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\PakFile;D:\Repos\Personal\UE5\Engine\Source\Runtime\PakFile\Public;D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\RSA;D:\Repos\Personal\UE5\Engine\Source\Runtime\RSA\Public;D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\NetworkReplayStreaming;D:\Repos\Personal\UE5\Engine\Source\Runtime\NetworkReplayStreaming;D:\Repos\Personal\UE5\Engine\Source\Runtime\NetworkReplayStreaming\NetworkReplayStreaming\Public;D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\PhysicsCore;D:\Repos\Personal\UE5\Engine\Source\Runtime\PhysicsCore\Public;D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\Chaos;D:\Repos\Personal\UE5\Engine\Source\Runtime\Experimental;D:\Repos\Personal\UE5\Engine\Source\Runtime\Experimental\Chaos\Public;D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\ChaosCore;D:\Repos\Personal\UE5\Engine\Source\Runtime\Experimental\ChaosCore\Public;D:\Repos\Personal\UE5\Engine\Source\ThirdParty\Intel;D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\Voronoi;D:\Repos\Personal\UE5\Engine\Source\Runtime\Experimental\Voronoi\Public;D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\GeometryCore;D:\Repos\Personal\UE5\Engine\Source\Runtime\GeometryCore\Public;D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\SignalProcessing;D:\Repos\Personal\UE5\Engine\Source\Runtime\SignalProcessing\Public;D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\AudioExtensions;D:\Repos\Personal\UE5\Engine\Source\Runtime\AudioExtensions\Public;D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\AudioMixerCore;D:\Repos\Personal\UE5\Engine\Source\Runtime\AudioMixerCore\Public;D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\AudioLinkCore;D:\Repos\Personal\UE5\Engine\Source\Runtime\AudioLink;D:\Repos\Personal\UE5\Engine\Source\Runtime\AudioLink\AudioLinkCore\Public;D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\CookOnTheFly;D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\UnrealEd;D:\Repos\Personal\UE5\Engine\Source\Editor;D:\Repos\Personal\UE5\Engine\Source\Programs\UnrealLightmass\Public;D:\Repos\Personal\UE5\Engine\Source\Editor\UnrealEd\Classes;D:\Repos\Personal\UE5\Engine\Source\Editor\UnrealEd\Public;D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\DirectoryWatcher;D:\Repos\Personal\UE5\Engine\Source\Developer;D:\Repos\Personal\UE5\Engine\Source\Developer\DirectoryWatcher\Public;D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\Documentation;D:\Repos\Personal\UE5\Engine\Source\Editor\Documentation\Public;D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\Projects;D:\Repos\Personal\UE5\Engine\Source\Runtime\Projects\Public;D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\SandboxFile;D:\Repos\Personal\UE5\Engine\Source\Runtime\SandboxFile\Public;D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\EditorFramework;D:\Repos\Personal\UE5\Engine\Source\Editor\EditorFramework\Public;D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\EditorSubsystem;D:\Repos\Personal\UE5\Engine\Source\Editor\EditorSubsystem\Public;D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\InteractiveToolsFramework;D:\Repos\Personal\UE5\Engine\Source\Runtime\InteractiveToolsFramework\Public;D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\TypedElementFramework;D:\Repos\Personal\UE5\Engine\Source\Runtime\TypedElementFramework\Public;D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\TypedElementRuntime;D:\Repos\Personal\UE5\Engine\Source\Runtime\TypedElementRuntime\Public;D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\EditorStyle;D:\Repos\Personal\UE5\Engine\Source\Editor\EditorStyle\Public;D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\SourceControl;D:\Repos\Personal\UE5\Engine\Source\Developer\SourceControl\Public;D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\UncontrolledChangelists;D:\Repos\Personal\UE5\Engine\Source\Developer\UncontrolledChangelists\Public;D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\UnrealEdMessages;D:\Repos\Personal\UE5\Engine\Source\Editor\UnrealEdMessages\Classes;D:\Repos\Personal\UE5\Engine\Source\Editor\UnrealEdMessages\Public;D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\GameplayDebugger;D:\Repos\Personal\UE5\Engine\Source\Developer\GameplayDebugger\Public;D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\BlueprintGraph;D:\Repos\Personal\UE5\Engine\Source\Editor\BlueprintGraph\Classes;D:\Repos\Personal\UE5\Engine\Source\Editor\BlueprintGraph\Public;D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\HTTP;D:\Repos\Personal\UE5\Engine\Source\Runtime\Online;D:\Repos\Personal\UE5\Engine\Source\Runtime\Online\HTTP\Public;D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\FunctionalTesting;D:\Repos\Personal\UE5\Engine\Source\Developer\FunctionalTesting\Classes;D:\Repos\Personal\UE5\Engine\Source\Developer\FunctionalTesting\Public;D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\AutomationController;D:\Repos\Personal\UE5\Engine\Source\Developer\AutomationController\Public;D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\AutomationTest;D:\Repos\Personal\UE5\Engine\Source\Runtime\AutomationTest\Public;D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\Localization;D:\Repos\Personal\UE5\Engine\Source\Developer\Localization\Public;D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\AudioEditor;D:\Repos\Personal\UE5\Engine\Source\Editor\AudioEditor\Classes;D:\Repos\Personal\UE5\Engine\Source\Editor\AudioEditor\Public;D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\AudioMixer;D:\Repos\Personal\UE5\Engine\Source\Runtime\AudioMixer\Classes;D:\Repos\Personal\UE5\Engine\Source\Runtime\AudioMixer\Public;D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\AudioLinkEngine;D:\Repos\Personal\UE5\Engine\Source\Runtime\AudioLink\AudioLinkEngine\Public;D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\TargetPlatform;D:\Repos\Personal\UE5\Engine\Source\Developer\TargetPlatform\Public;D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\TextureFormat;D:\Repos\Personal\UE5\Engine\Source\Developer\TextureFormat\Public;D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\LevelEditor;D:\Repos\Personal\UE5\Engine\Source\Editor\LevelEditor\Public;D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\Settings;D:\Repos\Personal\UE5\Engine\Source\Developer\Settings\Public;D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\IntroTutorials;D:\Repos\Personal\UE5\Engine\Source\Editor\IntroTutorials\Public;D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\HeadMountedDisplay;D:\Repos\Personal\UE5\Engine\Source\Runtime\HeadMountedDisplay\Public;D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\VREditor;D:\Repos\Personal\UE5\Engine\Source\Editor\VREditor;D:\Repos\Personal\UE5\Engine\Source\Editor\VREditor\Public;D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\CommonMenuExtensions;D:\Repos\Personal\UE5\Engine\Source\Editor\CommonMenuExtensions\Public;D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\Landscape;D:\Repos\Personal\UE5\Engine\Source\Runtime\Landscape\Classes;D:\Repos\Personal\UE5\Engine\Source\Runtime\Landscape\Public;D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\PropertyEditor;D:\Repos\Personal\UE5\Engine\Source\Editor\PropertyEditor\Public;D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\ActorPickerMode;D:\Repos\Personal\UE5\Engine\Source\Editor\ActorPickerMode\Public;D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\SceneDepthPickerMode;D:\Repos\Personal\UE5\Engine\Source\Editor\SceneDepthPickerMode\Public;D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\EditorConfig;D:\Repos\Personal\UE5\Engine\Source\Editor\EditorConfig\Public;D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\DetailCustomizations;D:\Repos\Personal\UE5\Engine\Source\Editor\DetailCustomizations\Public;D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\ClassViewer;D:\Repos\Personal\UE5\Engine\Source\Editor\ClassViewer\Public;D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\GraphEditor;D:\Repos\Personal\UE5\Engine\Source\Editor\GraphEditor\Public;D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\StructViewer;D:\Repos\Personal\UE5\Engine\Source\Editor\StructViewer\Public;D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\ContentBrowser;D:\Repos\Personal\UE5\Engine\Source\Editor\ContentBrowser\Public;D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\ContentBrowserData;D:\Repos\Personal\UE5\Engine\Source\Editor\ContentBrowserData\Public;D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\CollectionManager;D:\Repos\Personal\UE5\Engine\Source\Developer\CollectionManager\Public;D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\UELibSampleRate;D:\Repos\Personal\UE5\Engine\Source\ThirdParty\libSampleRate\Public;D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\NetworkFileSystem;D:\Repos\Personal\UE5\Engine\Source\Runtime\NetworkFileSystem\Public;D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\UMG;D:\Repos\Personal\UE5\Engine\Source\Runtime\UMG\Public;D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\MovieScene;D:\Repos\Personal\UE5\Engine\Source\Runtime\MovieScene\Public;D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\TimeManagement;D:\Repos\Personal\UE5\Engine\Source\Runtime\TimeManagement\Public;D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\MovieSceneTracks;D:\Repos\Personal\UE5\Engine\Source\Runtime\MovieSceneTracks\Public;D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\PropertyPath;D:\Repos\Personal\UE5\Engine\Source\Runtime\PropertyPath\Public;D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\NavigationSystem;D:\Repos\Personal\UE5\Engine\Source\Runtime\NavigationSystem\Public;D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\GeometryCollectionEngine;D:\Repos\Personal\UE5\Engine\Source\Runtime\Experimental\GeometryCollectionEngine\Public;D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\MaterialShaderQualitySettings;D:\Repos\Personal\UE5\Engine\Source\Runtime\MaterialShaderQualitySettings\Classes;D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\FieldSystemEngine;D:\Repos\Personal\UE5\Engine\Source\Runtime\Experimental\FieldSystem\Source;D:\Repos\Personal\UE5\Engine\Source\Runtime\Experimental\FieldSystem\Source\FieldSystemEngine\Public;D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\ChaosSolverEngine;D:\Repos\Personal\UE5\Engine\Source\Runtime\Experimental\ChaosSolverEngine\Public;D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\MeshBuilder;D:\Repos\Personal\UE5\Engine\Source\Developer\MeshBuilder\Public;D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\ToolMenusEditor;D:\Repos\Personal\UE5\Engine\Source\Editor\ToolMenusEditor\Public;D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\ToolMenus;D:\Repos\Personal\UE5\Engine\Source\Developer\ToolMenus\Public;D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\StatusBar;D:\Repos\Personal\UE5\Engine\Source\Editor\StatusBar\Public;D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\InterchangeCore;D:\Repos\Personal\UE5\Engine\Source\Runtime\Experimental\Interchange;D:\Repos\Personal\UE5\Engine\Source\Runtime\Experimental\Interchange\Core\Public;D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\InterchangeEngine;D:\Repos\Personal\UE5\Engine\Source\Runtime\Experimental\Interchange\Engine\Public;D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\DeveloperToolSettings;D:\Repos\Personal\UE5\Engine\Source\Developer\DeveloperToolSettings\Classes;D:\Repos\Personal\UE5\Engine\Source\Developer\DeveloperToolSettings\Public;D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\SubobjectDataInterface;D:\Repos\Personal\UE5\Engine\Source\Editor\SubobjectDataInterface\Public;D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\SubobjectEditor;D:\Repos\Personal\UE5\Engine\Source\Editor\SubobjectEditor\Public;D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\Kismet;D:\Repos\Personal\UE5\Engine\Source\Editor\Kismet\Classes;D:\Repos\Personal\UE5\Engine\Source\Editor\Kismet\Public;D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\PhysicsUtilities;D:\Repos\Personal\UE5\Engine\Source\Developer\PhysicsUtilities\Public;D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\ToolWidgets;D:\Repos\Personal\UE5\Engine\Source\Developer\ToolWidgets\Public;D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\AudioMixerXAudio2;D:\Repos\Personal\UE5\Engine\Source\Runtime\Windows;D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\AssetTagsEditor;D:\Repos\Personal\UE5\Engine\Source\Editor\AssetTagsEditor\Public;D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\AddContentDialog;D:\Repos\Personal\UE5\Engine\Source\Editor\AddContentDialog\Public;D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\MeshUtilities;D:\Repos\Personal\UE5\Engine\Source\Developer\MeshUtilities\Public;D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\MeshMergeUtilities;D:\Repos\Personal\UE5\Engine\Source\Developer\MeshMergeUtilities\Public;D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\HierarchicalLODUtilities;D:\Repos\Personal\UE5\Engine\Source\Developer\HierarchicalLODUtilities\Public;D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\MeshReductionInterface;D:\Repos\Personal\UE5\Engine\Source\Developer\MeshReductionInterface\Public;D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\SkeletalMeshEditor;D:\Repos\Personal\UE5\Engine\Source\Editor\SkeletalMeshEditor\Public;D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\Persona;D:\Repos\Personal\UE5\Engine\Source\Editor\Persona\Public;D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\SkeletonEditor;D:\Repos\Personal\UE5\Engine\Source\Editor\SkeletonEditor\Public;D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\AnimationWidgets;D:\Repos\Personal\UE5\Engine\Source\Developer\AnimationWidgets\Public;D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\AnimationEditor;D:\Repos\Personal\UE5\Engine\Source\Editor\AnimationEditor\Public;D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\AdvancedPreviewScene;D:\Repos\Personal\UE5\Engine\Source\Editor\AdvancedPreviewScene\Public;D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\AssetTools;D:\Repos\Personal\UE5\Engine\Source\Developer\AssetTools\Public;D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\KismetCompiler;D:\Repos\Personal\UE5\Engine\Source\Editor\KismetCompiler\Public;D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\GameplayTasks;D:\Repos\Personal\UE5\Engine\Source\Runtime\GameplayTasks\Classes;D:\Repos\Personal\UE5\Engine\Source\Runtime\GameplayTasks\Public;D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\AIModule;D:\Repos\Personal\UE5\Engine\Source\Runtime\AIModule\Public;D:\Repos\Personal\UE5\Engine\Source\Runtime\AIModule\Classes;D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\ClothingSystemRuntimeInterface;D:\Repos\Personal\UE5\Engine\Source\Runtime\ClothingSystemRuntimeInterface\Public;D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\AnimationDataController;D:\Repos\Personal\UE5\Engine\Source\Developer\AnimationDataController\Public;C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.32.31326\INCLUDE;C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um;C:\Program Files (x86)\Windows Kits\10\include\10.0.20348.0\ucrt;C:\Program Files (x86)\Windows Kits\10\include\10.0.20348.0\shared;C:\Program Files (x86)\Windows Kits\10\include\10.0.20348.0\um;C:\Program Files (x86)\Windows Kits\10\include\10.0.20348.0\winrt;;</IncludePath>
+    <NMakeForcedIncludes>$(NMakeForcedIncludes)</NMakeForcedIncludes>
+    <NMakeAssemblySearchPath>$(NMakeAssemblySearchPath)</NMakeAssemblySearchPath>
+    <AdditionalOptions>/std:c++17</AdditionalOptions>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="..\..\Dunkaroos.uproject"/>
+    <None Include="..\..\Source\Dunkaroos.Target.cs"/>
+    <None Include="..\..\Source\DunkaroosEditor.Target.cs"/>
+    <None Include="..\..\Config\DefaultEditor.ini"/>
+    <None Include="..\..\Config\DefaultEngine.ini"/>
+    <None Include="..\..\Config\DefaultGame.ini"/>
+    <None Include="..\..\Source\Dunkaroos\Dunkaroos.Build.cs"/>
+    <ClCompile Include="..\..\Source\Dunkaroos\Dunkaroos.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\Repos\Personal\UE5\Engine\Source\ThirdParty\mimalloc\include;D:\Repos\Personal\UE5\Engine\Source\ThirdParty\LibTiff\Source\Win64;D:\Repos\Personal\UE5\Engine\Source\ThirdParty\LibTiff\Source;D:\Repos\Personal\UE5\Engine\Source\ThirdParty\PhysX3\PxShared\include;D:\Repos\Personal\UE5\Engine\Source\ThirdParty\PhysX3\PxShared\include\cudamanager;D:\Repos\Personal\UE5\Engine\Source\ThirdParty\PhysX3\PxShared\include\filebuf;D:\Repos\Personal\UE5\Engine\Source\ThirdParty\PhysX3\PxShared\include\foundation;D:\Repos\Personal\UE5\Engine\Source\ThirdParty\PhysX3\PxShared\include\pvd;D:\Repos\Personal\UE5\Engine\Source\ThirdParty\PhysX3\PxShared\include\task;D:\Repos\Personal\UE5\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include;D:\Repos\Personal\UE5\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\cooking;D:\Repos\Personal\UE5\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\common;D:\Repos\Personal\UE5\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\extensions;D:\Repos\Personal\UE5\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\geometry;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\UnrealEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h;$(SolutionDir)Intermediate\Build\Win64\UnrealEditor\Development\Dunkaroos\Definitions.Dunkaroos.h</ForcedIncludeFiles>
+      <AdditionalOptions>$(AdditionalOptions) /Yu"D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\UnrealEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"</AdditionalOptions>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dunkaroos\Dunkaroos.h"/>
+    <ClCompile Include="..\..\Source\Dunkaroos\DunkaroosGameModeBase.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\Repos\Personal\UE5\Engine\Source\ThirdParty\mimalloc\include;D:\Repos\Personal\UE5\Engine\Source\ThirdParty\LibTiff\Source\Win64;D:\Repos\Personal\UE5\Engine\Source\ThirdParty\LibTiff\Source;D:\Repos\Personal\UE5\Engine\Source\ThirdParty\PhysX3\PxShared\include;D:\Repos\Personal\UE5\Engine\Source\ThirdParty\PhysX3\PxShared\include\cudamanager;D:\Repos\Personal\UE5\Engine\Source\ThirdParty\PhysX3\PxShared\include\filebuf;D:\Repos\Personal\UE5\Engine\Source\ThirdParty\PhysX3\PxShared\include\foundation;D:\Repos\Personal\UE5\Engine\Source\ThirdParty\PhysX3\PxShared\include\pvd;D:\Repos\Personal\UE5\Engine\Source\ThirdParty\PhysX3\PxShared\include\task;D:\Repos\Personal\UE5\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include;D:\Repos\Personal\UE5\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\cooking;D:\Repos\Personal\UE5\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\common;D:\Repos\Personal\UE5\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\extensions;D:\Repos\Personal\UE5\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\geometry;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\UnrealEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h;$(SolutionDir)Intermediate\Build\Win64\UnrealEditor\Development\Dunkaroos\Definitions.Dunkaroos.h</ForcedIncludeFiles>
+      <AdditionalOptions>$(AdditionalOptions) /Yu"D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\UnrealEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"</AdditionalOptions>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dunkaroos\DunkaroosGameModeBase.h"/>
+  </ItemGroup>
+  <ItemDefinitionGroup>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <PropertyGroup>
+    <CleanDependsOn> $(CleanDependsOn); </CleanDependsOn>
+    <CppCleanDependsOn></CppCleanDependsOn>
+  </PropertyGroup>
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
