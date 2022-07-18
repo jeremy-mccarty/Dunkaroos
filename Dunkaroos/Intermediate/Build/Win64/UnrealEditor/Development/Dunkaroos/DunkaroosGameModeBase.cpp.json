@@ -1,0 +1,19 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "d:\\repos\\personal\\dunkaroos\\dunkaroos\\source\\dunkaroos\\dunkaroosgamemodebase.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\repos\\personal\\ue5\\engine\\intermediate\\build\\win64\\unrealeditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "Includes": [
+            "d:\\repos\\personal\\dunkaroos\\dunkaroos\\intermediate\\build\\win64\\unrealeditor\\development\\dunkaroos\\definitions.dunkaroos.h",
+            "d:\\repos\\personal\\dunkaroos\\dunkaroos\\source\\dunkaroos\\dunkaroosgamemodebase.h",
+            "d:\\repos\\personal\\ue5\\engine\\source\\runtime\\engine\\classes\\gameframework\\gamemodebase.h",
+            "d:\\repos\\personal\\ue5\\engine\\source\\runtime\\engine\\classes\\engine\\serverstatreplicator.h",
+            "d:\\repos\\personal\\ue5\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\serverstatreplicator.generated.h",
+            "d:\\repos\\personal\\ue5\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\gamemodebase.generated.h",
+            "d:\\repos\\personal\\dunkaroos\\dunkaroos\\intermediate\\build\\win64\\unrealeditor\\inc\\dunkaroos\\dunkaroosgamemodebase.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
