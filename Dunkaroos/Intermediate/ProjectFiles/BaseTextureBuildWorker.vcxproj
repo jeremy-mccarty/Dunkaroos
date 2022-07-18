@@ -169,8 +169,8 @@
     <AdditionalOptions>/std:c++17</AdditionalOptions>
   </PropertyGroup>
   <ItemGroup>
-    <None Include="..\..\..\UE5\Engine\Source\Programs\BaseTextureBuildWorker\BaseTextureBuildWorker.Target.cs"/>
-    <None Include="..\..\..\UE5\Engine\Source\Programs\BaseTextureBuildWorker\BaseTextureBuildWorker.Build.cs"/>
+    <None Include="..\..\..\..\UE5\Engine\Source\Programs\BaseTextureBuildWorker\BaseTextureBuildWorker.Target.cs"/>
+    <None Include="..\..\..\..\UE5\Engine\Source\Programs\BaseTextureBuildWorker\BaseTextureBuildWorker.Build.cs"/>
   </ItemGroup>
   <ItemDefinitionGroup>
   </ItemDefinitionGroup>

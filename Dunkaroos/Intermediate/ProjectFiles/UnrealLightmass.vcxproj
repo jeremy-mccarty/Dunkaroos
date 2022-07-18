@@ -169,191 +169,191 @@
     <AdditionalOptions>/std:c++17</AdditionalOptions>
   </PropertyGroup>
   <ItemGroup>
-    <None Include="..\..\..\UE5\Engine\Source\Programs\UnrealLightmass\UnrealLightmass.Target.cs"/>
-    <None Include="..\..\..\UE5\Engine\Programs\UnrealLightmass\Config\DefaultEngine.ini"/>
-    <None Include="..\..\..\UE5\Engine\Source\Programs\UnrealLightmass\UnrealLightmass.Build.cs"/>
-    <ClCompile Include="..\..\..\UE5\Engine\Source\Programs\UnrealLightmass\Private\CPUSolver\CPUSolver.cpp">
+    <None Include="..\..\..\..\UE5\Engine\Source\Programs\UnrealLightmass\UnrealLightmass.Target.cs"/>
+    <None Include="..\..\..\..\UE5\Engine\Programs\UnrealLightmass\Config\DefaultEngine.ini"/>
+    <None Include="..\..\..\..\UE5\Engine\Source\Programs\UnrealLightmass\UnrealLightmass.Build.cs"/>
+    <ClCompile Include="..\..\..\..\UE5\Engine\Source\Programs\UnrealLightmass\Private\CPUSolver\CPUSolver.cpp">
       <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\Repos\Personal\UE5\Engine\Source\ThirdParty\mimalloc\include;</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\UnrealLightmass\Development\UnrealLightmass\Definitions.h</ForcedIncludeFiles>
     </ClCompile>
-    <ClInclude Include="..\..\..\UE5\Engine\Source\Programs\UnrealLightmass\Private\CPUSolver\CPUSolver.h"/>
-    <ClCompile Include="..\..\..\UE5\Engine\Source\Programs\UnrealLightmass\Private\ImportExport\Exporter.cpp">
+    <ClInclude Include="..\..\..\..\UE5\Engine\Source\Programs\UnrealLightmass\Private\CPUSolver\CPUSolver.h"/>
+    <ClCompile Include="..\..\..\..\UE5\Engine\Source\Programs\UnrealLightmass\Private\ImportExport\Exporter.cpp">
       <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\Repos\Personal\UE5\Engine\Source\ThirdParty\mimalloc\include;</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\UnrealLightmass\Development\UnrealLightmass\Definitions.h</ForcedIncludeFiles>
     </ClCompile>
-    <ClInclude Include="..\..\..\UE5\Engine\Source\Programs\UnrealLightmass\Private\ImportExport\Exporter.h"/>
-    <ClCompile Include="..\..\..\UE5\Engine\Source\Programs\UnrealLightmass\Private\ImportExport\Importer.cpp">
+    <ClInclude Include="..\..\..\..\UE5\Engine\Source\Programs\UnrealLightmass\Private\ImportExport\Exporter.h"/>
+    <ClCompile Include="..\..\..\..\UE5\Engine\Source\Programs\UnrealLightmass\Private\ImportExport\Importer.cpp">
       <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\Repos\Personal\UE5\Engine\Source\ThirdParty\mimalloc\include;</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\UnrealLightmass\Development\UnrealLightmass\Definitions.h</ForcedIncludeFiles>
     </ClCompile>
-    <ClInclude Include="..\..\..\UE5\Engine\Source\Programs\UnrealLightmass\Private\ImportExport\Importer.h"/>
-    <ClCompile Include="..\..\..\UE5\Engine\Source\Programs\UnrealLightmass\Private\ImportExport\LightmassScene.cpp">
+    <ClInclude Include="..\..\..\..\UE5\Engine\Source\Programs\UnrealLightmass\Private\ImportExport\Importer.h"/>
+    <ClCompile Include="..\..\..\..\UE5\Engine\Source\Programs\UnrealLightmass\Private\ImportExport\LightmassScene.cpp">
       <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\Repos\Personal\UE5\Engine\Source\ThirdParty\mimalloc\include;</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\UnrealLightmass\Development\UnrealLightmass\Definitions.h</ForcedIncludeFiles>
     </ClCompile>
-    <ClInclude Include="..\..\..\UE5\Engine\Source\Programs\UnrealLightmass\Private\ImportExport\LightmassScene.h"/>
-    <ClCompile Include="..\..\..\UE5\Engine\Source\Programs\UnrealLightmass\Private\ImportExport\LightmassSwarm.cpp">
+    <ClInclude Include="..\..\..\..\UE5\Engine\Source\Programs\UnrealLightmass\Private\ImportExport\LightmassScene.h"/>
+    <ClCompile Include="..\..\..\..\UE5\Engine\Source\Programs\UnrealLightmass\Private\ImportExport\LightmassSwarm.cpp">
       <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\Repos\Personal\UE5\Engine\Source\ThirdParty\mimalloc\include;</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\UnrealLightmass\Development\UnrealLightmass\Definitions.h</ForcedIncludeFiles>
     </ClCompile>
-    <ClInclude Include="..\..\..\UE5\Engine\Source\Programs\UnrealLightmass\Private\ImportExport\LightmassSwarm.h"/>
-    <ClCompile Include="..\..\..\UE5\Engine\Source\Programs\UnrealLightmass\Private\ImportExport\Material.cpp">
+    <ClInclude Include="..\..\..\..\UE5\Engine\Source\Programs\UnrealLightmass\Private\ImportExport\LightmassSwarm.h"/>
+    <ClCompile Include="..\..\..\..\UE5\Engine\Source\Programs\UnrealLightmass\Private\ImportExport\Material.cpp">
       <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\Repos\Personal\UE5\Engine\Source\ThirdParty\mimalloc\include;</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\UnrealLightmass\Development\UnrealLightmass\Definitions.h</ForcedIncludeFiles>
     </ClCompile>
-    <ClInclude Include="..\..\..\UE5\Engine\Source\Programs\UnrealLightmass\Private\ImportExport\Material.h"/>
-    <ClCompile Include="..\..\..\UE5\Engine\Source\Programs\UnrealLightmass\Private\ImportExport\Mesh.cpp">
+    <ClInclude Include="..\..\..\..\UE5\Engine\Source\Programs\UnrealLightmass\Private\ImportExport\Material.h"/>
+    <ClCompile Include="..\..\..\..\UE5\Engine\Source\Programs\UnrealLightmass\Private\ImportExport\Mesh.cpp">
       <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\Repos\Personal\UE5\Engine\Source\ThirdParty\mimalloc\include;</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\UnrealLightmass\Development\UnrealLightmass\Definitions.h</ForcedIncludeFiles>
     </ClCompile>
-    <ClInclude Include="..\..\..\UE5\Engine\Source\Programs\UnrealLightmass\Private\ImportExport\Mesh.h"/>
-    <ClCompile Include="..\..\..\UE5\Engine\Source\Programs\UnrealLightmass\Private\Launch\UnitTest.cpp">
+    <ClInclude Include="..\..\..\..\UE5\Engine\Source\Programs\UnrealLightmass\Private\ImportExport\Mesh.h"/>
+    <ClCompile Include="..\..\..\..\UE5\Engine\Source\Programs\UnrealLightmass\Private\Launch\UnitTest.cpp">
       <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\Repos\Personal\UE5\Engine\Source\ThirdParty\mimalloc\include;</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\UnrealLightmass\Development\UnrealLightmass\Definitions.h</ForcedIncludeFiles>
     </ClCompile>
-    <ClInclude Include="..\..\..\UE5\Engine\Source\Programs\UnrealLightmass\Private\Launch\UnitTest.h"/>
-    <ClCompile Include="..\..\..\UE5\Engine\Source\Programs\UnrealLightmass\Private\Launch\UnrealLightmass.cpp">
+    <ClInclude Include="..\..\..\..\UE5\Engine\Source\Programs\UnrealLightmass\Private\Launch\UnitTest.h"/>
+    <ClCompile Include="..\..\..\..\UE5\Engine\Source\Programs\UnrealLightmass\Private\Launch\UnrealLightmass.cpp">
       <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\Repos\Personal\UE5\Engine\Source\ThirdParty\mimalloc\include;</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\UnrealLightmass\Development\UnrealLightmass\Definitions.h</ForcedIncludeFiles>
     </ClCompile>
-    <ClInclude Include="..\..\..\UE5\Engine\Source\Programs\UnrealLightmass\Private\Launch\UnrealLightmass.h"/>
-    <ClCompile Include="..\..\..\UE5\Engine\Source\Programs\UnrealLightmass\Private\Lighting\AdaptiveVolumetricLightmap.cpp">
+    <ClInclude Include="..\..\..\..\UE5\Engine\Source\Programs\UnrealLightmass\Private\Launch\UnrealLightmass.h"/>
+    <ClCompile Include="..\..\..\..\UE5\Engine\Source\Programs\UnrealLightmass\Private\Lighting\AdaptiveVolumetricLightmap.cpp">
       <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\Repos\Personal\UE5\Engine\Source\ThirdParty\mimalloc\include;</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\UnrealLightmass\Development\UnrealLightmass\Definitions.h</ForcedIncludeFiles>
     </ClCompile>
-    <ClCompile Include="..\..\..\UE5\Engine\Source\Programs\UnrealLightmass\Private\Lighting\BSP.cpp">
+    <ClCompile Include="..\..\..\..\UE5\Engine\Source\Programs\UnrealLightmass\Private\Lighting\BSP.cpp">
       <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\Repos\Personal\UE5\Engine\Source\ThirdParty\mimalloc\include;</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\UnrealLightmass\Development\UnrealLightmass\Definitions.h</ForcedIncludeFiles>
     </ClCompile>
-    <ClInclude Include="..\..\..\UE5\Engine\Source\Programs\UnrealLightmass\Private\Lighting\BSP.h"/>
-    <ClInclude Include="..\..\..\UE5\Engine\Source\Programs\UnrealLightmass\Private\Lighting\BuildOptions.h"/>
-    <ClCompile Include="..\..\..\UE5\Engine\Source\Programs\UnrealLightmass\Private\Lighting\Collision.cpp">
+    <ClInclude Include="..\..\..\..\UE5\Engine\Source\Programs\UnrealLightmass\Private\Lighting\BSP.h"/>
+    <ClInclude Include="..\..\..\..\UE5\Engine\Source\Programs\UnrealLightmass\Private\Lighting\BuildOptions.h"/>
+    <ClCompile Include="..\..\..\..\UE5\Engine\Source\Programs\UnrealLightmass\Private\Lighting\Collision.cpp">
       <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\Repos\Personal\UE5\Engine\Source\ThirdParty\mimalloc\include;</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\UnrealLightmass\Development\UnrealLightmass\Definitions.h</ForcedIncludeFiles>
     </ClCompile>
-    <ClInclude Include="..\..\..\UE5\Engine\Source\Programs\UnrealLightmass\Private\Lighting\Collision.h"/>
-    <ClCompile Include="..\..\..\UE5\Engine\Source\Programs\UnrealLightmass\Private\Lighting\Embree.cpp">
+    <ClInclude Include="..\..\..\..\UE5\Engine\Source\Programs\UnrealLightmass\Private\Lighting\Collision.h"/>
+    <ClCompile Include="..\..\..\..\UE5\Engine\Source\Programs\UnrealLightmass\Private\Lighting\Embree.cpp">
       <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\Repos\Personal\UE5\Engine\Source\ThirdParty\mimalloc\include;</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\UnrealLightmass\Development\UnrealLightmass\Definitions.h</ForcedIncludeFiles>
     </ClCompile>
-    <ClInclude Include="..\..\..\UE5\Engine\Source\Programs\UnrealLightmass\Private\Lighting\Embree.h"/>
-    <ClCompile Include="..\..\..\UE5\Engine\Source\Programs\UnrealLightmass\Private\Lighting\FinalGather.cpp">
+    <ClInclude Include="..\..\..\..\UE5\Engine\Source\Programs\UnrealLightmass\Private\Lighting\Embree.h"/>
+    <ClCompile Include="..\..\..\..\UE5\Engine\Source\Programs\UnrealLightmass\Private\Lighting\FinalGather.cpp">
       <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\Repos\Personal\UE5\Engine\Source\ThirdParty\mimalloc\include;</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\UnrealLightmass\Development\UnrealLightmass\Definitions.h</ForcedIncludeFiles>
     </ClCompile>
-    <ClCompile Include="..\..\..\UE5\Engine\Source\Programs\UnrealLightmass\Private\Lighting\FluidSurface.cpp">
+    <ClCompile Include="..\..\..\..\UE5\Engine\Source\Programs\UnrealLightmass\Private\Lighting\FluidSurface.cpp">
       <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\Repos\Personal\UE5\Engine\Source\ThirdParty\mimalloc\include;</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\UnrealLightmass\Development\UnrealLightmass\Definitions.h</ForcedIncludeFiles>
     </ClCompile>
-    <ClInclude Include="..\..\..\UE5\Engine\Source\Programs\UnrealLightmass\Private\Lighting\FluidSurface.h"/>
-    <ClInclude Include="..\..\..\UE5\Engine\Source\Programs\UnrealLightmass\Private\Lighting\GatheredLightingSample.h"/>
-    <ClCompile Include="..\..\..\UE5\Engine\Source\Programs\UnrealLightmass\Private\Lighting\Landscape.cpp">
+    <ClInclude Include="..\..\..\..\UE5\Engine\Source\Programs\UnrealLightmass\Private\Lighting\FluidSurface.h"/>
+    <ClInclude Include="..\..\..\..\UE5\Engine\Source\Programs\UnrealLightmass\Private\Lighting\GatheredLightingSample.h"/>
+    <ClCompile Include="..\..\..\..\UE5\Engine\Source\Programs\UnrealLightmass\Private\Lighting\Landscape.cpp">
       <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\Repos\Personal\UE5\Engine\Source\ThirdParty\mimalloc\include;</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\UnrealLightmass\Development\UnrealLightmass\Definitions.h</ForcedIncludeFiles>
     </ClCompile>
-    <ClInclude Include="..\..\..\UE5\Engine\Source\Programs\UnrealLightmass\Private\Lighting\Landscape.h"/>
-    <ClInclude Include="..\..\..\UE5\Engine\Source\Programs\UnrealLightmass\Private\Lighting\Lighting.h"/>
-    <ClCompile Include="..\..\..\UE5\Engine\Source\Programs\UnrealLightmass\Private\Lighting\LightingCache.cpp">
+    <ClInclude Include="..\..\..\..\UE5\Engine\Source\Programs\UnrealLightmass\Private\Lighting\Landscape.h"/>
+    <ClInclude Include="..\..\..\..\UE5\Engine\Source\Programs\UnrealLightmass\Private\Lighting\Lighting.h"/>
+    <ClCompile Include="..\..\..\..\UE5\Engine\Source\Programs\UnrealLightmass\Private\Lighting\LightingCache.cpp">
       <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\Repos\Personal\UE5\Engine\Source\ThirdParty\mimalloc\include;</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\UnrealLightmass\Development\UnrealLightmass\Definitions.h</ForcedIncludeFiles>
     </ClCompile>
-    <ClInclude Include="..\..\..\UE5\Engine\Source\Programs\UnrealLightmass\Private\Lighting\LightingCache.h"/>
-    <ClCompile Include="..\..\..\UE5\Engine\Source\Programs\UnrealLightmass\Private\Lighting\LightingMesh.cpp">
+    <ClInclude Include="..\..\..\..\UE5\Engine\Source\Programs\UnrealLightmass\Private\Lighting\LightingCache.h"/>
+    <ClCompile Include="..\..\..\..\UE5\Engine\Source\Programs\UnrealLightmass\Private\Lighting\LightingMesh.cpp">
       <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\Repos\Personal\UE5\Engine\Source\ThirdParty\mimalloc\include;</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\UnrealLightmass\Development\UnrealLightmass\Definitions.h</ForcedIncludeFiles>
     </ClCompile>
-    <ClInclude Include="..\..\..\UE5\Engine\Source\Programs\UnrealLightmass\Private\Lighting\LightingMesh.h"/>
-    <ClCompile Include="..\..\..\UE5\Engine\Source\Programs\UnrealLightmass\Private\Lighting\LightingSystem.cpp">
+    <ClInclude Include="..\..\..\..\UE5\Engine\Source\Programs\UnrealLightmass\Private\Lighting\LightingMesh.h"/>
+    <ClCompile Include="..\..\..\..\UE5\Engine\Source\Programs\UnrealLightmass\Private\Lighting\LightingSystem.cpp">
       <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\Repos\Personal\UE5\Engine\Source\ThirdParty\mimalloc\include;</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\UnrealLightmass\Development\UnrealLightmass\Definitions.h</ForcedIncludeFiles>
     </ClCompile>
-    <ClInclude Include="..\..\..\UE5\Engine\Source\Programs\UnrealLightmass\Private\Lighting\LightingSystem.h"/>
-    <ClInclude Include="..\..\..\UE5\Engine\Source\Programs\UnrealLightmass\Private\Lighting\LightingSystem.inl"/>
-    <ClCompile Include="..\..\..\UE5\Engine\Source\Programs\UnrealLightmass\Private\Lighting\LightmapData.cpp">
+    <ClInclude Include="..\..\..\..\UE5\Engine\Source\Programs\UnrealLightmass\Private\Lighting\LightingSystem.h"/>
+    <ClInclude Include="..\..\..\..\UE5\Engine\Source\Programs\UnrealLightmass\Private\Lighting\LightingSystem.inl"/>
+    <ClCompile Include="..\..\..\..\UE5\Engine\Source\Programs\UnrealLightmass\Private\Lighting\LightmapData.cpp">
       <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\Repos\Personal\UE5\Engine\Source\ThirdParty\mimalloc\include;</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\UnrealLightmass\Development\UnrealLightmass\Definitions.h</ForcedIncludeFiles>
     </ClCompile>
-    <ClInclude Include="..\..\..\UE5\Engine\Source\Programs\UnrealLightmass\Private\Lighting\LightmapData.h"/>
-    <ClCompile Include="..\..\..\UE5\Engine\Source\Programs\UnrealLightmass\Private\Lighting\Mappings.cpp">
+    <ClInclude Include="..\..\..\..\UE5\Engine\Source\Programs\UnrealLightmass\Private\Lighting\LightmapData.h"/>
+    <ClCompile Include="..\..\..\..\UE5\Engine\Source\Programs\UnrealLightmass\Private\Lighting\Mappings.cpp">
       <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\Repos\Personal\UE5\Engine\Source\ThirdParty\mimalloc\include;</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\UnrealLightmass\Development\UnrealLightmass\Definitions.h</ForcedIncludeFiles>
     </ClCompile>
-    <ClInclude Include="..\..\..\UE5\Engine\Source\Programs\UnrealLightmass\Private\Lighting\Mappings.h"/>
-    <ClCompile Include="..\..\..\UE5\Engine\Source\Programs\UnrealLightmass\Private\Lighting\MonteCarlo.cpp">
+    <ClInclude Include="..\..\..\..\UE5\Engine\Source\Programs\UnrealLightmass\Private\Lighting\Mappings.h"/>
+    <ClCompile Include="..\..\..\..\UE5\Engine\Source\Programs\UnrealLightmass\Private\Lighting\MonteCarlo.cpp">
       <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\Repos\Personal\UE5\Engine\Source\ThirdParty\mimalloc\include;</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\UnrealLightmass\Development\UnrealLightmass\Definitions.h</ForcedIncludeFiles>
     </ClCompile>
-    <ClInclude Include="..\..\..\UE5\Engine\Source\Programs\UnrealLightmass\Private\Lighting\MonteCarlo.h"/>
-    <ClCompile Include="..\..\..\UE5\Engine\Source\Programs\UnrealLightmass\Private\Lighting\PhotonMapping.cpp">
+    <ClInclude Include="..\..\..\..\UE5\Engine\Source\Programs\UnrealLightmass\Private\Lighting\MonteCarlo.h"/>
+    <ClCompile Include="..\..\..\..\UE5\Engine\Source\Programs\UnrealLightmass\Private\Lighting\PhotonMapping.cpp">
       <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\Repos\Personal\UE5\Engine\Source\ThirdParty\mimalloc\include;</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\UnrealLightmass\Development\UnrealLightmass\Definitions.h</ForcedIncludeFiles>
     </ClCompile>
-    <ClCompile Include="..\..\..\UE5\Engine\Source\Programs\UnrealLightmass\Private\Lighting\PrecomputedVisibility.cpp">
+    <ClCompile Include="..\..\..\..\UE5\Engine\Source\Programs\UnrealLightmass\Private\Lighting\PrecomputedVisibility.cpp">
       <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\Repos\Personal\UE5\Engine\Source\ThirdParty\mimalloc\include;</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\UnrealLightmass\Development\UnrealLightmass\Definitions.h</ForcedIncludeFiles>
     </ClCompile>
-    <ClCompile Include="..\..\..\UE5\Engine\Source\Programs\UnrealLightmass\Private\Lighting\Radiosity.cpp">
+    <ClCompile Include="..\..\..\..\UE5\Engine\Source\Programs\UnrealLightmass\Private\Lighting\Radiosity.cpp">
       <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\Repos\Personal\UE5\Engine\Source\ThirdParty\mimalloc\include;</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\UnrealLightmass\Development\UnrealLightmass\Definitions.h</ForcedIncludeFiles>
     </ClCompile>
-    <ClInclude Include="..\..\..\UE5\Engine\Source\Programs\UnrealLightmass\Private\Lighting\Raster.h"/>
-    <ClCompile Include="..\..\..\UE5\Engine\Source\Programs\UnrealLightmass\Private\Lighting\SampleVolume.cpp">
+    <ClInclude Include="..\..\..\..\UE5\Engine\Source\Programs\UnrealLightmass\Private\Lighting\Raster.h"/>
+    <ClCompile Include="..\..\..\..\UE5\Engine\Source\Programs\UnrealLightmass\Private\Lighting\SampleVolume.cpp">
       <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\Repos\Personal\UE5\Engine\Source\ThirdParty\mimalloc\include;</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\UnrealLightmass\Development\UnrealLightmass\Definitions.h</ForcedIncludeFiles>
     </ClCompile>
-    <ClCompile Include="..\..\..\UE5\Engine\Source\Programs\UnrealLightmass\Private\Lighting\StaticMesh.cpp">
+    <ClCompile Include="..\..\..\..\UE5\Engine\Source\Programs\UnrealLightmass\Private\Lighting\StaticMesh.cpp">
       <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\Repos\Personal\UE5\Engine\Source\ThirdParty\mimalloc\include;</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\UnrealLightmass\Development\UnrealLightmass\Definitions.h</ForcedIncludeFiles>
     </ClCompile>
-    <ClInclude Include="..\..\..\UE5\Engine\Source\Programs\UnrealLightmass\Private\Lighting\StaticMesh.h"/>
-    <ClInclude Include="..\..\..\UE5\Engine\Source\Programs\UnrealLightmass\Private\Lighting\Texture.h"/>
-    <ClCompile Include="..\..\..\UE5\Engine\Source\Programs\UnrealLightmass\Private\Lighting\TextureMapping.cpp">
+    <ClInclude Include="..\..\..\..\UE5\Engine\Source\Programs\UnrealLightmass\Private\Lighting\StaticMesh.h"/>
+    <ClInclude Include="..\..\..\..\UE5\Engine\Source\Programs\UnrealLightmass\Private\Lighting\Texture.h"/>
+    <ClCompile Include="..\..\..\..\UE5\Engine\Source\Programs\UnrealLightmass\Private\Lighting\TextureMapping.cpp">
       <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\Repos\Personal\UE5\Engine\Source\ThirdParty\mimalloc\include;</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\UnrealLightmass\Development\UnrealLightmass\Definitions.h</ForcedIncludeFiles>
     </ClCompile>
-    <ClInclude Include="..\..\..\UE5\Engine\Source\Programs\UnrealLightmass\Private\Lighting\TextureMappingSetup.h"/>
-    <ClCompile Include="..\..\..\UE5\Engine\Source\Programs\UnrealLightmass\Private\Lighting\VolumeDistanceField.cpp">
+    <ClInclude Include="..\..\..\..\UE5\Engine\Source\Programs\UnrealLightmass\Private\Lighting\TextureMappingSetup.h"/>
+    <ClCompile Include="..\..\..\..\UE5\Engine\Source\Programs\UnrealLightmass\Private\Lighting\VolumeDistanceField.cpp">
       <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\Repos\Personal\UE5\Engine\Source\ThirdParty\mimalloc\include;</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\UnrealLightmass\Development\UnrealLightmass\Definitions.h</ForcedIncludeFiles>
     </ClCompile>
-    <ClCompile Include="..\..\..\UE5\Engine\Source\Programs\UnrealLightmass\Private\LightmassCore\LMCore.cpp">
+    <ClCompile Include="..\..\..\..\UE5\Engine\Source\Programs\UnrealLightmass\Private\LightmassCore\LMCore.cpp">
       <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\Repos\Personal\UE5\Engine\Source\ThirdParty\mimalloc\include;</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\UnrealLightmass\Development\UnrealLightmass\Definitions.h</ForcedIncludeFiles>
     </ClCompile>
-    <ClInclude Include="..\..\..\UE5\Engine\Source\Programs\UnrealLightmass\Private\LightmassCore\LMCore.h"/>
-    <ClInclude Include="..\..\..\UE5\Engine\Source\Programs\UnrealLightmass\Private\LightmassCore\Math\LMCollision.h"/>
-    <ClInclude Include="..\..\..\UE5\Engine\Source\Programs\UnrealLightmass\Private\LightmassCore\Math\LMkDOP.h"/>
-    <ClCompile Include="..\..\..\UE5\Engine\Source\Programs\UnrealLightmass\Private\LightmassCore\Math\LMMath.cpp">
+    <ClInclude Include="..\..\..\..\UE5\Engine\Source\Programs\UnrealLightmass\Private\LightmassCore\LMCore.h"/>
+    <ClInclude Include="..\..\..\..\UE5\Engine\Source\Programs\UnrealLightmass\Private\LightmassCore\Math\LMCollision.h"/>
+    <ClInclude Include="..\..\..\..\UE5\Engine\Source\Programs\UnrealLightmass\Private\LightmassCore\Math\LMkDOP.h"/>
+    <ClCompile Include="..\..\..\..\UE5\Engine\Source\Programs\UnrealLightmass\Private\LightmassCore\Math\LMMath.cpp">
       <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\Repos\Personal\UE5\Engine\Source\ThirdParty\mimalloc\include;</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\UnrealLightmass\Development\UnrealLightmass\Definitions.h</ForcedIncludeFiles>
     </ClCompile>
-    <ClInclude Include="..\..\..\UE5\Engine\Source\Programs\UnrealLightmass\Private\LightmassCore\Math\LMMath.h"/>
-    <ClInclude Include="..\..\..\UE5\Engine\Source\Programs\UnrealLightmass\Private\LightmassCore\Math\LMMathSSE.h"/>
-    <ClInclude Include="..\..\..\UE5\Engine\Source\Programs\UnrealLightmass\Private\LightmassCore\Math\LMOctree.h"/>
-    <None Include="..\..\..\UE5\Engine\Source\Programs\UnrealLightmass\Private\LightmassCore\Math\MersennePrimeTwister.tps"/>
-    <ClCompile Include="..\..\..\UE5\Engine\Source\Programs\UnrealLightmass\Private\LightmassCore\Math\SFMT.cpp">
+    <ClInclude Include="..\..\..\..\UE5\Engine\Source\Programs\UnrealLightmass\Private\LightmassCore\Math\LMMath.h"/>
+    <ClInclude Include="..\..\..\..\UE5\Engine\Source\Programs\UnrealLightmass\Private\LightmassCore\Math\LMMathSSE.h"/>
+    <ClInclude Include="..\..\..\..\UE5\Engine\Source\Programs\UnrealLightmass\Private\LightmassCore\Math\LMOctree.h"/>
+    <None Include="..\..\..\..\UE5\Engine\Source\Programs\UnrealLightmass\Private\LightmassCore\Math\MersennePrimeTwister.tps"/>
+    <ClCompile Include="..\..\..\..\UE5\Engine\Source\Programs\UnrealLightmass\Private\LightmassCore\Math\SFMT.cpp">
       <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\Repos\Personal\UE5\Engine\Source\ThirdParty\mimalloc\include;</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\UnrealLightmass\Development\UnrealLightmass\Definitions.h</ForcedIncludeFiles>
     </ClCompile>
-    <ClCompile Include="..\..\..\UE5\Engine\Source\Programs\UnrealLightmass\Private\LightmassCore\Misc\LMDebug.cpp">
+    <ClCompile Include="..\..\..\..\UE5\Engine\Source\Programs\UnrealLightmass\Private\LightmassCore\Misc\LMDebug.cpp">
       <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\Repos\Personal\UE5\Engine\Source\ThirdParty\mimalloc\include;</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\UnrealLightmass\Development\UnrealLightmass\Definitions.h</ForcedIncludeFiles>
     </ClCompile>
-    <ClInclude Include="..\..\..\UE5\Engine\Source\Programs\UnrealLightmass\Private\LightmassCore\Misc\LMDebug.h"/>
-    <ClInclude Include="..\..\..\UE5\Engine\Source\Programs\UnrealLightmass\Private\LightmassCore\Misc\LMHelpers.h"/>
-    <ClInclude Include="..\..\..\UE5\Engine\Source\Programs\UnrealLightmass\Private\LightmassCore\Misc\LMStats.h"/>
-    <ClCompile Include="..\..\..\UE5\Engine\Source\Programs\UnrealLightmass\Private\LightmassCore\Misc\LMThreading.cpp">
+    <ClInclude Include="..\..\..\..\UE5\Engine\Source\Programs\UnrealLightmass\Private\LightmassCore\Misc\LMDebug.h"/>
+    <ClInclude Include="..\..\..\..\UE5\Engine\Source\Programs\UnrealLightmass\Private\LightmassCore\Misc\LMHelpers.h"/>
+    <ClInclude Include="..\..\..\..\UE5\Engine\Source\Programs\UnrealLightmass\Private\LightmassCore\Misc\LMStats.h"/>
+    <ClCompile Include="..\..\..\..\UE5\Engine\Source\Programs\UnrealLightmass\Private\LightmassCore\Misc\LMThreading.cpp">
       <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\Repos\Personal\UE5\Engine\Source\ThirdParty\mimalloc\include;</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\UnrealLightmass\Development\UnrealLightmass\Definitions.h</ForcedIncludeFiles>
     </ClCompile>
-    <ClInclude Include="..\..\..\UE5\Engine\Source\Programs\UnrealLightmass\Private\LightmassCore\Misc\LMThreading.h"/>
-    <ClInclude Include="..\..\..\UE5\Engine\Source\Programs\UnrealLightmass\Private\LightmassCore\Templates\LMQueue.h"/>
-    <ClInclude Include="..\..\..\UE5\Engine\Source\Programs\UnrealLightmass\Public\FluidExport.h"/>
-    <ClInclude Include="..\..\..\UE5\Engine\Source\Programs\UnrealLightmass\Public\ImportExport.h"/>
-    <ClInclude Include="..\..\..\UE5\Engine\Source\Programs\UnrealLightmass\Public\LightmassPublic.h"/>
-    <ClInclude Include="..\..\..\UE5\Engine\Source\Programs\UnrealLightmass\Public\MaterialExport.h"/>
-    <ClInclude Include="..\..\..\UE5\Engine\Source\Programs\UnrealLightmass\Public\MeshExport.h"/>
-    <ClInclude Include="..\..\..\UE5\Engine\Source\Programs\UnrealLightmass\Public\SceneExport.h"/>
+    <ClInclude Include="..\..\..\..\UE5\Engine\Source\Programs\UnrealLightmass\Private\LightmassCore\Misc\LMThreading.h"/>
+    <ClInclude Include="..\..\..\..\UE5\Engine\Source\Programs\UnrealLightmass\Private\LightmassCore\Templates\LMQueue.h"/>
+    <ClInclude Include="..\..\..\..\UE5\Engine\Source\Programs\UnrealLightmass\Public\FluidExport.h"/>
+    <ClInclude Include="..\..\..\..\UE5\Engine\Source\Programs\UnrealLightmass\Public\ImportExport.h"/>
+    <ClInclude Include="..\..\..\..\UE5\Engine\Source\Programs\UnrealLightmass\Public\LightmassPublic.h"/>
+    <ClInclude Include="..\..\..\..\UE5\Engine\Source\Programs\UnrealLightmass\Public\MaterialExport.h"/>
+    <ClInclude Include="..\..\..\..\UE5\Engine\Source\Programs\UnrealLightmass\Public\MeshExport.h"/>
+    <ClInclude Include="..\..\..\..\UE5\Engine\Source\Programs\UnrealLightmass\Public\SceneExport.h"/>
   </ItemGroup>
   <ItemDefinitionGroup>
   </ItemDefinitionGroup>

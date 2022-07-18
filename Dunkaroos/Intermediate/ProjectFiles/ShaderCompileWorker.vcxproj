@@ -169,15 +169,15 @@
     <AdditionalOptions>/std:c++17</AdditionalOptions>
   </PropertyGroup>
   <ItemGroup>
-    <None Include="..\..\..\UE5\Engine\Source\Programs\ShaderCompileWorker\ShaderCompileWorker.Target.cs"/>
-    <None Include="..\..\..\UE5\Engine\Programs\ShaderCompileWorker\Config\DefaultEngine.ini"/>
-    <None Include="..\..\..\UE5\Engine\Programs\ShaderCompileWorker\Config\Mac\MacEngine.ini"/>
-    <None Include="..\..\..\UE5\Engine\Source\Programs\ShaderCompileWorker\ShaderCompileWorker.Build.cs"/>
-    <ClCompile Include="..\..\..\UE5\Engine\Source\Programs\ShaderCompileWorker\Private\ShaderCompileWorker.cpp">
+    <None Include="..\..\..\..\UE5\Engine\Source\Programs\ShaderCompileWorker\ShaderCompileWorker.Target.cs"/>
+    <None Include="..\..\..\..\UE5\Engine\Programs\ShaderCompileWorker\Config\DefaultEngine.ini"/>
+    <None Include="..\..\..\..\UE5\Engine\Programs\ShaderCompileWorker\Config\Mac\MacEngine.ini"/>
+    <None Include="..\..\..\..\UE5\Engine\Source\Programs\ShaderCompileWorker\ShaderCompileWorker.Build.cs"/>
+    <ClCompile Include="..\..\..\..\UE5\Engine\Source\Programs\ShaderCompileWorker\Private\ShaderCompileWorker.cpp">
       <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\Repos\Personal\UE5\Engine\Source\ThirdParty\mimalloc\include;D:\Repos\Personal\UE5\Engine\Source\ThirdParty\hlslcc\hlslcc\src\hlslcc_lib;D:\Repos\Personal\UE5\Engine\Source\ThirdParty\SPIRV-Reflect\SPIRV-Reflect;</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\ShaderCompileWorker\Development\ShaderCompileWorker\Definitions.h</ForcedIncludeFiles>
     </ClCompile>
-    <ClCompile Include="..\..\..\UE5\Engine\Source\Programs\ShaderCompileWorker\Private\XGEControlWorker.cpp">
+    <ClCompile Include="..\..\..\..\UE5\Engine\Source\Programs\ShaderCompileWorker\Private\XGEControlWorker.cpp">
       <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\Repos\Personal\UE5\Engine\Source\ThirdParty\mimalloc\include;D:\Repos\Personal\UE5\Engine\Source\ThirdParty\hlslcc\hlslcc\src\hlslcc_lib;D:\Repos\Personal\UE5\Engine\Source\ThirdParty\SPIRV-Reflect\SPIRV-Reflect;</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\ShaderCompileWorker\Development\ShaderCompileWorker\Definitions.h</ForcedIncludeFiles>
     </ClCompile>

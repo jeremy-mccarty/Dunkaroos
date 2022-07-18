@@ -169,76 +169,76 @@
     <AdditionalOptions>/std:c++17</AdditionalOptions>
   </PropertyGroup>
   <ItemGroup>
-    <None Include="..\..\..\UE5\Engine\Source\Programs\UnrealInsights\UnrealInsights.Target.cs"/>
-    <None Include="..\..\..\UE5\Engine\Programs\UnrealInsights\Config\DefaultEngine.ini"/>
-    <None Include="..\..\..\UE5\Engine\Programs\UnrealInsights\Config\DefaultUnrealInsightsSettings.ini"/>
-    <None Include="..\..\..\UE5\Engine\Source\Programs\UnrealInsights\UnrealInsights.Build.cs"/>
-    <ClCompile Include="..\..\..\UE5\Engine\Source\Programs\UnrealInsights\Private\UnrealInsightsMain.cpp">
+    <None Include="..\..\..\..\UE5\Engine\Source\Programs\UnrealInsights\UnrealInsights.Target.cs"/>
+    <None Include="..\..\..\..\UE5\Engine\Programs\UnrealInsights\Config\DefaultEngine.ini"/>
+    <None Include="..\..\..\..\UE5\Engine\Programs\UnrealInsights\Config\DefaultUnrealInsightsSettings.ini"/>
+    <None Include="..\..\..\..\UE5\Engine\Source\Programs\UnrealInsights\UnrealInsights.Build.cs"/>
+    <ClCompile Include="..\..\..\..\UE5\Engine\Source\Programs\UnrealInsights\Private\UnrealInsightsMain.cpp">
       <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\Repos\Personal\UE5\Engine\Source\ThirdParty\mimalloc\include;D:\Repos\Personal\UE5\Engine\Source\ThirdParty\LibTiff\Source\Win64;D:\Repos\Personal\UE5\Engine\Source\ThirdParty\LibTiff\Source;D:\Repos\Personal\UE5\Engine\Source\Runtime\SymsLib;D:\Repos\Personal\UE5\Engine\Source\Runtime\SymsLib\syms;</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\UnrealInsights\Development\UnrealInsights\Definitions.h</ForcedIncludeFiles>
     </ClCompile>
-    <ClInclude Include="..\..\..\UE5\Engine\Source\Programs\UnrealInsights\Private\UnrealInsightsMain.h"/>
-    <ClCompile Include="..\..\..\UE5\Engine\Source\Programs\UnrealInsights\Private\UserInterfaceCommand.cpp">
+    <ClInclude Include="..\..\..\..\UE5\Engine\Source\Programs\UnrealInsights\Private\UnrealInsightsMain.h"/>
+    <ClCompile Include="..\..\..\..\UE5\Engine\Source\Programs\UnrealInsights\Private\UserInterfaceCommand.cpp">
       <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\Repos\Personal\UE5\Engine\Source\ThirdParty\mimalloc\include;D:\Repos\Personal\UE5\Engine\Source\ThirdParty\LibTiff\Source\Win64;D:\Repos\Personal\UE5\Engine\Source\ThirdParty\LibTiff\Source;D:\Repos\Personal\UE5\Engine\Source\Runtime\SymsLib;D:\Repos\Personal\UE5\Engine\Source\Runtime\SymsLib\syms;</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\UnrealInsights\Development\UnrealInsights\Definitions.h</ForcedIncludeFiles>
     </ClCompile>
-    <ClInclude Include="..\..\..\UE5\Engine\Source\Programs\UnrealInsights\Private\UserInterfaceCommand.h"/>
-    <ClCompile Include="..\..\..\UE5\Engine\Source\Programs\UnrealInsights\Private\IOS\IOSUnrealInsightsMain.cpp">
+    <ClInclude Include="..\..\..\..\UE5\Engine\Source\Programs\UnrealInsights\Private\UserInterfaceCommand.h"/>
+    <ClCompile Include="..\..\..\..\UE5\Engine\Source\Programs\UnrealInsights\Private\IOS\IOSUnrealInsightsMain.cpp">
       <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\Repos\Personal\UE5\Engine\Source\ThirdParty\mimalloc\include;D:\Repos\Personal\UE5\Engine\Source\ThirdParty\LibTiff\Source\Win64;D:\Repos\Personal\UE5\Engine\Source\ThirdParty\LibTiff\Source;D:\Repos\Personal\UE5\Engine\Source\Runtime\SymsLib;D:\Repos\Personal\UE5\Engine\Source\Runtime\SymsLib\syms;</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\UnrealInsights\Development\UnrealInsights\Definitions.h</ForcedIncludeFiles>
     </ClCompile>
-    <ClCompile Include="..\..\..\UE5\Engine\Source\Programs\UnrealInsights\Private\Linux\LinuxUnrealInsightsMain.cpp">
+    <ClCompile Include="..\..\..\..\UE5\Engine\Source\Programs\UnrealInsights\Private\Linux\LinuxUnrealInsightsMain.cpp">
       <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\Repos\Personal\UE5\Engine\Source\ThirdParty\mimalloc\include;D:\Repos\Personal\UE5\Engine\Source\ThirdParty\LibTiff\Source\Win64;D:\Repos\Personal\UE5\Engine\Source\ThirdParty\LibTiff\Source;D:\Repos\Personal\UE5\Engine\Source\Runtime\SymsLib;D:\Repos\Personal\UE5\Engine\Source\Runtime\SymsLib\syms;</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\UnrealInsights\Development\UnrealInsights\Definitions.h</ForcedIncludeFiles>
     </ClCompile>
-    <ClCompile Include="..\..\..\UE5\Engine\Source\Programs\UnrealInsights\Private\Mac\MacUnrealInsightsMain.cpp">
+    <ClCompile Include="..\..\..\..\UE5\Engine\Source\Programs\UnrealInsights\Private\Mac\MacUnrealInsightsMain.cpp">
       <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\Repos\Personal\UE5\Engine\Source\ThirdParty\mimalloc\include;D:\Repos\Personal\UE5\Engine\Source\ThirdParty\LibTiff\Source\Win64;D:\Repos\Personal\UE5\Engine\Source\ThirdParty\LibTiff\Source;D:\Repos\Personal\UE5\Engine\Source\Runtime\SymsLib;D:\Repos\Personal\UE5\Engine\Source\Runtime\SymsLib\syms;</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\UnrealInsights\Development\UnrealInsights\Definitions.h</ForcedIncludeFiles>
     </ClCompile>
-    <ClCompile Include="..\..\..\UE5\Engine\Source\Programs\UnrealInsights\Private\Windows\WindowsUnrealInsightsMain.cpp">
+    <ClCompile Include="..\..\..\..\UE5\Engine\Source\Programs\UnrealInsights\Private\Windows\WindowsUnrealInsightsMain.cpp">
       <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\Repos\Personal\UE5\Engine\Source\ThirdParty\mimalloc\include;D:\Repos\Personal\UE5\Engine\Source\ThirdParty\LibTiff\Source\Win64;D:\Repos\Personal\UE5\Engine\Source\ThirdParty\LibTiff\Source;D:\Repos\Personal\UE5\Engine\Source\Runtime\SymsLib;D:\Repos\Personal\UE5\Engine\Source\Runtime\SymsLib\syms;</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\UnrealInsights\Development\UnrealInsights\Definitions.h</ForcedIncludeFiles>
     </ClCompile>
-    <None Include="..\..\..\UE5\Engine\Source\Programs\UnrealInsights\Resources\Linux\UnrealInsights.png"/>
-    <None Include="..\..\..\UE5\Engine\Source\Programs\UnrealInsights\Resources\Linux\UTrace.png"/>
-    <None Include="..\..\..\UE5\Engine\Source\Programs\UnrealInsights\Resources\Mac\Info.plist"/>
-    <None Include="..\..\..\UE5\Engine\Source\Programs\UnrealInsights\Resources\Mac\make_icns.sh"/>
-    <None Include="..\..\..\UE5\Engine\Source\Programs\UnrealInsights\Resources\Mac\UnrealInsights.icns"/>
-    <None Include="..\..\..\UE5\Engine\Source\Programs\UnrealInsights\Resources\Mac\UTrace.icns"/>
-    <None Include="..\..\..\UE5\Engine\Source\Programs\UnrealInsights\Resources\Mac\UnrealInsights.iconset\icon_128x128.png"/>
-    <None Include="..\..\..\UE5\Engine\Source\Programs\UnrealInsights\Resources\Mac\UnrealInsights.iconset\icon_128x128@2x.png"/>
-    <None Include="..\..\..\UE5\Engine\Source\Programs\UnrealInsights\Resources\Mac\UnrealInsights.iconset\icon_16x16.png"/>
-    <None Include="..\..\..\UE5\Engine\Source\Programs\UnrealInsights\Resources\Mac\UnrealInsights.iconset\icon_16x16@2x.png"/>
-    <None Include="..\..\..\UE5\Engine\Source\Programs\UnrealInsights\Resources\Mac\UnrealInsights.iconset\icon_256x256.png"/>
-    <None Include="..\..\..\UE5\Engine\Source\Programs\UnrealInsights\Resources\Mac\UnrealInsights.iconset\icon_256x256@2x.png"/>
-    <None Include="..\..\..\UE5\Engine\Source\Programs\UnrealInsights\Resources\Mac\UnrealInsights.iconset\icon_32x32.png"/>
-    <None Include="..\..\..\UE5\Engine\Source\Programs\UnrealInsights\Resources\Mac\UnrealInsights.iconset\icon_32x32@2x.png"/>
-    <None Include="..\..\..\UE5\Engine\Source\Programs\UnrealInsights\Resources\Mac\UnrealInsights.iconset\icon_512x512.png"/>
-    <None Include="..\..\..\UE5\Engine\Source\Programs\UnrealInsights\Resources\Mac\UnrealInsights.iconset\icon_512x512@2x.png"/>
-    <None Include="..\..\..\UE5\Engine\Source\Programs\UnrealInsights\Resources\Mac\UTrace.iconset\icon_128x128.png"/>
-    <None Include="..\..\..\UE5\Engine\Source\Programs\UnrealInsights\Resources\Mac\UTrace.iconset\icon_128x128@2x.png"/>
-    <None Include="..\..\..\UE5\Engine\Source\Programs\UnrealInsights\Resources\Mac\UTrace.iconset\icon_16x16.png"/>
-    <None Include="..\..\..\UE5\Engine\Source\Programs\UnrealInsights\Resources\Mac\UTrace.iconset\icon_16x16@2x.png"/>
-    <None Include="..\..\..\UE5\Engine\Source\Programs\UnrealInsights\Resources\Mac\UTrace.iconset\icon_256x256.png"/>
-    <None Include="..\..\..\UE5\Engine\Source\Programs\UnrealInsights\Resources\Mac\UTrace.iconset\icon_256x256@2x.png"/>
-    <None Include="..\..\..\UE5\Engine\Source\Programs\UnrealInsights\Resources\Mac\UTrace.iconset\icon_32x32.png"/>
-    <None Include="..\..\..\UE5\Engine\Source\Programs\UnrealInsights\Resources\Mac\UTrace.iconset\icon_32x32@2x.png"/>
-    <None Include="..\..\..\UE5\Engine\Source\Programs\UnrealInsights\Resources\Mac\UTrace.iconset\icon_512x512.png"/>
-    <None Include="..\..\..\UE5\Engine\Source\Programs\UnrealInsights\Resources\Mac\UTrace.iconset\icon_512x512@2x.png"/>
-    <None Include="..\..\..\UE5\Engine\Source\Programs\UnrealInsights\Resources\Windows\make_ico.py"/>
-    <None Include="..\..\..\UE5\Engine\Source\Programs\UnrealInsights\Resources\Windows\UnrealInsights.ico"/>
-    <ResourceCompile Include="..\..\..\UE5\Engine\Source\Programs\UnrealInsights\Resources\Windows\UnrealInsights.rc"/>
-    <None Include="..\..\..\UE5\Engine\Source\Programs\UnrealInsights\Resources\Windows\UTrace.ico"/>
-    <None Include="..\..\..\UE5\Engine\Source\Programs\UnrealInsights\Resources\Windows\UnrealInsights\icon_16x16.png"/>
-    <None Include="..\..\..\UE5\Engine\Source\Programs\UnrealInsights\Resources\Windows\UnrealInsights\icon_24x24.png"/>
-    <None Include="..\..\..\UE5\Engine\Source\Programs\UnrealInsights\Resources\Windows\UnrealInsights\icon_256x256.png"/>
-    <None Include="..\..\..\UE5\Engine\Source\Programs\UnrealInsights\Resources\Windows\UnrealInsights\icon_32x32.png"/>
-    <None Include="..\..\..\UE5\Engine\Source\Programs\UnrealInsights\Resources\Windows\UnrealInsights\icon_48x48.png"/>
-    <None Include="..\..\..\UE5\Engine\Source\Programs\UnrealInsights\Resources\Windows\UTrace\icon_16x16.png"/>
-    <None Include="..\..\..\UE5\Engine\Source\Programs\UnrealInsights\Resources\Windows\UTrace\icon_24x24.png"/>
-    <None Include="..\..\..\UE5\Engine\Source\Programs\UnrealInsights\Resources\Windows\UTrace\icon_256x256.png"/>
-    <None Include="..\..\..\UE5\Engine\Source\Programs\UnrealInsights\Resources\Windows\UTrace\icon_32x32.png"/>
-    <None Include="..\..\..\UE5\Engine\Source\Programs\UnrealInsights\Resources\Windows\UTrace\icon_48x48.png"/>
+    <None Include="..\..\..\..\UE5\Engine\Source\Programs\UnrealInsights\Resources\Linux\UnrealInsights.png"/>
+    <None Include="..\..\..\..\UE5\Engine\Source\Programs\UnrealInsights\Resources\Linux\UTrace.png"/>
+    <None Include="..\..\..\..\UE5\Engine\Source\Programs\UnrealInsights\Resources\Mac\Info.plist"/>
+    <None Include="..\..\..\..\UE5\Engine\Source\Programs\UnrealInsights\Resources\Mac\make_icns.sh"/>
+    <None Include="..\..\..\..\UE5\Engine\Source\Programs\UnrealInsights\Resources\Mac\UnrealInsights.icns"/>
+    <None Include="..\..\..\..\UE5\Engine\Source\Programs\UnrealInsights\Resources\Mac\UTrace.icns"/>
+    <None Include="..\..\..\..\UE5\Engine\Source\Programs\UnrealInsights\Resources\Mac\UnrealInsights.iconset\icon_128x128.png"/>
+    <None Include="..\..\..\..\UE5\Engine\Source\Programs\UnrealInsights\Resources\Mac\UnrealInsights.iconset\icon_128x128@2x.png"/>
+    <None Include="..\..\..\..\UE5\Engine\Source\Programs\UnrealInsights\Resources\Mac\UnrealInsights.iconset\icon_16x16.png"/>
+    <None Include="..\..\..\..\UE5\Engine\Source\Programs\UnrealInsights\Resources\Mac\UnrealInsights.iconset\icon_16x16@2x.png"/>
+    <None Include="..\..\..\..\UE5\Engine\Source\Programs\UnrealInsights\Resources\Mac\UnrealInsights.iconset\icon_256x256.png"/>
+    <None Include="..\..\..\..\UE5\Engine\Source\Programs\UnrealInsights\Resources\Mac\UnrealInsights.iconset\icon_256x256@2x.png"/>
+    <None Include="..\..\..\..\UE5\Engine\Source\Programs\UnrealInsights\Resources\Mac\UnrealInsights.iconset\icon_32x32.png"/>
+    <None Include="..\..\..\..\UE5\Engine\Source\Programs\UnrealInsights\Resources\Mac\UnrealInsights.iconset\icon_32x32@2x.png"/>
+    <None Include="..\..\..\..\UE5\Engine\Source\Programs\UnrealInsights\Resources\Mac\UnrealInsights.iconset\icon_512x512.png"/>
+    <None Include="..\..\..\..\UE5\Engine\Source\Programs\UnrealInsights\Resources\Mac\UnrealInsights.iconset\icon_512x512@2x.png"/>
+    <None Include="..\..\..\..\UE5\Engine\Source\Programs\UnrealInsights\Resources\Mac\UTrace.iconset\icon_128x128.png"/>
+    <None Include="..\..\..\..\UE5\Engine\Source\Programs\UnrealInsights\Resources\Mac\UTrace.iconset\icon_128x128@2x.png"/>
+    <None Include="..\..\..\..\UE5\Engine\Source\Programs\UnrealInsights\Resources\Mac\UTrace.iconset\icon_16x16.png"/>
+    <None Include="..\..\..\..\UE5\Engine\Source\Programs\UnrealInsights\Resources\Mac\UTrace.iconset\icon_16x16@2x.png"/>
+    <None Include="..\..\..\..\UE5\Engine\Source\Programs\UnrealInsights\Resources\Mac\UTrace.iconset\icon_256x256.png"/>
+    <None Include="..\..\..\..\UE5\Engine\Source\Programs\UnrealInsights\Resources\Mac\UTrace.iconset\icon_256x256@2x.png"/>
+    <None Include="..\..\..\..\UE5\Engine\Source\Programs\UnrealInsights\Resources\Mac\UTrace.iconset\icon_32x32.png"/>
+    <None Include="..\..\..\..\UE5\Engine\Source\Programs\UnrealInsights\Resources\Mac\UTrace.iconset\icon_32x32@2x.png"/>
+    <None Include="..\..\..\..\UE5\Engine\Source\Programs\UnrealInsights\Resources\Mac\UTrace.iconset\icon_512x512.png"/>
+    <None Include="..\..\..\..\UE5\Engine\Source\Programs\UnrealInsights\Resources\Mac\UTrace.iconset\icon_512x512@2x.png"/>
+    <None Include="..\..\..\..\UE5\Engine\Source\Programs\UnrealInsights\Resources\Windows\make_ico.py"/>
+    <None Include="..\..\..\..\UE5\Engine\Source\Programs\UnrealInsights\Resources\Windows\UnrealInsights.ico"/>
+    <ResourceCompile Include="..\..\..\..\UE5\Engine\Source\Programs\UnrealInsights\Resources\Windows\UnrealInsights.rc"/>
+    <None Include="..\..\..\..\UE5\Engine\Source\Programs\UnrealInsights\Resources\Windows\UTrace.ico"/>
+    <None Include="..\..\..\..\UE5\Engine\Source\Programs\UnrealInsights\Resources\Windows\UnrealInsights\icon_16x16.png"/>
+    <None Include="..\..\..\..\UE5\Engine\Source\Programs\UnrealInsights\Resources\Windows\UnrealInsights\icon_24x24.png"/>
+    <None Include="..\..\..\..\UE5\Engine\Source\Programs\UnrealInsights\Resources\Windows\UnrealInsights\icon_256x256.png"/>
+    <None Include="..\..\..\..\UE5\Engine\Source\Programs\UnrealInsights\Resources\Windows\UnrealInsights\icon_32x32.png"/>
+    <None Include="..\..\..\..\UE5\Engine\Source\Programs\UnrealInsights\Resources\Windows\UnrealInsights\icon_48x48.png"/>
+    <None Include="..\..\..\..\UE5\Engine\Source\Programs\UnrealInsights\Resources\Windows\UTrace\icon_16x16.png"/>
+    <None Include="..\..\..\..\UE5\Engine\Source\Programs\UnrealInsights\Resources\Windows\UTrace\icon_24x24.png"/>
+    <None Include="..\..\..\..\UE5\Engine\Source\Programs\UnrealInsights\Resources\Windows\UTrace\icon_256x256.png"/>
+    <None Include="..\..\..\..\UE5\Engine\Source\Programs\UnrealInsights\Resources\Windows\UTrace\icon_32x32.png"/>
+    <None Include="..\..\..\..\UE5\Engine\Source\Programs\UnrealInsights\Resources\Windows\UTrace\icon_48x48.png"/>
   </ItemGroup>
   <ItemDefinitionGroup>
   </ItemDefinitionGroup>

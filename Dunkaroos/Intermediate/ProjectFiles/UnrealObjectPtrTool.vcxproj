@@ -169,9 +169,9 @@
     <AdditionalOptions>/std:c++17</AdditionalOptions>
   </PropertyGroup>
   <ItemGroup>
-    <None Include="..\..\..\UE5\Engine\Source\Programs\UnrealObjectPtrTool\UnrealObjectPtrTool.Target.cs"/>
-    <None Include="..\..\..\UE5\Engine\Source\Programs\UnrealObjectPtrTool\UnrealObjectPtrTool.Build.cs"/>
-    <ClCompile Include="..\..\..\UE5\Engine\Source\Programs\UnrealObjectPtrTool\Private\UnrealObjectPtrTool.cpp">
+    <None Include="..\..\..\..\UE5\Engine\Source\Programs\UnrealObjectPtrTool\UnrealObjectPtrTool.Target.cs"/>
+    <None Include="..\..\..\..\UE5\Engine\Source\Programs\UnrealObjectPtrTool\UnrealObjectPtrTool.Build.cs"/>
+    <ClCompile Include="..\..\..\..\UE5\Engine\Source\Programs\UnrealObjectPtrTool\Private\UnrealObjectPtrTool.cpp">
       <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\Repos\Personal\UE5\Engine\Source\ThirdParty\mimalloc\include;</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\UnrealObjectPtrTool\Development\UnrealObjectPtrTool\Definitions.h</ForcedIncludeFiles>
     </ClCompile>

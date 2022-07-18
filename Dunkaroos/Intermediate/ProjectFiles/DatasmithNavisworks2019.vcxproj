@@ -169,12 +169,12 @@
     <AdditionalOptions>/std:c++17</AdditionalOptions>
   </PropertyGroup>
   <ItemGroup>
-    <None Include="..\..\..\UE5\Engine\Source\Programs\Enterprise\Datasmith\DatasmithNavisworksExporter\UBTModules\DatasmithNavisworks2019.Target.cs"/>
-    <None Include="..\..\..\UE5\Engine\Source\Programs\Enterprise\Datasmith\DatasmithNavisworksExporter\UBTModules\DatasmithNavisworks2019.Build.cs"/>
-    <None Include="..\..\..\UE5\Engine\Source\Programs\Enterprise\Datasmith\DatasmithNavisworksExporter\UBTModules\DatasmithNavisworks2020.Build.cs"/>
-    <None Include="..\..\..\UE5\Engine\Source\Programs\Enterprise\Datasmith\DatasmithNavisworksExporter\UBTModules\DatasmithNavisworks2021.Build.cs"/>
-    <None Include="..\..\..\UE5\Engine\Source\Programs\Enterprise\Datasmith\DatasmithNavisworksExporter\UBTModules\DatasmithNavisworks2022.Build.cs"/>
-    <None Include="..\..\..\UE5\Engine\Source\Programs\Enterprise\Datasmith\DatasmithNavisworksExporter\UBTModules\DatasmithNavisworks2023.Build.cs"/>
+    <None Include="..\..\..\..\UE5\Engine\Source\Programs\Enterprise\Datasmith\DatasmithNavisworksExporter\UBTModules\DatasmithNavisworks2019.Target.cs"/>
+    <None Include="..\..\..\..\UE5\Engine\Source\Programs\Enterprise\Datasmith\DatasmithNavisworksExporter\UBTModules\DatasmithNavisworks2019.Build.cs"/>
+    <None Include="..\..\..\..\UE5\Engine\Source\Programs\Enterprise\Datasmith\DatasmithNavisworksExporter\UBTModules\DatasmithNavisworks2020.Build.cs"/>
+    <None Include="..\..\..\..\UE5\Engine\Source\Programs\Enterprise\Datasmith\DatasmithNavisworksExporter\UBTModules\DatasmithNavisworks2021.Build.cs"/>
+    <None Include="..\..\..\..\UE5\Engine\Source\Programs\Enterprise\Datasmith\DatasmithNavisworksExporter\UBTModules\DatasmithNavisworks2022.Build.cs"/>
+    <None Include="..\..\..\..\UE5\Engine\Source\Programs\Enterprise\Datasmith\DatasmithNavisworksExporter\UBTModules\DatasmithNavisworks2023.Build.cs"/>
   </ItemGroup>
   <ItemDefinitionGroup>
   </ItemDefinitionGroup>

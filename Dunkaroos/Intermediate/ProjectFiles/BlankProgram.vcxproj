@@ -354,20 +354,20 @@
     <AdditionalOptions>/std:c++17</AdditionalOptions>
   </PropertyGroup>
   <ItemGroup>
-    <None Include="..\..\..\UE5\Engine\Source\Programs\BlankProgram\BlankProgram.Target.cs"/>
-    <None Include="..\..\..\UE5\Engine\Source\Programs\BlankProgram\BlankProgram.Build.cs"/>
-    <ClCompile Include="..\..\..\UE5\Engine\Source\Programs\BlankProgram\Private\BlankProgram.cpp">
+    <None Include="..\..\..\..\UE5\Engine\Source\Programs\BlankProgram\BlankProgram.Target.cs"/>
+    <None Include="..\..\..\..\UE5\Engine\Source\Programs\BlankProgram\BlankProgram.Build.cs"/>
+    <ClCompile Include="..\..\..\..\UE5\Engine\Source\Programs\BlankProgram\Private\BlankProgram.cpp">
       <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\Repos\Personal\UE5\Engine\Source\ThirdParty\mimalloc\include;</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\BlankProgram\Development\Core\SharedPCH.Core.ShadowErrors.h;D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\BlankProgram\Development\BlankProgram\Definitions.BlankProgram.h</ForcedIncludeFiles>
       <AdditionalOptions>$(AdditionalOptions) /Yu"D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\BlankProgram\Development\Core\SharedPCH.Core.ShadowErrors.h"</AdditionalOptions>
     </ClCompile>
-    <ClInclude Include="..\..\..\UE5\Engine\Source\Programs\BlankProgram\Private\BlankProgram.h"/>
-    <ClCompile Include="..\..\..\UE5\Engine\Source\Programs\BlankProgram\Private\PlatformWorkarounds.cpp">
+    <ClInclude Include="..\..\..\..\UE5\Engine\Source\Programs\BlankProgram\Private\BlankProgram.h"/>
+    <ClCompile Include="..\..\..\..\UE5\Engine\Source\Programs\BlankProgram\Private\PlatformWorkarounds.cpp">
       <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\Repos\Personal\UE5\Engine\Source\ThirdParty\mimalloc\include;</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\BlankProgram\Development\Core\SharedPCH.Core.ShadowErrors.h;D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\BlankProgram\Development\BlankProgram\Definitions.BlankProgram.h</ForcedIncludeFiles>
       <AdditionalOptions>$(AdditionalOptions) /Yu"D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\BlankProgram\Development\Core\SharedPCH.Core.ShadowErrors.h"</AdditionalOptions>
     </ClCompile>
-    <None Include="..\..\..\UE5\Engine\Source\Programs\BlankProgram\Resources\Windows\BlankProgram.ico"/>
+    <None Include="..\..\..\..\UE5\Engine\Source\Programs\BlankProgram\Resources\Windows\BlankProgram.ico"/>
   </ItemGroup>
   <ItemDefinitionGroup>
   </ItemDefinitionGroup>

@@ -169,50 +169,50 @@
     <AdditionalOptions>/std:c++17</AdditionalOptions>
   </PropertyGroup>
   <ItemGroup>
-    <None Include="..\..\..\UE5\Engine\Source\Programs\SwitchboardListener\SwitchboardListener.Target.cs"/>
-    <None Include="..\..\..\UE5\Engine\Source\Programs\SwitchboardListener\ReadMe.md"/>
-    <None Include="..\..\..\UE5\Engine\Source\Programs\SwitchboardListener\SwitchboardListener.Build.cs"/>
-    <ClCompile Include="..\..\..\UE5\Engine\Source\Programs\SwitchboardListener\Private\CpuUtilizationMonitor.cpp">
+    <None Include="..\..\..\..\UE5\Engine\Source\Programs\SwitchboardListener\SwitchboardListener.Target.cs"/>
+    <None Include="..\..\..\..\UE5\Engine\Source\Programs\SwitchboardListener\ReadMe.md"/>
+    <None Include="..\..\..\..\UE5\Engine\Source\Programs\SwitchboardListener\SwitchboardListener.Build.cs"/>
+    <ClCompile Include="..\..\..\..\UE5\Engine\Source\Programs\SwitchboardListener\Private\CpuUtilizationMonitor.cpp">
       <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\Repos\Personal\UE5\Engine\Source\ThirdParty\mimalloc\include;D:\Repos\Personal\UE5\Engine\Source\ThirdParty\NVIDIA\nvapi;</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\SwitchboardListener\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h;D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\SwitchboardListener\Development\SwitchboardListener\Definitions.SwitchboardListener.h</ForcedIncludeFiles>
       <AdditionalOptions>$(AdditionalOptions) /Yu"D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\SwitchboardListener\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h"</AdditionalOptions>
     </ClCompile>
-    <ClInclude Include="..\..\..\UE5\Engine\Source\Programs\SwitchboardListener\Private\CpuUtilizationMonitor.h"/>
-    <ClCompile Include="..\..\..\UE5\Engine\Source\Programs\SwitchboardListener\Private\SwitchboardListener.cpp">
+    <ClInclude Include="..\..\..\..\UE5\Engine\Source\Programs\SwitchboardListener\Private\CpuUtilizationMonitor.h"/>
+    <ClCompile Include="..\..\..\..\UE5\Engine\Source\Programs\SwitchboardListener\Private\SwitchboardListener.cpp">
       <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\Repos\Personal\UE5\Engine\Source\ThirdParty\mimalloc\include;D:\Repos\Personal\UE5\Engine\Source\ThirdParty\NVIDIA\nvapi;</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\SwitchboardListener\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h;D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\SwitchboardListener\Development\SwitchboardListener\Definitions.SwitchboardListener.h</ForcedIncludeFiles>
       <AdditionalOptions>$(AdditionalOptions) /Yu"D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\SwitchboardListener\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h"</AdditionalOptions>
     </ClCompile>
-    <ClInclude Include="..\..\..\UE5\Engine\Source\Programs\SwitchboardListener\Private\SwitchboardListener.h"/>
-    <ClInclude Include="..\..\..\UE5\Engine\Source\Programs\SwitchboardListener\Private\SwitchboardListenerApp.h"/>
-    <ClCompile Include="..\..\..\UE5\Engine\Source\Programs\SwitchboardListener\Private\SwitchboardListenerMain.cpp">
+    <ClInclude Include="..\..\..\..\UE5\Engine\Source\Programs\SwitchboardListener\Private\SwitchboardListener.h"/>
+    <ClInclude Include="..\..\..\..\UE5\Engine\Source\Programs\SwitchboardListener\Private\SwitchboardListenerApp.h"/>
+    <ClCompile Include="..\..\..\..\UE5\Engine\Source\Programs\SwitchboardListener\Private\SwitchboardListenerMain.cpp">
       <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\Repos\Personal\UE5\Engine\Source\ThirdParty\mimalloc\include;D:\Repos\Personal\UE5\Engine\Source\ThirdParty\NVIDIA\nvapi;</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\SwitchboardListener\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h;D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\SwitchboardListener\Development\SwitchboardListener\Definitions.SwitchboardListener.h</ForcedIncludeFiles>
       <AdditionalOptions>$(AdditionalOptions) /Yu"D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\SwitchboardListener\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h"</AdditionalOptions>
     </ClCompile>
-    <ClInclude Include="..\..\..\UE5\Engine\Source\Programs\SwitchboardListener\Private\SwitchboardListenerVersion.h"/>
-    <ClInclude Include="..\..\..\UE5\Engine\Source\Programs\SwitchboardListener\Private\SwitchboardMessageFuture.h"/>
-    <ClInclude Include="..\..\..\UE5\Engine\Source\Programs\SwitchboardListener\Private\SwitchboardPacket.h"/>
-    <ClCompile Include="..\..\..\UE5\Engine\Source\Programs\SwitchboardListener\Private\SwitchboardProtocol.cpp">
+    <ClInclude Include="..\..\..\..\UE5\Engine\Source\Programs\SwitchboardListener\Private\SwitchboardListenerVersion.h"/>
+    <ClInclude Include="..\..\..\..\UE5\Engine\Source\Programs\SwitchboardListener\Private\SwitchboardMessageFuture.h"/>
+    <ClInclude Include="..\..\..\..\UE5\Engine\Source\Programs\SwitchboardListener\Private\SwitchboardPacket.h"/>
+    <ClCompile Include="..\..\..\..\UE5\Engine\Source\Programs\SwitchboardListener\Private\SwitchboardProtocol.cpp">
       <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\Repos\Personal\UE5\Engine\Source\ThirdParty\mimalloc\include;D:\Repos\Personal\UE5\Engine\Source\ThirdParty\NVIDIA\nvapi;</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\SwitchboardListener\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h;D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\SwitchboardListener\Development\SwitchboardListener\Definitions.SwitchboardListener.h</ForcedIncludeFiles>
       <AdditionalOptions>$(AdditionalOptions) /Yu"D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\SwitchboardListener\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h"</AdditionalOptions>
     </ClCompile>
-    <ClInclude Include="..\..\..\UE5\Engine\Source\Programs\SwitchboardListener\Private\SwitchboardProtocol.h"/>
-    <ClInclude Include="..\..\..\UE5\Engine\Source\Programs\SwitchboardListener\Private\SwitchboardTasks.h"/>
-    <ClInclude Include="..\..\..\UE5\Engine\Source\Programs\SwitchboardListener\Private\SyncStatus.h"/>
-    <ClCompile Include="..\..\..\UE5\Engine\Source\Programs\SwitchboardListener\Private\Windows\WindowsCpuUtilizationMonitor.cpp">
+    <ClInclude Include="..\..\..\..\UE5\Engine\Source\Programs\SwitchboardListener\Private\SwitchboardProtocol.h"/>
+    <ClInclude Include="..\..\..\..\UE5\Engine\Source\Programs\SwitchboardListener\Private\SwitchboardTasks.h"/>
+    <ClInclude Include="..\..\..\..\UE5\Engine\Source\Programs\SwitchboardListener\Private\SyncStatus.h"/>
+    <ClCompile Include="..\..\..\..\UE5\Engine\Source\Programs\SwitchboardListener\Private\Windows\WindowsCpuUtilizationMonitor.cpp">
       <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\Repos\Personal\UE5\Engine\Source\ThirdParty\mimalloc\include;D:\Repos\Personal\UE5\Engine\Source\ThirdParty\NVIDIA\nvapi;</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\SwitchboardListener\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h;D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\SwitchboardListener\Development\SwitchboardListener\Definitions.SwitchboardListener.h</ForcedIncludeFiles>
       <AdditionalOptions>$(AdditionalOptions) /Yu"D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\SwitchboardListener\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h"</AdditionalOptions>
     </ClCompile>
-    <ClInclude Include="..\..\..\UE5\Engine\Source\Programs\SwitchboardListener\Private\Windows\WindowsCpuUtilizationMonitor.h"/>
-    <None Include="..\..\..\UE5\Engine\Source\Programs\SwitchboardListener\Private\Windows\Resources\Icon.ico"/>
-    <ClInclude Include="..\..\..\UE5\Engine\Source\Programs\SwitchboardListener\Private\Windows\Resources\Resource.h"/>
-    <ResourceCompile Include="..\..\..\UE5\Engine\Source\Programs\SwitchboardListener\Private\Windows\Resources\Resource.rc"/>
-    <None Include="..\..\..\UE5\Engine\Source\Programs\SwitchboardListener\Private\Windows\Resources\Resource.rc2"/>
-    <None Include="..\..\..\UE5\Engine\Source\Programs\SwitchboardListener\Tests\listener_tests.py"/>
-    <None Include="..\..\..\UE5\Engine\Source\Programs\SwitchboardListener\Tests\transfer_test.cfg"/>
+    <ClInclude Include="..\..\..\..\UE5\Engine\Source\Programs\SwitchboardListener\Private\Windows\WindowsCpuUtilizationMonitor.h"/>
+    <None Include="..\..\..\..\UE5\Engine\Source\Programs\SwitchboardListener\Private\Windows\Resources\Icon.ico"/>
+    <ClInclude Include="..\..\..\..\UE5\Engine\Source\Programs\SwitchboardListener\Private\Windows\Resources\Resource.h"/>
+    <ResourceCompile Include="..\..\..\..\UE5\Engine\Source\Programs\SwitchboardListener\Private\Windows\Resources\Resource.rc"/>
+    <None Include="..\..\..\..\UE5\Engine\Source\Programs\SwitchboardListener\Private\Windows\Resources\Resource.rc2"/>
+    <None Include="..\..\..\..\UE5\Engine\Source\Programs\SwitchboardListener\Tests\listener_tests.py"/>
+    <None Include="..\..\..\..\UE5\Engine\Source\Programs\SwitchboardListener\Tests\transfer_test.cfg"/>
   </ItemGroup>
   <ItemDefinitionGroup>
   </ItemDefinitionGroup>

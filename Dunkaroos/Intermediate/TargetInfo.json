@@ -2,12 +2,12 @@
 	"Targets": [
 		{
 			"Name": "Dunkaroos",
-			"Path": "D:\\Repos\\Personal\\Dunkaroos\\Source\\Dunkaroos.Target.cs",
+			"Path": "D:\\Repos\\Personal\\Dunkaroos\\Dunkaroos\\Source\\Dunkaroos.Target.cs",
 			"Type": "Game"
 		},
 		{
 			"Name": "DunkaroosEditor",
-			"Path": "D:\\Repos\\Personal\\Dunkaroos\\Source\\DunkaroosEditor.Target.cs",
+			"Path": "D:\\Repos\\Personal\\Dunkaroos\\Dunkaroos\\Source\\DunkaroosEditor.Target.cs",
 			"Type": "Editor"
 		}
 	]

@@ -117,13 +117,13 @@
     <AdditionalOptions>/std:c++17</AdditionalOptions>
   </PropertyGroup>
   <ItemGroup>
-    <None Include="..\..\..\UE5\Engine\Source\Programs\Windows\BootstrapPackagedGame\BootstrapPackagedGame.Target.cs"/>
-    <None Include="..\..\..\UE5\Engine\Source\Programs\Windows\BootstrapPackagedGame\BootstrapPackagedGame.Build.cs"/>
-    <ClCompile Include="..\..\..\UE5\Engine\Source\Programs\Windows\BootstrapPackagedGame\Private\BootstrapPackagedGame.cpp">
+    <None Include="..\..\..\..\UE5\Engine\Source\Programs\Windows\BootstrapPackagedGame\BootstrapPackagedGame.Target.cs"/>
+    <None Include="..\..\..\..\UE5\Engine\Source\Programs\Windows\BootstrapPackagedGame\BootstrapPackagedGame.Build.cs"/>
+    <ClCompile Include="..\..\..\..\UE5\Engine\Source\Programs\Windows\BootstrapPackagedGame\Private\BootstrapPackagedGame.cpp">
       <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\BootstrapPackagedGame\Development\BootstrapPackagedGame\Definitions.h</ForcedIncludeFiles>
     </ClCompile>
-    <ClInclude Include="..\..\..\UE5\Engine\Source\Programs\Windows\BootstrapPackagedGame\Private\BootstrapPackagedGame.h"/>
+    <ClInclude Include="..\..\..\..\UE5\Engine\Source\Programs\Windows\BootstrapPackagedGame\Private\BootstrapPackagedGame.h"/>
   </ItemGroup>
   <ItemDefinitionGroup>
   </ItemDefinitionGroup>

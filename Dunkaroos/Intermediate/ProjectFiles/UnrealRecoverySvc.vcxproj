@@ -169,10 +169,10 @@
     <AdditionalOptions>/std:c++17</AdditionalOptions>
   </PropertyGroup>
   <ItemGroup>
-    <None Include="..\..\..\UE5\Engine\Source\Programs\UnrealRecoverySvc\UnrealRecoverySvc.Target.cs"/>
-    <None Include="..\..\..\UE5\Engine\Programs\UnrealRecoverySvc\Config\DefaultEngine.ini"/>
-    <None Include="..\..\..\UE5\Engine\Source\Programs\UnrealRecoverySvc\UnrealRecoverySvc.Build.cs"/>
-    <ClCompile Include="..\..\..\UE5\Engine\Source\Programs\UnrealRecoverySvc\Private\UnrealRecoverySvc.cpp">
+    <None Include="..\..\..\..\UE5\Engine\Source\Programs\UnrealRecoverySvc\UnrealRecoverySvc.Target.cs"/>
+    <None Include="..\..\..\..\UE5\Engine\Programs\UnrealRecoverySvc\Config\DefaultEngine.ini"/>
+    <None Include="..\..\..\..\UE5\Engine\Source\Programs\UnrealRecoverySvc\UnrealRecoverySvc.Build.cs"/>
+    <ClCompile Include="..\..\..\..\UE5\Engine\Source\Programs\UnrealRecoverySvc\Private\UnrealRecoverySvc.cpp">
       <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\Repos\Personal\UE5\Engine\Source\ThirdParty\mimalloc\include;</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\UnrealRecoverySvc\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h;D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\UnrealRecoverySvc\Development\UnrealRecoverySvc\Definitions.UnrealRecoverySvc.h</ForcedIncludeFiles>
       <AdditionalOptions>$(AdditionalOptions) /Yu"D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\UnrealRecoverySvc\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h"</AdditionalOptions>

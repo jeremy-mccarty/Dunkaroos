@@ -169,15 +169,15 @@
     <AdditionalOptions>/std:c++17</AdditionalOptions>
   </PropertyGroup>
   <ItemGroup>
-    <None Include="..\..\..\UE5\Engine\Source\Programs\BenchmarkTool\BenchmarkTool.Target.cs"/>
-    <None Include="..\..\..\UE5\Engine\Source\Programs\BenchmarkTool\BenchmarkTool.Build.cs"/>
-    <ClCompile Include="..\..\..\UE5\Engine\Source\Programs\BenchmarkTool\Private\BenchmarkTool.cpp">
+    <None Include="..\..\..\..\UE5\Engine\Source\Programs\BenchmarkTool\BenchmarkTool.Target.cs"/>
+    <None Include="..\..\..\..\UE5\Engine\Source\Programs\BenchmarkTool\BenchmarkTool.Build.cs"/>
+    <ClCompile Include="..\..\..\..\UE5\Engine\Source\Programs\BenchmarkTool\Private\BenchmarkTool.cpp">
       <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\Repos\Personal\UE5\Engine\Source\ThirdParty\mimalloc\include;</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\BenchmarkTool\Development\Core\SharedPCH.Core.ShadowErrors.h;D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\BenchmarkTool\Development\BenchmarkTool\Definitions.BenchmarkTool.h</ForcedIncludeFiles>
       <AdditionalOptions>$(AdditionalOptions) /Yu"D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\BenchmarkTool\Development\Core\SharedPCH.Core.ShadowErrors.h"</AdditionalOptions>
     </ClCompile>
-    <ClInclude Include="..\..\..\UE5\Engine\Source\Programs\BenchmarkTool\Private\BenchmarkTool.h"/>
-    <None Include="..\..\..\UE5\Engine\Source\Programs\BenchmarkTool\Resources\Windows\BenchmarkTool.ico"/>
+    <ClInclude Include="..\..\..\..\UE5\Engine\Source\Programs\BenchmarkTool\Private\BenchmarkTool.h"/>
+    <None Include="..\..\..\..\UE5\Engine\Source\Programs\BenchmarkTool\Resources\Windows\BenchmarkTool.ico"/>
   </ItemGroup>
   <ItemDefinitionGroup>
   </ItemDefinitionGroup>

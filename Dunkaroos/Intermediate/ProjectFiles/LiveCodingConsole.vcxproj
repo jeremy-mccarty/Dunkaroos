@@ -169,33 +169,33 @@
     <AdditionalOptions>/std:c++17</AdditionalOptions>
   </PropertyGroup>
   <ItemGroup>
-    <None Include="..\..\..\UE5\Engine\Source\Programs\LiveCodingConsole\LiveCodingConsole.Target.cs"/>
-    <None Include="..\..\..\UE5\Engine\Programs\LiveCodingConsole\Config\DefaultEngine.ini"/>
-    <None Include="..\..\..\UE5\Engine\Source\Programs\LiveCodingConsole\LiveCodingConsole.Build.cs"/>
-    <ClCompile Include="..\..\..\UE5\Engine\Source\Programs\LiveCodingConsole\Private\LiveCodingConsole.cpp">
+    <None Include="..\..\..\..\UE5\Engine\Source\Programs\LiveCodingConsole\LiveCodingConsole.Target.cs"/>
+    <None Include="..\..\..\..\UE5\Engine\Programs\LiveCodingConsole\Config\DefaultEngine.ini"/>
+    <None Include="..\..\..\..\UE5\Engine\Source\Programs\LiveCodingConsole\LiveCodingConsole.Build.cs"/>
+    <ClCompile Include="..\..\..\..\UE5\Engine\Source\Programs\LiveCodingConsole\Private\LiveCodingConsole.cpp">
       <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\Repos\Personal\UE5\Engine\Source\ThirdParty\mimalloc\include;D:\Repos\Personal\UE5\Engine\Source\ThirdParty\LibTiff\Source\Win64;D:\Repos\Personal\UE5\Engine\Source\ThirdParty\LibTiff\Source;</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\LiveCodingConsole\Development\Slate\SharedPCH.Slate.ShadowErrors.h;D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\LiveCodingConsole\Development\LiveCodingConsole\Definitions.LiveCodingConsole.h</ForcedIncludeFiles>
       <AdditionalOptions>$(AdditionalOptions) /Yu"D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\LiveCodingConsole\Development\Slate\SharedPCH.Slate.ShadowErrors.h"</AdditionalOptions>
     </ClCompile>
-    <ClInclude Include="..\..\..\UE5\Engine\Source\Programs\LiveCodingConsole\Private\LiveCodingConsole.h"/>
-    <ClCompile Include="..\..\..\UE5\Engine\Source\Programs\LiveCodingConsole\Private\LiveCodingConsoleStyle.cpp">
+    <ClInclude Include="..\..\..\..\UE5\Engine\Source\Programs\LiveCodingConsole\Private\LiveCodingConsole.h"/>
+    <ClCompile Include="..\..\..\..\UE5\Engine\Source\Programs\LiveCodingConsole\Private\LiveCodingConsoleStyle.cpp">
       <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\Repos\Personal\UE5\Engine\Source\ThirdParty\mimalloc\include;D:\Repos\Personal\UE5\Engine\Source\ThirdParty\LibTiff\Source\Win64;D:\Repos\Personal\UE5\Engine\Source\ThirdParty\LibTiff\Source;</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\LiveCodingConsole\Development\Slate\SharedPCH.Slate.ShadowErrors.h;D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\LiveCodingConsole\Development\LiveCodingConsole\Definitions.LiveCodingConsole.h</ForcedIncludeFiles>
       <AdditionalOptions>$(AdditionalOptions) /Yu"D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\LiveCodingConsole\Development\Slate\SharedPCH.Slate.ShadowErrors.h"</AdditionalOptions>
     </ClCompile>
-    <ClInclude Include="..\..\..\UE5\Engine\Source\Programs\LiveCodingConsole\Private\LiveCodingConsoleStyle.h"/>
-    <ClCompile Include="..\..\..\UE5\Engine\Source\Programs\LiveCodingConsole\Private\LiveCodingManifest.cpp">
+    <ClInclude Include="..\..\..\..\UE5\Engine\Source\Programs\LiveCodingConsole\Private\LiveCodingConsoleStyle.h"/>
+    <ClCompile Include="..\..\..\..\UE5\Engine\Source\Programs\LiveCodingConsole\Private\LiveCodingManifest.cpp">
       <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\Repos\Personal\UE5\Engine\Source\ThirdParty\mimalloc\include;D:\Repos\Personal\UE5\Engine\Source\ThirdParty\LibTiff\Source\Win64;D:\Repos\Personal\UE5\Engine\Source\ThirdParty\LibTiff\Source;</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\LiveCodingConsole\Development\Slate\SharedPCH.Slate.ShadowErrors.h;D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\LiveCodingConsole\Development\LiveCodingConsole\Definitions.LiveCodingConsole.h</ForcedIncludeFiles>
       <AdditionalOptions>$(AdditionalOptions) /Yu"D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\LiveCodingConsole\Development\Slate\SharedPCH.Slate.ShadowErrors.h"</AdditionalOptions>
     </ClCompile>
-    <ClInclude Include="..\..\..\UE5\Engine\Source\Programs\LiveCodingConsole\Private\LiveCodingManifest.h"/>
-    <ClCompile Include="..\..\..\UE5\Engine\Source\Programs\LiveCodingConsole\Private\SLogWidget.cpp">
+    <ClInclude Include="..\..\..\..\UE5\Engine\Source\Programs\LiveCodingConsole\Private\LiveCodingManifest.h"/>
+    <ClCompile Include="..\..\..\..\UE5\Engine\Source\Programs\LiveCodingConsole\Private\SLogWidget.cpp">
       <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\Repos\Personal\UE5\Engine\Source\ThirdParty\mimalloc\include;D:\Repos\Personal\UE5\Engine\Source\ThirdParty\LibTiff\Source\Win64;D:\Repos\Personal\UE5\Engine\Source\ThirdParty\LibTiff\Source;</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\LiveCodingConsole\Development\Slate\SharedPCH.Slate.ShadowErrors.h;D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\LiveCodingConsole\Development\LiveCodingConsole\Definitions.LiveCodingConsole.h</ForcedIncludeFiles>
       <AdditionalOptions>$(AdditionalOptions) /Yu"D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\LiveCodingConsole\Development\Slate\SharedPCH.Slate.ShadowErrors.h"</AdditionalOptions>
     </ClCompile>
-    <ClInclude Include="..\..\..\UE5\Engine\Source\Programs\LiveCodingConsole\Private\SLogWidget.h"/>
+    <ClInclude Include="..\..\..\..\UE5\Engine\Source\Programs\LiveCodingConsole\Private\SLogWidget.h"/>
   </ItemGroup>
   <ItemDefinitionGroup>
   </ItemDefinitionGroup>

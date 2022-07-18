@@ -354,18 +354,18 @@
     <AdditionalOptions>/std:c++17</AdditionalOptions>
   </PropertyGroup>
   <ItemGroup>
-    <None Include="..\..\..\UE5\Engine\Source\Programs\HeadlessChaosPerf\HeadlessChaosPerf.Target.cs"/>
-    <None Include="..\..\..\UE5\Engine\Source\Programs\HeadlessChaosPerf\HeadlessChaosPerf.Build.cs"/>
-    <ClCompile Include="..\..\..\UE5\Engine\Source\Programs\HeadlessChaosPerf\Private\HeadlessChaosPerfApp.cpp">
+    <None Include="..\..\..\..\UE5\Engine\Source\Programs\HeadlessChaosPerf\HeadlessChaosPerf.Target.cs"/>
+    <None Include="..\..\..\..\UE5\Engine\Source\Programs\HeadlessChaosPerf\HeadlessChaosPerf.Build.cs"/>
+    <ClCompile Include="..\..\..\..\UE5\Engine\Source\Programs\HeadlessChaosPerf\Private\HeadlessChaosPerfApp.cpp">
       <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\Repos\Personal\UE5\Engine\Source\ThirdParty\mimalloc\include;D:\Repos\Personal\UE5\Engine\Source\ThirdParty\GoogleTest\include;</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\HeadlessChaosPerf\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h;D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\HeadlessChaosPerf\Development\HeadlessChaosPerf\Definitions.HeadlessChaosPerf.h</ForcedIncludeFiles>
       <AdditionalOptions>$(AdditionalOptions) /Yu"D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\HeadlessChaosPerf\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h"</AdditionalOptions>
     </ClCompile>
-    <ClInclude Include="..\..\..\UE5\Engine\Source\Programs\HeadlessChaosPerf\Private\ChaosPerf\ChaosPerf.h"/>
-    <ClInclude Include="..\..\..\UE5\Engine\Source\Programs\HeadlessChaosPerf\Private\ChaosPerf\ChaosPerfLog.h"/>
-    <ClInclude Include="..\..\..\UE5\Engine\Source\Programs\HeadlessChaosPerf\Private\ChaosPerf\ChaosPerfProfiling.h"/>
-    <ClInclude Include="..\..\..\UE5\Engine\Source\Programs\HeadlessChaosPerf\Private\ChaosPerf\ChaosPerfTest.h"/>
-    <ClCompile Include="..\..\..\UE5\Engine\Source\Programs\HeadlessChaosPerf\Private\ChaosPerf\PerfTests\ChaosPerfProfilerTests.cpp">
+    <ClInclude Include="..\..\..\..\UE5\Engine\Source\Programs\HeadlessChaosPerf\Private\ChaosPerf\ChaosPerf.h"/>
+    <ClInclude Include="..\..\..\..\UE5\Engine\Source\Programs\HeadlessChaosPerf\Private\ChaosPerf\ChaosPerfLog.h"/>
+    <ClInclude Include="..\..\..\..\UE5\Engine\Source\Programs\HeadlessChaosPerf\Private\ChaosPerf\ChaosPerfProfiling.h"/>
+    <ClInclude Include="..\..\..\..\UE5\Engine\Source\Programs\HeadlessChaosPerf\Private\ChaosPerf\ChaosPerfTest.h"/>
+    <ClCompile Include="..\..\..\..\UE5\Engine\Source\Programs\HeadlessChaosPerf\Private\ChaosPerf\PerfTests\ChaosPerfProfilerTests.cpp">
       <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\Repos\Personal\UE5\Engine\Source\ThirdParty\mimalloc\include;D:\Repos\Personal\UE5\Engine\Source\ThirdParty\GoogleTest\include;</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\HeadlessChaosPerf\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h;D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\HeadlessChaosPerf\Development\HeadlessChaosPerf\Definitions.HeadlessChaosPerf.h</ForcedIncludeFiles>
       <AdditionalOptions>$(AdditionalOptions) /Yu"D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\HeadlessChaosPerf\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h"</AdditionalOptions>

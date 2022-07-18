@@ -354,15 +354,15 @@
     <AdditionalOptions>/std:c++17</AdditionalOptions>
   </PropertyGroup>
   <ItemGroup>
-    <None Include="..\..\..\UE5\Engine\Source\Programs\LowLevelTests\LowLevelTests.Target.cs"/>
-    <None Include="..\..\..\UE5\Engine\Source\Programs\LowLevelTests\LowLevelTests.Build.cs"/>
-    <None Include="..\..\..\UE5\Engine\Source\Programs\LowLevelTests\README.md"/>
-    <None Include="..\..\..\UE5\Engine\Source\Programs\LowLevelTests\vstest.runsettings"/>
-    <ClCompile Include="..\..\..\UE5\Engine\Source\Programs\LowLevelTests\Private\main.cpp">
+    <None Include="..\..\..\..\UE5\Engine\Source\Programs\LowLevelTests\LowLevelTests.Target.cs"/>
+    <None Include="..\..\..\..\UE5\Engine\Source\Programs\LowLevelTests\LowLevelTests.Build.cs"/>
+    <None Include="..\..\..\..\UE5\Engine\Source\Programs\LowLevelTests\README.md"/>
+    <None Include="..\..\..\..\UE5\Engine\Source\Programs\LowLevelTests\vstest.runsettings"/>
+    <ClCompile Include="..\..\..\..\UE5\Engine\Source\Programs\LowLevelTests\Private\main.cpp">
       <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\Repos\Personal\UE5\Engine\Source\ThirdParty\mimalloc\include;</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\LowLevelTests\Development\LowLevelTests\Definitions.h</ForcedIncludeFiles>
     </ClCompile>
-    <ClCompile Include="..\..\..\UE5\Engine\Source\Programs\LowLevelTests\Private\SampleTest.cpp">
+    <ClCompile Include="..\..\..\..\UE5\Engine\Source\Programs\LowLevelTests\Private\SampleTest.cpp">
       <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\Repos\Personal\UE5\Engine\Source\ThirdParty\mimalloc\include;</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\LowLevelTests\Development\LowLevelTests\Definitions.h</ForcedIncludeFiles>
     </ClCompile>

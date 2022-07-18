@@ -169,52 +169,52 @@
     <AdditionalOptions>/std:c++17</AdditionalOptions>
   </PropertyGroup>
   <ItemGroup>
-    <None Include="..\..\..\UE5\Engine\Source\Programs\UnrealVersionSelector\UnrealVersionSelector.Target.cs"/>
-    <None Include="..\..\..\UE5\Engine\Source\Programs\UnrealVersionSelector\UnrealVersionSelector.Build.cs"/>
-    <ClCompile Include="..\..\..\UE5\Engine\Source\Programs\UnrealVersionSelector\Private\PlatformInstallation.cpp">
+    <None Include="..\..\..\..\UE5\Engine\Source\Programs\UnrealVersionSelector\UnrealVersionSelector.Target.cs"/>
+    <None Include="..\..\..\..\UE5\Engine\Source\Programs\UnrealVersionSelector\UnrealVersionSelector.Build.cs"/>
+    <ClCompile Include="..\..\..\..\UE5\Engine\Source\Programs\UnrealVersionSelector\Private\PlatformInstallation.cpp">
       <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\Repos\Personal\UE5\Engine\Source\ThirdParty\mimalloc\include;</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\UnrealVersionSelector\Development\Core\SharedPCH.Core.ShadowErrors.h;D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\UnrealVersionSelector\Development\UnrealVersionSelector\Definitions.UnrealVersionSelector.h</ForcedIncludeFiles>
       <AdditionalOptions>$(AdditionalOptions) /Yu"D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\UnrealVersionSelector\Development\Core\SharedPCH.Core.ShadowErrors.h"</AdditionalOptions>
     </ClCompile>
-    <ClInclude Include="..\..\..\UE5\Engine\Source\Programs\UnrealVersionSelector\Private\PlatformInstallation.h"/>
-    <ClCompile Include="..\..\..\UE5\Engine\Source\Programs\UnrealVersionSelector\Private\UnrealVersionSelector.cpp">
+    <ClInclude Include="..\..\..\..\UE5\Engine\Source\Programs\UnrealVersionSelector\Private\PlatformInstallation.h"/>
+    <ClCompile Include="..\..\..\..\UE5\Engine\Source\Programs\UnrealVersionSelector\Private\UnrealVersionSelector.cpp">
       <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\Repos\Personal\UE5\Engine\Source\ThirdParty\mimalloc\include;</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\UnrealVersionSelector\Development\Core\SharedPCH.Core.ShadowErrors.h;D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\UnrealVersionSelector\Development\UnrealVersionSelector\Definitions.UnrealVersionSelector.h</ForcedIncludeFiles>
       <AdditionalOptions>$(AdditionalOptions) /Yu"D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\UnrealVersionSelector\Development\Core\SharedPCH.Core.ShadowErrors.h"</AdditionalOptions>
     </ClCompile>
-    <ClInclude Include="..\..\..\UE5\Engine\Source\Programs\UnrealVersionSelector\Private\UnrealVersionSelector.h"/>
-    <ClCompile Include="..\..\..\UE5\Engine\Source\Programs\UnrealVersionSelector\Private\GenericPlatform\GenericPlatformInstallation.cpp">
+    <ClInclude Include="..\..\..\..\UE5\Engine\Source\Programs\UnrealVersionSelector\Private\UnrealVersionSelector.h"/>
+    <ClCompile Include="..\..\..\..\UE5\Engine\Source\Programs\UnrealVersionSelector\Private\GenericPlatform\GenericPlatformInstallation.cpp">
       <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\Repos\Personal\UE5\Engine\Source\ThirdParty\mimalloc\include;</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\UnrealVersionSelector\Development\Core\SharedPCH.Core.ShadowErrors.h;D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\UnrealVersionSelector\Development\UnrealVersionSelector\Definitions.UnrealVersionSelector.h</ForcedIncludeFiles>
       <AdditionalOptions>$(AdditionalOptions) /Yu"D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\UnrealVersionSelector\Development\Core\SharedPCH.Core.ShadowErrors.h"</AdditionalOptions>
     </ClCompile>
-    <ClInclude Include="..\..\..\UE5\Engine\Source\Programs\UnrealVersionSelector\Private\GenericPlatform\GenericPlatformInstallation.h"/>
-    <ClCompile Include="..\..\..\UE5\Engine\Source\Programs\UnrealVersionSelector\Private\Linux\LinuxPlatformInstallation.cpp">
+    <ClInclude Include="..\..\..\..\UE5\Engine\Source\Programs\UnrealVersionSelector\Private\GenericPlatform\GenericPlatformInstallation.h"/>
+    <ClCompile Include="..\..\..\..\UE5\Engine\Source\Programs\UnrealVersionSelector\Private\Linux\LinuxPlatformInstallation.cpp">
       <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\Repos\Personal\UE5\Engine\Source\ThirdParty\mimalloc\include;</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\UnrealVersionSelector\Development\Core\SharedPCH.Core.ShadowErrors.h;D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\UnrealVersionSelector\Development\UnrealVersionSelector\Definitions.UnrealVersionSelector.h</ForcedIncludeFiles>
       <AdditionalOptions>$(AdditionalOptions) /Yu"D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\UnrealVersionSelector\Development\Core\SharedPCH.Core.ShadowErrors.h"</AdditionalOptions>
     </ClCompile>
-    <ClInclude Include="..\..\..\UE5\Engine\Source\Programs\UnrealVersionSelector\Private\Linux\LinuxPlatformInstallation.h"/>
-    <ClCompile Include="..\..\..\UE5\Engine\Source\Programs\UnrealVersionSelector\Private\Linux\UnrealVersionSelectorLinuxMain.cpp">
+    <ClInclude Include="..\..\..\..\UE5\Engine\Source\Programs\UnrealVersionSelector\Private\Linux\LinuxPlatformInstallation.h"/>
+    <ClCompile Include="..\..\..\..\UE5\Engine\Source\Programs\UnrealVersionSelector\Private\Linux\UnrealVersionSelectorLinuxMain.cpp">
       <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\Repos\Personal\UE5\Engine\Source\ThirdParty\mimalloc\include;</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\UnrealVersionSelector\Development\Core\SharedPCH.Core.ShadowErrors.h;D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\UnrealVersionSelector\Development\UnrealVersionSelector\Definitions.UnrealVersionSelector.h</ForcedIncludeFiles>
       <AdditionalOptions>$(AdditionalOptions) /Yu"D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\UnrealVersionSelector\Development\Core\SharedPCH.Core.ShadowErrors.h"</AdditionalOptions>
     </ClCompile>
-    <None Include="..\..\..\UE5\Engine\Source\Programs\UnrealVersionSelector\Private\Linux\Resources\com.epicgames.UnrealEngine.desktop"/>
-    <None Include="..\..\..\UE5\Engine\Source\Programs\UnrealVersionSelector\Private\Linux\Resources\com.epicgames.UnrealEngineEditor.desktop"/>
-    <None Include="..\..\..\UE5\Engine\Source\Programs\UnrealVersionSelector\Private\Linux\Resources\com.epicgames.UnrealVersionSelector.desktop"/>
-    <None Include="..\..\..\UE5\Engine\Source\Programs\UnrealVersionSelector\Private\Linux\Resources\Icon.png"/>
-    <None Include="..\..\..\UE5\Engine\Source\Programs\UnrealVersionSelector\Private\Linux\Resources\uproject.xml"/>
-    <ClCompile Include="..\..\..\UE5\Engine\Source\Programs\UnrealVersionSelector\Private\Windows\WindowsPlatformInstallation.cpp">
+    <None Include="..\..\..\..\UE5\Engine\Source\Programs\UnrealVersionSelector\Private\Linux\Resources\com.epicgames.UnrealEngine.desktop"/>
+    <None Include="..\..\..\..\UE5\Engine\Source\Programs\UnrealVersionSelector\Private\Linux\Resources\com.epicgames.UnrealEngineEditor.desktop"/>
+    <None Include="..\..\..\..\UE5\Engine\Source\Programs\UnrealVersionSelector\Private\Linux\Resources\com.epicgames.UnrealVersionSelector.desktop"/>
+    <None Include="..\..\..\..\UE5\Engine\Source\Programs\UnrealVersionSelector\Private\Linux\Resources\Icon.png"/>
+    <None Include="..\..\..\..\UE5\Engine\Source\Programs\UnrealVersionSelector\Private\Linux\Resources\uproject.xml"/>
+    <ClCompile Include="..\..\..\..\UE5\Engine\Source\Programs\UnrealVersionSelector\Private\Windows\WindowsPlatformInstallation.cpp">
       <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\Repos\Personal\UE5\Engine\Source\ThirdParty\mimalloc\include;</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\UnrealVersionSelector\Development\Core\SharedPCH.Core.ShadowErrors.h;D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\UnrealVersionSelector\Development\UnrealVersionSelector\Definitions.UnrealVersionSelector.h</ForcedIncludeFiles>
       <AdditionalOptions>$(AdditionalOptions) /Yu"D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\UnrealVersionSelector\Development\Core\SharedPCH.Core.ShadowErrors.h"</AdditionalOptions>
     </ClCompile>
-    <ClInclude Include="..\..\..\UE5\Engine\Source\Programs\UnrealVersionSelector\Private\Windows\WindowsPlatformInstallation.h"/>
-    <None Include="..\..\..\UE5\Engine\Source\Programs\UnrealVersionSelector\Private\Windows\Resources\Icon.ico"/>
-    <ClInclude Include="..\..\..\UE5\Engine\Source\Programs\UnrealVersionSelector\Private\Windows\Resources\Resource.h"/>
-    <ResourceCompile Include="..\..\..\UE5\Engine\Source\Programs\UnrealVersionSelector\Private\Windows\Resources\Resource.rc"/>
-    <None Include="..\..\..\UE5\Engine\Source\Programs\UnrealVersionSelector\Private\Windows\Resources\Resource.rc2"/>
+    <ClInclude Include="..\..\..\..\UE5\Engine\Source\Programs\UnrealVersionSelector\Private\Windows\WindowsPlatformInstallation.h"/>
+    <None Include="..\..\..\..\UE5\Engine\Source\Programs\UnrealVersionSelector\Private\Windows\Resources\Icon.ico"/>
+    <ClInclude Include="..\..\..\..\UE5\Engine\Source\Programs\UnrealVersionSelector\Private\Windows\Resources\Resource.h"/>
+    <ResourceCompile Include="..\..\..\..\UE5\Engine\Source\Programs\UnrealVersionSelector\Private\Windows\Resources\Resource.rc"/>
+    <None Include="..\..\..\..\UE5\Engine\Source\Programs\UnrealVersionSelector\Private\Windows\Resources\Resource.rc2"/>
   </ItemGroup>
   <ItemDefinitionGroup>
   </ItemDefinitionGroup>

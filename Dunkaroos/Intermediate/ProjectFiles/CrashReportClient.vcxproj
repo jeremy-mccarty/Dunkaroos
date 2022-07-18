@@ -117,69 +117,69 @@
     <AdditionalOptions>/std:c++17</AdditionalOptions>
   </PropertyGroup>
   <ItemGroup>
-    <None Include="..\..\..\UE5\Engine\Source\Programs\CrashReportClient\CrashReportClient.Target.cs"/>
-    <None Include="..\..\..\UE5\Engine\Programs\CrashReportClient\Config\DefaultEngine.ini"/>
-    <None Include="..\..\..\UE5\Engine\Source\Programs\CrashReportClient\CrashReportClient.Build.cs"/>
-    <None Include="..\..\..\UE5\Engine\Source\Programs\CrashReportClient\CrashReportClientEditor.Build.cs"/>
-    <ClCompile Include="..\..\..\UE5\Engine\Source\Programs\CrashReportClient\Private\CrashReportAnalyticsSessionSummary.cpp">
+    <None Include="..\..\..\..\UE5\Engine\Source\Programs\CrashReportClient\CrashReportClient.Target.cs"/>
+    <None Include="..\..\..\..\UE5\Engine\Programs\CrashReportClient\Config\DefaultEngine.ini"/>
+    <None Include="..\..\..\..\UE5\Engine\Source\Programs\CrashReportClient\CrashReportClient.Build.cs"/>
+    <None Include="..\..\..\..\UE5\Engine\Source\Programs\CrashReportClient\CrashReportClientEditor.Build.cs"/>
+    <ClCompile Include="..\..\..\..\UE5\Engine\Source\Programs\CrashReportClient\Private\CrashReportAnalyticsSessionSummary.cpp">
       <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\Repos\Personal\UE5\Engine\Source\ThirdParty\mimalloc\include;D:\Repos\Personal\UE5\Engine\Source\ThirdParty\LibTiff\Source\Win64;D:\Repos\Personal\UE5\Engine\Source\ThirdParty\LibTiff\Source;</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\CrashReportClient\Development\Slate\SharedPCH.Slate.ShadowErrors.h;D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\CrashReportClient\Development\CrashReportClient\Definitions.CrashReportClient.h</ForcedIncludeFiles>
       <AdditionalOptions>$(AdditionalOptions) /Yu"D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\CrashReportClient\Development\Slate\SharedPCH.Slate.ShadowErrors.h"</AdditionalOptions>
     </ClCompile>
-    <ClInclude Include="..\..\..\UE5\Engine\Source\Programs\CrashReportClient\Private\CrashReportAnalyticsSessionSummary.h"/>
-    <ClCompile Include="..\..\..\UE5\Engine\Source\Programs\CrashReportClient\Private\CrashReportClient.cpp">
+    <ClInclude Include="..\..\..\..\UE5\Engine\Source\Programs\CrashReportClient\Private\CrashReportAnalyticsSessionSummary.h"/>
+    <ClCompile Include="..\..\..\..\UE5\Engine\Source\Programs\CrashReportClient\Private\CrashReportClient.cpp">
       <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\Repos\Personal\UE5\Engine\Source\ThirdParty\mimalloc\include;D:\Repos\Personal\UE5\Engine\Source\ThirdParty\LibTiff\Source\Win64;D:\Repos\Personal\UE5\Engine\Source\ThirdParty\LibTiff\Source;</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\CrashReportClient\Development\Slate\SharedPCH.Slate.ShadowErrors.h;D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\CrashReportClient\Development\CrashReportClient\Definitions.CrashReportClient.h</ForcedIncludeFiles>
       <AdditionalOptions>$(AdditionalOptions) /Yu"D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\CrashReportClient\Development\Slate\SharedPCH.Slate.ShadowErrors.h"</AdditionalOptions>
     </ClCompile>
-    <ClInclude Include="..\..\..\UE5\Engine\Source\Programs\CrashReportClient\Private\CrashReportClient.h"/>
-    <ClCompile Include="..\..\..\UE5\Engine\Source\Programs\CrashReportClient\Private\CrashReportClientApp.cpp">
+    <ClInclude Include="..\..\..\..\UE5\Engine\Source\Programs\CrashReportClient\Private\CrashReportClient.h"/>
+    <ClCompile Include="..\..\..\..\UE5\Engine\Source\Programs\CrashReportClient\Private\CrashReportClientApp.cpp">
       <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\Repos\Personal\UE5\Engine\Source\ThirdParty\mimalloc\include;D:\Repos\Personal\UE5\Engine\Source\ThirdParty\LibTiff\Source\Win64;D:\Repos\Personal\UE5\Engine\Source\ThirdParty\LibTiff\Source;</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\CrashReportClient\Development\Slate\SharedPCH.Slate.ShadowErrors.h;D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\CrashReportClient\Development\CrashReportClient\Definitions.CrashReportClient.h</ForcedIncludeFiles>
       <AdditionalOptions>$(AdditionalOptions) /Yu"D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\CrashReportClient\Development\Slate\SharedPCH.Slate.ShadowErrors.h"</AdditionalOptions>
     </ClCompile>
-    <ClInclude Include="..\..\..\UE5\Engine\Source\Programs\CrashReportClient\Private\CrashReportClientDefines.h"/>
-    <ClCompile Include="..\..\..\UE5\Engine\Source\Programs\CrashReportClient\Private\CrashReportClientStyle.cpp">
+    <ClInclude Include="..\..\..\..\UE5\Engine\Source\Programs\CrashReportClient\Private\CrashReportClientDefines.h"/>
+    <ClCompile Include="..\..\..\..\UE5\Engine\Source\Programs\CrashReportClient\Private\CrashReportClientStyle.cpp">
       <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\Repos\Personal\UE5\Engine\Source\ThirdParty\mimalloc\include;D:\Repos\Personal\UE5\Engine\Source\ThirdParty\LibTiff\Source\Win64;D:\Repos\Personal\UE5\Engine\Source\ThirdParty\LibTiff\Source;</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\CrashReportClient\Development\Slate\SharedPCH.Slate.ShadowErrors.h;D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\CrashReportClient\Development\CrashReportClient\Definitions.CrashReportClient.h</ForcedIncludeFiles>
       <AdditionalOptions>$(AdditionalOptions) /Yu"D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\CrashReportClient\Development\Slate\SharedPCH.Slate.ShadowErrors.h"</AdditionalOptions>
     </ClCompile>
-    <ClInclude Include="..\..\..\UE5\Engine\Source\Programs\CrashReportClient\Private\CrashReportClientStyle.h"/>
-    <ClCompile Include="..\..\..\UE5\Engine\Source\Programs\CrashReportClient\Private\MainLoopTiming.cpp">
+    <ClInclude Include="..\..\..\..\UE5\Engine\Source\Programs\CrashReportClient\Private\CrashReportClientStyle.h"/>
+    <ClCompile Include="..\..\..\..\UE5\Engine\Source\Programs\CrashReportClient\Private\MainLoopTiming.cpp">
       <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\Repos\Personal\UE5\Engine\Source\ThirdParty\mimalloc\include;D:\Repos\Personal\UE5\Engine\Source\ThirdParty\LibTiff\Source\Win64;D:\Repos\Personal\UE5\Engine\Source\ThirdParty\LibTiff\Source;</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\CrashReportClient\Development\Slate\SharedPCH.Slate.ShadowErrors.h;D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\CrashReportClient\Development\CrashReportClient\Definitions.CrashReportClient.h</ForcedIncludeFiles>
       <AdditionalOptions>$(AdditionalOptions) /Yu"D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\CrashReportClient\Development\Slate\SharedPCH.Slate.ShadowErrors.h"</AdditionalOptions>
     </ClCompile>
-    <ClInclude Include="..\..\..\UE5\Engine\Source\Programs\CrashReportClient\Private\MainLoopTiming.h"/>
-    <ClCompile Include="..\..\..\UE5\Engine\Source\Programs\CrashReportClient\Private\RecoveryService.cpp">
+    <ClInclude Include="..\..\..\..\UE5\Engine\Source\Programs\CrashReportClient\Private\MainLoopTiming.h"/>
+    <ClCompile Include="..\..\..\..\UE5\Engine\Source\Programs\CrashReportClient\Private\RecoveryService.cpp">
       <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\Repos\Personal\UE5\Engine\Source\ThirdParty\mimalloc\include;D:\Repos\Personal\UE5\Engine\Source\ThirdParty\LibTiff\Source\Win64;D:\Repos\Personal\UE5\Engine\Source\ThirdParty\LibTiff\Source;</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\CrashReportClient\Development\Slate\SharedPCH.Slate.ShadowErrors.h;D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\CrashReportClient\Development\CrashReportClient\Definitions.CrashReportClient.h</ForcedIncludeFiles>
       <AdditionalOptions>$(AdditionalOptions) /Yu"D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\CrashReportClient\Development\Slate\SharedPCH.Slate.ShadowErrors.h"</AdditionalOptions>
     </ClCompile>
-    <ClInclude Include="..\..\..\UE5\Engine\Source\Programs\CrashReportClient\Private\RecoveryService.h"/>
-    <ClCompile Include="..\..\..\UE5\Engine\Source\Programs\CrashReportClient\Private\SCrashReportClient.cpp">
+    <ClInclude Include="..\..\..\..\UE5\Engine\Source\Programs\CrashReportClient\Private\RecoveryService.h"/>
+    <ClCompile Include="..\..\..\..\UE5\Engine\Source\Programs\CrashReportClient\Private\SCrashReportClient.cpp">
       <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\Repos\Personal\UE5\Engine\Source\ThirdParty\mimalloc\include;D:\Repos\Personal\UE5\Engine\Source\ThirdParty\LibTiff\Source\Win64;D:\Repos\Personal\UE5\Engine\Source\ThirdParty\LibTiff\Source;</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\CrashReportClient\Development\Slate\SharedPCH.Slate.ShadowErrors.h;D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\CrashReportClient\Development\CrashReportClient\Definitions.CrashReportClient.h</ForcedIncludeFiles>
       <AdditionalOptions>$(AdditionalOptions) /Yu"D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\CrashReportClient\Development\Slate\SharedPCH.Slate.ShadowErrors.h"</AdditionalOptions>
     </ClCompile>
-    <ClInclude Include="..\..\..\UE5\Engine\Source\Programs\CrashReportClient\Private\SCrashReportClient.h"/>
-    <ClCompile Include="..\..\..\UE5\Engine\Source\Programs\CrashReportClient\Private\Linux\CrashReportClientMainLinux.cpp">
+    <ClInclude Include="..\..\..\..\UE5\Engine\Source\Programs\CrashReportClient\Private\SCrashReportClient.h"/>
+    <ClCompile Include="..\..\..\..\UE5\Engine\Source\Programs\CrashReportClient\Private\Linux\CrashReportClientMainLinux.cpp">
       <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\Repos\Personal\UE5\Engine\Source\ThirdParty\mimalloc\include;D:\Repos\Personal\UE5\Engine\Source\ThirdParty\LibTiff\Source\Win64;D:\Repos\Personal\UE5\Engine\Source\ThirdParty\LibTiff\Source;</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\CrashReportClient\Development\Slate\SharedPCH.Slate.ShadowErrors.h;D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\CrashReportClient\Development\CrashReportClient\Definitions.CrashReportClient.h</ForcedIncludeFiles>
       <AdditionalOptions>$(AdditionalOptions) /Yu"D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\CrashReportClient\Development\Slate\SharedPCH.Slate.ShadowErrors.h"</AdditionalOptions>
     </ClCompile>
-    <ClCompile Include="..\..\..\UE5\Engine\Source\Programs\CrashReportClient\Private\Mac\CrashReportClientMainMac.cpp">
+    <ClCompile Include="..\..\..\..\UE5\Engine\Source\Programs\CrashReportClient\Private\Mac\CrashReportClientMainMac.cpp">
       <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\Repos\Personal\UE5\Engine\Source\ThirdParty\mimalloc\include;D:\Repos\Personal\UE5\Engine\Source\ThirdParty\LibTiff\Source\Win64;D:\Repos\Personal\UE5\Engine\Source\ThirdParty\LibTiff\Source;</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\CrashReportClient\Development\Slate\SharedPCH.Slate.ShadowErrors.h;D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\CrashReportClient\Development\CrashReportClient\Definitions.CrashReportClient.h</ForcedIncludeFiles>
       <AdditionalOptions>$(AdditionalOptions) /Yu"D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\CrashReportClient\Development\Slate\SharedPCH.Slate.ShadowErrors.h"</AdditionalOptions>
     </ClCompile>
-    <ClCompile Include="..\..\..\UE5\Engine\Source\Programs\CrashReportClient\Private\Windows\CrashReportClientMainWindows.cpp">
+    <ClCompile Include="..\..\..\..\UE5\Engine\Source\Programs\CrashReportClient\Private\Windows\CrashReportClientMainWindows.cpp">
       <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\Repos\Personal\UE5\Engine\Source\ThirdParty\mimalloc\include;D:\Repos\Personal\UE5\Engine\Source\ThirdParty\LibTiff\Source\Win64;D:\Repos\Personal\UE5\Engine\Source\ThirdParty\LibTiff\Source;</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\CrashReportClient\Development\Slate\SharedPCH.Slate.ShadowErrors.h;D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\CrashReportClient\Development\CrashReportClient\Definitions.CrashReportClient.h</ForcedIncludeFiles>
       <AdditionalOptions>$(AdditionalOptions) /Yu"D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\CrashReportClient\Development\Slate\SharedPCH.Slate.ShadowErrors.h"</AdditionalOptions>
     </ClCompile>
-    <ClInclude Include="..\..\..\UE5\Engine\Source\Programs\CrashReportClient\Public\CrashReportClientApp.h"/>
-    <None Include="..\..\..\UE5\Engine\Source\Programs\CrashReportClient\Resources\Mac\Info.plist"/>
+    <ClInclude Include="..\..\..\..\UE5\Engine\Source\Programs\CrashReportClient\Public\CrashReportClientApp.h"/>
+    <None Include="..\..\..\..\UE5\Engine\Source\Programs\CrashReportClient\Resources\Mac\Info.plist"/>
   </ItemGroup>
   <ItemDefinitionGroup>
   </ItemDefinitionGroup>

@@ -117,7 +117,7 @@
     <AdditionalOptions>/std:c++17</AdditionalOptions>
   </PropertyGroup>
   <ItemGroup>
-    <None Include="..\..\..\UE5\Engine\Source\Programs\CrashReportClient\CrashReportClientEditor.Target.cs"/>
+    <None Include="..\..\..\..\UE5\Engine\Source\Programs\CrashReportClient\CrashReportClientEditor.Target.cs"/>
   </ItemGroup>
   <ItemDefinitionGroup>
   </ItemDefinitionGroup>

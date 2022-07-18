@@ -169,26 +169,26 @@
     <AdditionalOptions>/std:c++17</AdditionalOptions>
   </PropertyGroup>
   <ItemGroup>
-    <None Include="..\..\..\UE5\Engine\Source\Programs\ZenDashboard\ZenDashboard.Target.cs"/>
-    <None Include="..\..\..\UE5\Engine\Source\Programs\ZenDashboard\ZenDashboard.Build.cs"/>
-    <ClCompile Include="..\..\..\UE5\Engine\Source\Programs\ZenDashboard\Private\SZenCacheStatistics.cpp">
+    <None Include="..\..\..\..\UE5\Engine\Source\Programs\ZenDashboard\ZenDashboard.Target.cs"/>
+    <None Include="..\..\..\..\UE5\Engine\Source\Programs\ZenDashboard\ZenDashboard.Build.cs"/>
+    <ClCompile Include="..\..\..\..\UE5\Engine\Source\Programs\ZenDashboard\Private\SZenCacheStatistics.cpp">
       <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\Repos\Personal\UE5\Engine\Source\ThirdParty\mimalloc\include;D:\Repos\Personal\UE5\Engine\Source\ThirdParty\LibTiff\Source\Win64;D:\Repos\Personal\UE5\Engine\Source\ThirdParty\LibTiff\Source;</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\ZenDashboard\Development\Slate\SharedPCH.Slate.ShadowErrors.h;D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\ZenDashboard\Development\ZenDashboard\Definitions.ZenDashboard.h</ForcedIncludeFiles>
       <AdditionalOptions>$(AdditionalOptions) /Yu"D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\ZenDashboard\Development\Slate\SharedPCH.Slate.ShadowErrors.h"</AdditionalOptions>
     </ClCompile>
-    <ClInclude Include="..\..\..\UE5\Engine\Source\Programs\ZenDashboard\Private\SZenCacheStatistics.h"/>
-    <ClCompile Include="..\..\..\UE5\Engine\Source\Programs\ZenDashboard\Private\ZenDashboard.cpp">
+    <ClInclude Include="..\..\..\..\UE5\Engine\Source\Programs\ZenDashboard\Private\SZenCacheStatistics.h"/>
+    <ClCompile Include="..\..\..\..\UE5\Engine\Source\Programs\ZenDashboard\Private\ZenDashboard.cpp">
       <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\Repos\Personal\UE5\Engine\Source\ThirdParty\mimalloc\include;D:\Repos\Personal\UE5\Engine\Source\ThirdParty\LibTiff\Source\Win64;D:\Repos\Personal\UE5\Engine\Source\ThirdParty\LibTiff\Source;</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\ZenDashboard\Development\Slate\SharedPCH.Slate.ShadowErrors.h;D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\ZenDashboard\Development\ZenDashboard\Definitions.ZenDashboard.h</ForcedIncludeFiles>
       <AdditionalOptions>$(AdditionalOptions) /Yu"D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\ZenDashboard\Development\Slate\SharedPCH.Slate.ShadowErrors.h"</AdditionalOptions>
     </ClCompile>
-    <ClInclude Include="..\..\..\UE5\Engine\Source\Programs\ZenDashboard\Private\ZenDashboard.h"/>
-    <ClCompile Include="..\..\..\UE5\Engine\Source\Programs\ZenDashboard\Private\ZenDashboardStyle.cpp">
+    <ClInclude Include="..\..\..\..\UE5\Engine\Source\Programs\ZenDashboard\Private\ZenDashboard.h"/>
+    <ClCompile Include="..\..\..\..\UE5\Engine\Source\Programs\ZenDashboard\Private\ZenDashboardStyle.cpp">
       <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\Repos\Personal\UE5\Engine\Source\ThirdParty\mimalloc\include;D:\Repos\Personal\UE5\Engine\Source\ThirdParty\LibTiff\Source\Win64;D:\Repos\Personal\UE5\Engine\Source\ThirdParty\LibTiff\Source;</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\ZenDashboard\Development\Slate\SharedPCH.Slate.ShadowErrors.h;D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\ZenDashboard\Development\ZenDashboard\Definitions.ZenDashboard.h</ForcedIncludeFiles>
       <AdditionalOptions>$(AdditionalOptions) /Yu"D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\ZenDashboard\Development\Slate\SharedPCH.Slate.ShadowErrors.h"</AdditionalOptions>
     </ClCompile>
-    <ClInclude Include="..\..\..\UE5\Engine\Source\Programs\ZenDashboard\Private\ZenDashboardStyle.h"/>
+    <ClInclude Include="..\..\..\..\UE5\Engine\Source\Programs\ZenDashboard\Private\ZenDashboardStyle.h"/>
   </ItemGroup>
   <ItemDefinitionGroup>
   </ItemDefinitionGroup>

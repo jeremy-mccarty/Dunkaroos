@@ -169,37 +169,37 @@
     <AdditionalOptions>/std:c++17</AdditionalOptions>
   </PropertyGroup>
   <ItemGroup>
-    <None Include="..\..\..\UE5\Engine\Source\Programs\ChaosVisualDebugger\ChaosVisualDebugger.Target.cs"/>
-    <None Include="..\..\..\UE5\Engine\Source\Programs\ChaosVisualDebugger\ChaosVisualDebugger.Build.cs"/>
-    <ClCompile Include="..\..\..\UE5\Engine\Source\Programs\ChaosVisualDebugger\Private\ChaosVisualDebuggerMain.cpp">
+    <None Include="..\..\..\..\UE5\Engine\Source\Programs\ChaosVisualDebugger\ChaosVisualDebugger.Target.cs"/>
+    <None Include="..\..\..\..\UE5\Engine\Source\Programs\ChaosVisualDebugger\ChaosVisualDebugger.Build.cs"/>
+    <ClCompile Include="..\..\..\..\UE5\Engine\Source\Programs\ChaosVisualDebugger\Private\ChaosVisualDebuggerMain.cpp">
       <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\Repos\Personal\UE5\Engine\Source\ThirdParty\mimalloc\include;D:\Repos\Personal\UE5\Engine\Source\ThirdParty\LibTiff\Source\Win64;D:\Repos\Personal\UE5\Engine\Source\ThirdParty\LibTiff\Source;D:\Repos\Personal\UE5\Engine\Source\Runtime\SymsLib;D:\Repos\Personal\UE5\Engine\Source\Runtime\SymsLib\syms;</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\ChaosVisualDebugger\Development\Slate\SharedPCH.Slate.ShadowErrors.h;D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\ChaosVisualDebugger\Development\ChaosVisualDebugger\Definitions.ChaosVisualDebugger.h</ForcedIncludeFiles>
       <AdditionalOptions>$(AdditionalOptions) /Yu"D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\ChaosVisualDebugger\Development\Slate\SharedPCH.Slate.ShadowErrors.h"</AdditionalOptions>
     </ClCompile>
-    <ClInclude Include="..\..\..\UE5\Engine\Source\Programs\ChaosVisualDebugger\Private\ChaosVisualDebuggerMain.h"/>
-    <ClCompile Include="..\..\..\UE5\Engine\Source\Programs\ChaosVisualDebugger\Private\ChaosVisualDebuggerSlateStyle.cpp">
+    <ClInclude Include="..\..\..\..\UE5\Engine\Source\Programs\ChaosVisualDebugger\Private\ChaosVisualDebuggerMain.h"/>
+    <ClCompile Include="..\..\..\..\UE5\Engine\Source\Programs\ChaosVisualDebugger\Private\ChaosVisualDebuggerSlateStyle.cpp">
       <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\Repos\Personal\UE5\Engine\Source\ThirdParty\mimalloc\include;D:\Repos\Personal\UE5\Engine\Source\ThirdParty\LibTiff\Source\Win64;D:\Repos\Personal\UE5\Engine\Source\ThirdParty\LibTiff\Source;D:\Repos\Personal\UE5\Engine\Source\Runtime\SymsLib;D:\Repos\Personal\UE5\Engine\Source\Runtime\SymsLib\syms;</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\ChaosVisualDebugger\Development\Slate\SharedPCH.Slate.ShadowErrors.h;D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\ChaosVisualDebugger\Development\ChaosVisualDebugger\Definitions.ChaosVisualDebugger.h</ForcedIncludeFiles>
       <AdditionalOptions>$(AdditionalOptions) /Yu"D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\ChaosVisualDebugger\Development\Slate\SharedPCH.Slate.ShadowErrors.h"</AdditionalOptions>
     </ClCompile>
-    <ClInclude Include="..\..\..\UE5\Engine\Source\Programs\ChaosVisualDebugger\Private\ChaosVisualDebuggerSlateStyle.h"/>
-    <ClCompile Include="..\..\..\UE5\Engine\Source\Programs\ChaosVisualDebugger\Private\Linux\ChaosVisualDebuggerLinux.cpp">
+    <ClInclude Include="..\..\..\..\UE5\Engine\Source\Programs\ChaosVisualDebugger\Private\ChaosVisualDebuggerSlateStyle.h"/>
+    <ClCompile Include="..\..\..\..\UE5\Engine\Source\Programs\ChaosVisualDebugger\Private\Linux\ChaosVisualDebuggerLinux.cpp">
       <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\Repos\Personal\UE5\Engine\Source\ThirdParty\mimalloc\include;D:\Repos\Personal\UE5\Engine\Source\ThirdParty\LibTiff\Source\Win64;D:\Repos\Personal\UE5\Engine\Source\ThirdParty\LibTiff\Source;D:\Repos\Personal\UE5\Engine\Source\Runtime\SymsLib;D:\Repos\Personal\UE5\Engine\Source\Runtime\SymsLib\syms;</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\ChaosVisualDebugger\Development\Slate\SharedPCH.Slate.ShadowErrors.h;D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\ChaosVisualDebugger\Development\ChaosVisualDebugger\Definitions.ChaosVisualDebugger.h</ForcedIncludeFiles>
       <AdditionalOptions>$(AdditionalOptions) /Yu"D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\ChaosVisualDebugger\Development\Slate\SharedPCH.Slate.ShadowErrors.h"</AdditionalOptions>
     </ClCompile>
-    <ClCompile Include="..\..\..\UE5\Engine\Source\Programs\ChaosVisualDebugger\Private\Mac\ChaosVisualDebuggerMac.cpp">
+    <ClCompile Include="..\..\..\..\UE5\Engine\Source\Programs\ChaosVisualDebugger\Private\Mac\ChaosVisualDebuggerMac.cpp">
       <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\Repos\Personal\UE5\Engine\Source\ThirdParty\mimalloc\include;D:\Repos\Personal\UE5\Engine\Source\ThirdParty\LibTiff\Source\Win64;D:\Repos\Personal\UE5\Engine\Source\ThirdParty\LibTiff\Source;D:\Repos\Personal\UE5\Engine\Source\Runtime\SymsLib;D:\Repos\Personal\UE5\Engine\Source\Runtime\SymsLib\syms;</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\ChaosVisualDebugger\Development\Slate\SharedPCH.Slate.ShadowErrors.h;D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\ChaosVisualDebugger\Development\ChaosVisualDebugger\Definitions.ChaosVisualDebugger.h</ForcedIncludeFiles>
       <AdditionalOptions>$(AdditionalOptions) /Yu"D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\ChaosVisualDebugger\Development\Slate\SharedPCH.Slate.ShadowErrors.h"</AdditionalOptions>
     </ClCompile>
-    <ClCompile Include="..\..\..\UE5\Engine\Source\Programs\ChaosVisualDebugger\Private\Windows\ChaosVisualDebuggerWindows.cpp">
+    <ClCompile Include="..\..\..\..\UE5\Engine\Source\Programs\ChaosVisualDebugger\Private\Windows\ChaosVisualDebuggerWindows.cpp">
       <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\Repos\Personal\UE5\Engine\Source\ThirdParty\mimalloc\include;D:\Repos\Personal\UE5\Engine\Source\ThirdParty\LibTiff\Source\Win64;D:\Repos\Personal\UE5\Engine\Source\ThirdParty\LibTiff\Source;D:\Repos\Personal\UE5\Engine\Source\Runtime\SymsLib;D:\Repos\Personal\UE5\Engine\Source\Runtime\SymsLib\syms;</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\ChaosVisualDebugger\Development\Slate\SharedPCH.Slate.ShadowErrors.h;D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\ChaosVisualDebugger\Development\ChaosVisualDebugger\Definitions.ChaosVisualDebugger.h</ForcedIncludeFiles>
       <AdditionalOptions>$(AdditionalOptions) /Yu"D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\ChaosVisualDebugger\Development\Slate\SharedPCH.Slate.ShadowErrors.h"</AdditionalOptions>
     </ClCompile>
-    <ClInclude Include="..\..\..\UE5\Engine\Source\Programs\ChaosVisualDebugger\Private\Windows\ChaosVisualDebuggerWindows.h"/>
-    <None Include="..\..\..\UE5\Engine\Source\Programs\ChaosVisualDebugger\Resources\Windows\ChaosVisualDebugger.ico"/>
+    <ClInclude Include="..\..\..\..\UE5\Engine\Source\Programs\ChaosVisualDebugger\Private\Windows\ChaosVisualDebuggerWindows.h"/>
+    <None Include="..\..\..\..\UE5\Engine\Source\Programs\ChaosVisualDebugger\Resources\Windows\ChaosVisualDebugger.ico"/>
   </ItemGroup>
   <ItemDefinitionGroup>
   </ItemDefinitionGroup>

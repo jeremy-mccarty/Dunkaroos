@@ -169,19 +169,19 @@
     <AdditionalOptions>/std:c++17</AdditionalOptions>
   </PropertyGroup>
   <ItemGroup>
-    <None Include="..\..\..\UE5\Engine\Source\Programs\TextureShare\TextureShareSDK\TextureShareSDK.Target.cs"/>
-    <None Include="..\..\..\UE5\Engine\Source\Programs\TextureShare\TextureShareSDK\TextureShareSDK.Build.cs"/>
-    <ClCompile Include="..\..\..\UE5\Engine\Source\Programs\TextureShare\TextureShareSDK\Private\TextureShareDLL.cpp">
+    <None Include="..\..\..\..\UE5\Engine\Source\Programs\TextureShare\TextureShareSDK\TextureShareSDK.Target.cs"/>
+    <None Include="..\..\..\..\UE5\Engine\Source\Programs\TextureShare\TextureShareSDK\TextureShareSDK.Build.cs"/>
+    <ClCompile Include="..\..\..\..\UE5\Engine\Source\Programs\TextureShare\TextureShareSDK\Private\TextureShareDLL.cpp">
       <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\Repos\Personal\UE5\Engine\Source\ThirdParty\mimalloc\include;</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\TextureShareSDK\Development\TextureShareSDK\Definitions.h</ForcedIncludeFiles>
     </ClCompile>
-    <ClCompile Include="..\..\..\UE5\Engine\Source\Programs\TextureShare\TextureShareSDK\Private\TextureShareInterface.cpp">
+    <ClCompile Include="..\..\..\..\UE5\Engine\Source\Programs\TextureShare\TextureShareSDK\Private\TextureShareInterface.cpp">
       <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\Repos\Personal\UE5\Engine\Source\ThirdParty\mimalloc\include;</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\TextureShareSDK\Development\TextureShareSDK\Definitions.h</ForcedIncludeFiles>
     </ClCompile>
-    <ClInclude Include="..\..\..\UE5\Engine\Source\Programs\TextureShare\TextureShareSDK\Public\TextureShareContainers.h"/>
-    <ClInclude Include="..\..\..\UE5\Engine\Source\Programs\TextureShare\TextureShareSDK\Public\TextureShareDLL.h"/>
-    <ClInclude Include="..\..\..\UE5\Engine\Source\Programs\TextureShare\TextureShareSDK\Public\TextureShareInterface.h"/>
+    <ClInclude Include="..\..\..\..\UE5\Engine\Source\Programs\TextureShare\TextureShareSDK\Public\TextureShareContainers.h"/>
+    <ClInclude Include="..\..\..\..\UE5\Engine\Source\Programs\TextureShare\TextureShareSDK\Public\TextureShareDLL.h"/>
+    <ClInclude Include="..\..\..\..\UE5\Engine\Source\Programs\TextureShare\TextureShareSDK\Public\TextureShareInterface.h"/>
   </ItemGroup>
   <ItemDefinitionGroup>
   </ItemDefinitionGroup>

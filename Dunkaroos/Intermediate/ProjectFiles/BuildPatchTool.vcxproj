@@ -117,76 +117,76 @@
     <AdditionalOptions>/std:c++17</AdditionalOptions>
   </PropertyGroup>
   <ItemGroup>
-    <None Include="..\..\..\UE5\Engine\Source\Programs\BuildPatchTool\BuildPatchTool.Target.cs"/>
-    <None Include="..\..\..\UE5\Engine\Programs\BuildPatchTool\Config\DefaultEngine.ini"/>
-    <None Include="..\..\..\UE5\Engine\Source\Programs\BuildPatchTool\BuildPatchTool.Automation.cs"/>
-    <None Include="..\..\..\UE5\Engine\Source\Programs\BuildPatchTool\BuildPatchTool.Build.cs"/>
-    <ClCompile Include="..\..\..\UE5\Engine\Source\Programs\BuildPatchTool\Private\BuildPatchTool.cpp">
+    <None Include="..\..\..\..\UE5\Engine\Source\Programs\BuildPatchTool\BuildPatchTool.Target.cs"/>
+    <None Include="..\..\..\..\UE5\Engine\Programs\BuildPatchTool\Config\DefaultEngine.ini"/>
+    <None Include="..\..\..\..\UE5\Engine\Source\Programs\BuildPatchTool\BuildPatchTool.Automation.cs"/>
+    <None Include="..\..\..\..\UE5\Engine\Source\Programs\BuildPatchTool\BuildPatchTool.Build.cs"/>
+    <ClCompile Include="..\..\..\..\UE5\Engine\Source\Programs\BuildPatchTool\Private\BuildPatchTool.cpp">
       <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\Repos\Personal\UE5\Engine\Source\ThirdParty\mimalloc\include;</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\BuildPatchTool\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h;D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\BuildPatchTool\Development\BuildPatchTool\Definitions.BuildPatchTool.h</ForcedIncludeFiles>
       <AdditionalOptions>$(AdditionalOptions) /Yu"D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\BuildPatchTool\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h"</AdditionalOptions>
     </ClCompile>
-    <ClCompile Include="..\..\..\UE5\Engine\Source\Programs\BuildPatchTool\Private\ToolMode.cpp">
+    <ClCompile Include="..\..\..\..\UE5\Engine\Source\Programs\BuildPatchTool\Private\ToolMode.cpp">
       <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\Repos\Personal\UE5\Engine\Source\ThirdParty\mimalloc\include;</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\BuildPatchTool\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h;D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\BuildPatchTool\Development\BuildPatchTool\Definitions.BuildPatchTool.h</ForcedIncludeFiles>
       <AdditionalOptions>$(AdditionalOptions) /Yu"D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\BuildPatchTool\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h"</AdditionalOptions>
     </ClCompile>
-    <ClCompile Include="..\..\..\UE5\Engine\Source\Programs\BuildPatchTool\Private\ToolModes\AutomationMode.cpp">
+    <ClCompile Include="..\..\..\..\UE5\Engine\Source\Programs\BuildPatchTool\Private\ToolModes\AutomationMode.cpp">
       <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\Repos\Personal\UE5\Engine\Source\ThirdParty\mimalloc\include;</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\BuildPatchTool\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h;D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\BuildPatchTool\Development\BuildPatchTool\Definitions.BuildPatchTool.h</ForcedIncludeFiles>
       <AdditionalOptions>$(AdditionalOptions) /Yu"D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\BuildPatchTool\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h"</AdditionalOptions>
     </ClCompile>
-    <ClCompile Include="..\..\..\UE5\Engine\Source\Programs\BuildPatchTool\Private\ToolModes\ChunkDeltaOptimiseMode.cpp">
+    <ClCompile Include="..\..\..\..\UE5\Engine\Source\Programs\BuildPatchTool\Private\ToolModes\ChunkDeltaOptimiseMode.cpp">
       <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\Repos\Personal\UE5\Engine\Source\ThirdParty\mimalloc\include;</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\BuildPatchTool\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h;D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\BuildPatchTool\Development\BuildPatchTool\Definitions.BuildPatchTool.h</ForcedIncludeFiles>
       <AdditionalOptions>$(AdditionalOptions) /Yu"D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\BuildPatchTool\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h"</AdditionalOptions>
     </ClCompile>
-    <ClCompile Include="..\..\..\UE5\Engine\Source\Programs\BuildPatchTool\Private\ToolModes\CompactifyMode.cpp">
+    <ClCompile Include="..\..\..\..\UE5\Engine\Source\Programs\BuildPatchTool\Private\ToolModes\CompactifyMode.cpp">
       <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\Repos\Personal\UE5\Engine\Source\ThirdParty\mimalloc\include;</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\BuildPatchTool\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h;D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\BuildPatchTool\Development\BuildPatchTool\Definitions.BuildPatchTool.h</ForcedIncludeFiles>
       <AdditionalOptions>$(AdditionalOptions) /Yu"D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\BuildPatchTool\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h"</AdditionalOptions>
     </ClCompile>
-    <ClCompile Include="..\..\..\UE5\Engine\Source\Programs\BuildPatchTool\Private\ToolModes\DiffManifestMode.cpp">
+    <ClCompile Include="..\..\..\..\UE5\Engine\Source\Programs\BuildPatchTool\Private\ToolModes\DiffManifestMode.cpp">
       <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\Repos\Personal\UE5\Engine\Source\ThirdParty\mimalloc\include;</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\BuildPatchTool\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h;D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\BuildPatchTool\Development\BuildPatchTool\Definitions.BuildPatchTool.h</ForcedIncludeFiles>
       <AdditionalOptions>$(AdditionalOptions) /Yu"D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\BuildPatchTool\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h"</AdditionalOptions>
     </ClCompile>
-    <ClCompile Include="..\..\..\UE5\Engine\Source\Programs\BuildPatchTool\Private\ToolModes\EnumerationMode.cpp">
+    <ClCompile Include="..\..\..\..\UE5\Engine\Source\Programs\BuildPatchTool\Private\ToolModes\EnumerationMode.cpp">
       <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\Repos\Personal\UE5\Engine\Source\ThirdParty\mimalloc\include;</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\BuildPatchTool\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h;D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\BuildPatchTool\Development\BuildPatchTool\Definitions.BuildPatchTool.h</ForcedIncludeFiles>
       <AdditionalOptions>$(AdditionalOptions) /Yu"D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\BuildPatchTool\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h"</AdditionalOptions>
     </ClCompile>
-    <ClCompile Include="..\..\..\UE5\Engine\Source\Programs\BuildPatchTool\Private\ToolModes\MergeManifestMode.cpp">
+    <ClCompile Include="..\..\..\..\UE5\Engine\Source\Programs\BuildPatchTool\Private\ToolModes\MergeManifestMode.cpp">
       <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\Repos\Personal\UE5\Engine\Source\ThirdParty\mimalloc\include;</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\BuildPatchTool\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h;D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\BuildPatchTool\Development\BuildPatchTool\Definitions.BuildPatchTool.h</ForcedIncludeFiles>
       <AdditionalOptions>$(AdditionalOptions) /Yu"D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\BuildPatchTool\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h"</AdditionalOptions>
     </ClCompile>
-    <ClCompile Include="..\..\..\UE5\Engine\Source\Programs\BuildPatchTool\Private\ToolModes\PackageChunksMode.cpp">
+    <ClCompile Include="..\..\..\..\UE5\Engine\Source\Programs\BuildPatchTool\Private\ToolModes\PackageChunksMode.cpp">
       <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\Repos\Personal\UE5\Engine\Source\ThirdParty\mimalloc\include;</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\BuildPatchTool\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h;D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\BuildPatchTool\Development\BuildPatchTool\Definitions.BuildPatchTool.h</ForcedIncludeFiles>
       <AdditionalOptions>$(AdditionalOptions) /Yu"D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\BuildPatchTool\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h"</AdditionalOptions>
     </ClCompile>
-    <ClCompile Include="..\..\..\UE5\Engine\Source\Programs\BuildPatchTool\Private\ToolModes\PatchGenerationMode.cpp">
+    <ClCompile Include="..\..\..\..\UE5\Engine\Source\Programs\BuildPatchTool\Private\ToolModes\PatchGenerationMode.cpp">
       <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\Repos\Personal\UE5\Engine\Source\ThirdParty\mimalloc\include;</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\BuildPatchTool\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h;D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\BuildPatchTool\Development\BuildPatchTool\Definitions.BuildPatchTool.h</ForcedIncludeFiles>
       <AdditionalOptions>$(AdditionalOptions) /Yu"D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\BuildPatchTool\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h"</AdditionalOptions>
     </ClCompile>
-    <ClCompile Include="..\..\..\UE5\Engine\Source\Programs\BuildPatchTool\Private\ToolModes\VerifyChunksMode.cpp">
+    <ClCompile Include="..\..\..\..\UE5\Engine\Source\Programs\BuildPatchTool\Private\ToolModes\VerifyChunksMode.cpp">
       <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\Repos\Personal\UE5\Engine\Source\ThirdParty\mimalloc\include;</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\BuildPatchTool\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h;D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\BuildPatchTool\Development\BuildPatchTool\Definitions.BuildPatchTool.h</ForcedIncludeFiles>
       <AdditionalOptions>$(AdditionalOptions) /Yu"D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\BuildPatchTool\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h"</AdditionalOptions>
     </ClCompile>
-    <ClInclude Include="..\..\..\UE5\Engine\Source\Programs\BuildPatchTool\Public\BuildPatchTool.h"/>
-    <ClInclude Include="..\..\..\UE5\Engine\Source\Programs\BuildPatchTool\Public\Interfaces\ToolMode.h"/>
-    <ClInclude Include="..\..\..\UE5\Engine\Source\Programs\BuildPatchTool\Public\ToolModes\AutomationMode.h"/>
-    <ClInclude Include="..\..\..\UE5\Engine\Source\Programs\BuildPatchTool\Public\ToolModes\ChunkDeltaOptimiseMode.h"/>
-    <ClInclude Include="..\..\..\UE5\Engine\Source\Programs\BuildPatchTool\Public\ToolModes\CompactifyMode.h"/>
-    <ClInclude Include="..\..\..\UE5\Engine\Source\Programs\BuildPatchTool\Public\ToolModes\DiffManifestMode.h"/>
-    <ClInclude Include="..\..\..\UE5\Engine\Source\Programs\BuildPatchTool\Public\ToolModes\EnumerationMode.h"/>
-    <ClInclude Include="..\..\..\UE5\Engine\Source\Programs\BuildPatchTool\Public\ToolModes\MergeManifestMode.h"/>
-    <ClInclude Include="..\..\..\UE5\Engine\Source\Programs\BuildPatchTool\Public\ToolModes\PackageChunksMode.h"/>
-    <ClInclude Include="..\..\..\UE5\Engine\Source\Programs\BuildPatchTool\Public\ToolModes\PatchGenerationMode.h"/>
-    <ClInclude Include="..\..\..\UE5\Engine\Source\Programs\BuildPatchTool\Public\ToolModes\VerifyChunksMode.h"/>
+    <ClInclude Include="..\..\..\..\UE5\Engine\Source\Programs\BuildPatchTool\Public\BuildPatchTool.h"/>
+    <ClInclude Include="..\..\..\..\UE5\Engine\Source\Programs\BuildPatchTool\Public\Interfaces\ToolMode.h"/>
+    <ClInclude Include="..\..\..\..\UE5\Engine\Source\Programs\BuildPatchTool\Public\ToolModes\AutomationMode.h"/>
+    <ClInclude Include="..\..\..\..\UE5\Engine\Source\Programs\BuildPatchTool\Public\ToolModes\ChunkDeltaOptimiseMode.h"/>
+    <ClInclude Include="..\..\..\..\UE5\Engine\Source\Programs\BuildPatchTool\Public\ToolModes\CompactifyMode.h"/>
+    <ClInclude Include="..\..\..\..\UE5\Engine\Source\Programs\BuildPatchTool\Public\ToolModes\DiffManifestMode.h"/>
+    <ClInclude Include="..\..\..\..\UE5\Engine\Source\Programs\BuildPatchTool\Public\ToolModes\EnumerationMode.h"/>
+    <ClInclude Include="..\..\..\..\UE5\Engine\Source\Programs\BuildPatchTool\Public\ToolModes\MergeManifestMode.h"/>
+    <ClInclude Include="..\..\..\..\UE5\Engine\Source\Programs\BuildPatchTool\Public\ToolModes\PackageChunksMode.h"/>
+    <ClInclude Include="..\..\..\..\UE5\Engine\Source\Programs\BuildPatchTool\Public\ToolModes\PatchGenerationMode.h"/>
+    <ClInclude Include="..\..\..\..\UE5\Engine\Source\Programs\BuildPatchTool\Public\ToolModes\VerifyChunksMode.h"/>
   </ItemGroup>
   <ItemDefinitionGroup>
   </ItemDefinitionGroup>

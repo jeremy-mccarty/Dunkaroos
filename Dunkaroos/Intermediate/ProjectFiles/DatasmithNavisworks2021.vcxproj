@@ -169,7 +169,7 @@
     <AdditionalOptions>/std:c++17</AdditionalOptions>
   </PropertyGroup>
   <ItemGroup>
-    <None Include="..\..\..\UE5\Engine\Source\Programs\Enterprise\Datasmith\DatasmithNavisworksExporter\UBTModules\DatasmithNavisworks2021.Target.cs"/>
+    <None Include="..\..\..\..\UE5\Engine\Source\Programs\Enterprise\Datasmith\DatasmithNavisworksExporter\UBTModules\DatasmithNavisworks2021.Target.cs"/>
   </ItemGroup>
   <ItemDefinitionGroup>
   </ItemDefinitionGroup>

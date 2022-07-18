@@ -169,47 +169,47 @@
     <AdditionalOptions>/std:c++17</AdditionalOptions>
   </PropertyGroup>
   <ItemGroup>
-    <None Include="..\..\..\UE5\Engine\Source\Programs\UnrealFrontend\UnrealFrontend.Target.cs"/>
-    <None Include="..\..\..\UE5\Engine\Programs\UnrealFrontend\Config\DefaultEngine.ini"/>
-    <None Include="..\..\..\UE5\Engine\Source\Programs\UnrealFrontend\UnrealFrontend.Build.cs"/>
-    <ClCompile Include="..\..\..\UE5\Engine\Source\Programs\UnrealFrontend\Private\UnrealFrontendMain.cpp">
+    <None Include="..\..\..\..\UE5\Engine\Source\Programs\UnrealFrontend\UnrealFrontend.Target.cs"/>
+    <None Include="..\..\..\..\UE5\Engine\Programs\UnrealFrontend\Config\DefaultEngine.ini"/>
+    <None Include="..\..\..\..\UE5\Engine\Source\Programs\UnrealFrontend\UnrealFrontend.Build.cs"/>
+    <ClCompile Include="..\..\..\..\UE5\Engine\Source\Programs\UnrealFrontend\Private\UnrealFrontendMain.cpp">
       <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\Repos\Personal\UE5\Engine\Source\ThirdParty\mimalloc\include;D:\Repos\Personal\UE5\Engine\Source\ThirdParty\LibTiff\Source\Win64;D:\Repos\Personal\UE5\Engine\Source\ThirdParty\LibTiff\Source;</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\UnrealFrontend\Development\UnrealFrontend\Definitions.h</ForcedIncludeFiles>
     </ClCompile>
-    <ClInclude Include="..\..\..\UE5\Engine\Source\Programs\UnrealFrontend\Private\UnrealFrontendMain.h"/>
-    <ClCompile Include="..\..\..\UE5\Engine\Source\Programs\UnrealFrontend\Private\Commands\LaunchFromProfileCommand.cpp">
+    <ClInclude Include="..\..\..\..\UE5\Engine\Source\Programs\UnrealFrontend\Private\UnrealFrontendMain.h"/>
+    <ClCompile Include="..\..\..\..\UE5\Engine\Source\Programs\UnrealFrontend\Private\Commands\LaunchFromProfileCommand.cpp">
       <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\Repos\Personal\UE5\Engine\Source\ThirdParty\mimalloc\include;D:\Repos\Personal\UE5\Engine\Source\ThirdParty\LibTiff\Source\Win64;D:\Repos\Personal\UE5\Engine\Source\ThirdParty\LibTiff\Source;</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\UnrealFrontend\Development\UnrealFrontend\Definitions.h</ForcedIncludeFiles>
     </ClCompile>
-    <ClInclude Include="..\..\..\UE5\Engine\Source\Programs\UnrealFrontend\Private\Commands\LaunchFromProfileCommand.h"/>
-    <ClCompile Include="..\..\..\UE5\Engine\Source\Programs\UnrealFrontend\Private\Commands\StatsConvertCommand.cpp">
+    <ClInclude Include="..\..\..\..\UE5\Engine\Source\Programs\UnrealFrontend\Private\Commands\LaunchFromProfileCommand.h"/>
+    <ClCompile Include="..\..\..\..\UE5\Engine\Source\Programs\UnrealFrontend\Private\Commands\StatsConvertCommand.cpp">
       <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\Repos\Personal\UE5\Engine\Source\ThirdParty\mimalloc\include;D:\Repos\Personal\UE5\Engine\Source\ThirdParty\LibTiff\Source\Win64;D:\Repos\Personal\UE5\Engine\Source\ThirdParty\LibTiff\Source;</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\UnrealFrontend\Development\UnrealFrontend\Definitions.h</ForcedIncludeFiles>
     </ClCompile>
-    <ClInclude Include="..\..\..\UE5\Engine\Source\Programs\UnrealFrontend\Private\Commands\StatsConvertCommand.h"/>
-    <ClCompile Include="..\..\..\UE5\Engine\Source\Programs\UnrealFrontend\Private\Commands\StatsDumpMemoryCommand.cpp">
+    <ClInclude Include="..\..\..\..\UE5\Engine\Source\Programs\UnrealFrontend\Private\Commands\StatsConvertCommand.h"/>
+    <ClCompile Include="..\..\..\..\UE5\Engine\Source\Programs\UnrealFrontend\Private\Commands\StatsDumpMemoryCommand.cpp">
       <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\Repos\Personal\UE5\Engine\Source\ThirdParty\mimalloc\include;D:\Repos\Personal\UE5\Engine\Source\ThirdParty\LibTiff\Source\Win64;D:\Repos\Personal\UE5\Engine\Source\ThirdParty\LibTiff\Source;</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\UnrealFrontend\Development\UnrealFrontend\Definitions.h</ForcedIncludeFiles>
     </ClCompile>
-    <ClInclude Include="..\..\..\UE5\Engine\Source\Programs\UnrealFrontend\Private\Commands\StatsDumpMemoryCommand.h"/>
-    <ClCompile Include="..\..\..\UE5\Engine\Source\Programs\UnrealFrontend\Private\Commands\UserInterfaceCommand.cpp">
+    <ClInclude Include="..\..\..\..\UE5\Engine\Source\Programs\UnrealFrontend\Private\Commands\StatsDumpMemoryCommand.h"/>
+    <ClCompile Include="..\..\..\..\UE5\Engine\Source\Programs\UnrealFrontend\Private\Commands\UserInterfaceCommand.cpp">
       <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\Repos\Personal\UE5\Engine\Source\ThirdParty\mimalloc\include;D:\Repos\Personal\UE5\Engine\Source\ThirdParty\LibTiff\Source\Win64;D:\Repos\Personal\UE5\Engine\Source\ThirdParty\LibTiff\Source;</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\UnrealFrontend\Development\UnrealFrontend\Definitions.h</ForcedIncludeFiles>
     </ClCompile>
-    <ClInclude Include="..\..\..\UE5\Engine\Source\Programs\UnrealFrontend\Private\Commands\UserInterfaceCommand.h"/>
-    <ClCompile Include="..\..\..\UE5\Engine\Source\Programs\UnrealFrontend\Private\Linux\LinuxUnrealFrontendMain.cpp">
+    <ClInclude Include="..\..\..\..\UE5\Engine\Source\Programs\UnrealFrontend\Private\Commands\UserInterfaceCommand.h"/>
+    <ClCompile Include="..\..\..\..\UE5\Engine\Source\Programs\UnrealFrontend\Private\Linux\LinuxUnrealFrontendMain.cpp">
       <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\Repos\Personal\UE5\Engine\Source\ThirdParty\mimalloc\include;D:\Repos\Personal\UE5\Engine\Source\ThirdParty\LibTiff\Source\Win64;D:\Repos\Personal\UE5\Engine\Source\ThirdParty\LibTiff\Source;</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\UnrealFrontend\Development\UnrealFrontend\Definitions.h</ForcedIncludeFiles>
     </ClCompile>
-    <ClCompile Include="..\..\..\UE5\Engine\Source\Programs\UnrealFrontend\Private\Mac\MacUnrealFrontendMain.cpp">
+    <ClCompile Include="..\..\..\..\UE5\Engine\Source\Programs\UnrealFrontend\Private\Mac\MacUnrealFrontendMain.cpp">
       <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\Repos\Personal\UE5\Engine\Source\ThirdParty\mimalloc\include;D:\Repos\Personal\UE5\Engine\Source\ThirdParty\LibTiff\Source\Win64;D:\Repos\Personal\UE5\Engine\Source\ThirdParty\LibTiff\Source;</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\UnrealFrontend\Development\UnrealFrontend\Definitions.h</ForcedIncludeFiles>
     </ClCompile>
-    <ClCompile Include="..\..\..\UE5\Engine\Source\Programs\UnrealFrontend\Private\Windows\WindowsUnrealFrontendMain.cpp">
+    <ClCompile Include="..\..\..\..\UE5\Engine\Source\Programs\UnrealFrontend\Private\Windows\WindowsUnrealFrontendMain.cpp">
       <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\Repos\Personal\UE5\Engine\Source\ThirdParty\mimalloc\include;D:\Repos\Personal\UE5\Engine\Source\ThirdParty\LibTiff\Source\Win64;D:\Repos\Personal\UE5\Engine\Source\ThirdParty\LibTiff\Source;</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\UnrealFrontend\Development\UnrealFrontend\Definitions.h</ForcedIncludeFiles>
     </ClCompile>
-    <None Include="..\..\..\UE5\Engine\Source\Programs\UnrealFrontend\Resources\Mac\Info.plist"/>
+    <None Include="..\..\..\..\UE5\Engine\Source\Programs\UnrealFrontend\Resources\Mac\Info.plist"/>
   </ItemGroup>
   <ItemDefinitionGroup>
   </ItemDefinitionGroup>

@@ -169,21 +169,21 @@
     <AdditionalOptions>/std:c++17</AdditionalOptions>
   </PropertyGroup>
   <ItemGroup>
-    <None Include="..\..\..\UE5\Engine\Source\Programs\InterchangeWorker\InterchangeWorker.Target.cs"/>
-    <None Include="..\..\..\UE5\Engine\Source\Programs\InterchangeWorker\InterchangeWorker.Build.cs"/>
-    <ClCompile Include="..\..\..\UE5\Engine\Source\Programs\InterchangeWorker\Private\InterchangeWorker.cpp">
+    <None Include="..\..\..\..\UE5\Engine\Source\Programs\InterchangeWorker\InterchangeWorker.Target.cs"/>
+    <None Include="..\..\..\..\UE5\Engine\Source\Programs\InterchangeWorker\InterchangeWorker.Build.cs"/>
+    <ClCompile Include="..\..\..\..\UE5\Engine\Source\Programs\InterchangeWorker\Private\InterchangeWorker.cpp">
       <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\Repos\Personal\UE5\Engine\Source\ThirdParty\mimalloc\include;D:\Repos\Personal\UE5\Engine\Source\ThirdParty\FBX\2020.2\include;D:\Repos\Personal\UE5\Engine\Source\ThirdParty\FBX\2020.2\include\fbxsdk;</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\InterchangeWorker\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h;D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\InterchangeWorker\Development\InterchangeWorker\Definitions.InterchangeWorker.h</ForcedIncludeFiles>
       <AdditionalOptions>$(AdditionalOptions) /Yu"D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\InterchangeWorker\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h"</AdditionalOptions>
     </ClCompile>
-    <ClInclude Include="..\..\..\UE5\Engine\Source\Programs\InterchangeWorker\Private\InterchangeWorker.h"/>
-    <ClCompile Include="..\..\..\UE5\Engine\Source\Programs\InterchangeWorker\Private\InterchangeWorkerImpl.cpp">
+    <ClInclude Include="..\..\..\..\UE5\Engine\Source\Programs\InterchangeWorker\Private\InterchangeWorker.h"/>
+    <ClCompile Include="..\..\..\..\UE5\Engine\Source\Programs\InterchangeWorker\Private\InterchangeWorkerImpl.cpp">
       <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\Repos\Personal\UE5\Engine\Source\ThirdParty\mimalloc\include;D:\Repos\Personal\UE5\Engine\Source\ThirdParty\FBX\2020.2\include;D:\Repos\Personal\UE5\Engine\Source\ThirdParty\FBX\2020.2\include\fbxsdk;</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\InterchangeWorker\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h;D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\InterchangeWorker\Development\InterchangeWorker\Definitions.InterchangeWorker.h</ForcedIncludeFiles>
       <AdditionalOptions>$(AdditionalOptions) /Yu"D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\InterchangeWorker\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h"</AdditionalOptions>
     </ClCompile>
-    <ClInclude Include="..\..\..\UE5\Engine\Source\Programs\InterchangeWorker\Private\InterchangeWorkerImpl.h"/>
-    <None Include="..\..\..\UE5\Engine\Source\Programs\InterchangeWorker\Resources\Windows\BlankProgram.ico"/>
+    <ClInclude Include="..\..\..\..\UE5\Engine\Source\Programs\InterchangeWorker\Private\InterchangeWorkerImpl.h"/>
+    <None Include="..\..\..\..\UE5\Engine\Source\Programs\InterchangeWorker\Resources\Windows\BlankProgram.ico"/>
   </ItemGroup>
   <ItemDefinitionGroup>
   </ItemDefinitionGroup>

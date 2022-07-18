@@ -169,26 +169,26 @@
     <AdditionalOptions>/std:c++17</AdditionalOptions>
   </PropertyGroup>
   <ItemGroup>
-    <None Include="..\..\..\UE5\Engine\Source\Programs\TestPAL\TestPAL.Target.cs"/>
-    <None Include="..\..\..\UE5\Engine\Source\Programs\TestPAL\TestPAL.Build.cs"/>
-    <ClCompile Include="..\..\..\UE5\Engine\Source\Programs\TestPAL\Private\Main.cpp">
+    <None Include="..\..\..\..\UE5\Engine\Source\Programs\TestPAL\TestPAL.Target.cs"/>
+    <None Include="..\..\..\..\UE5\Engine\Source\Programs\TestPAL\TestPAL.Build.cs"/>
+    <ClCompile Include="..\..\..\..\UE5\Engine\Source\Programs\TestPAL\Private\Main.cpp">
       <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\Repos\Personal\UE5\Engine\Source\ThirdParty\mimalloc\include;</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\TestPAL\Development\Core\SharedPCH.Core.ShadowErrors.h;D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\TestPAL\Development\TestPAL\Definitions.TestPAL.h</ForcedIncludeFiles>
       <AdditionalOptions>$(AdditionalOptions) /Yu"D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\TestPAL\Development\Core\SharedPCH.Core.ShadowErrors.h"</AdditionalOptions>
     </ClCompile>
-    <ClCompile Include="..\..\..\UE5\Engine\Source\Programs\TestPAL\Private\Parent.cpp">
+    <ClCompile Include="..\..\..\..\UE5\Engine\Source\Programs\TestPAL\Private\Parent.cpp">
       <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\Repos\Personal\UE5\Engine\Source\ThirdParty\mimalloc\include;</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\TestPAL\Development\Core\SharedPCH.Core.ShadowErrors.h;D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\TestPAL\Development\TestPAL\Definitions.TestPAL.h</ForcedIncludeFiles>
       <AdditionalOptions>$(AdditionalOptions) /Yu"D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\TestPAL\Development\Core\SharedPCH.Core.ShadowErrors.h"</AdditionalOptions>
     </ClCompile>
-    <ClInclude Include="..\..\..\UE5\Engine\Source\Programs\TestPAL\Private\Parent.h"/>
-    <ClCompile Include="..\..\..\UE5\Engine\Source\Programs\TestPAL\Private\TestDirectoryWatcher.cpp">
+    <ClInclude Include="..\..\..\..\UE5\Engine\Source\Programs\TestPAL\Private\Parent.h"/>
+    <ClCompile Include="..\..\..\..\UE5\Engine\Source\Programs\TestPAL\Private\TestDirectoryWatcher.cpp">
       <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\Repos\Personal\UE5\Engine\Source\ThirdParty\mimalloc\include;</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\TestPAL\Development\Core\SharedPCH.Core.ShadowErrors.h;D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\TestPAL\Development\TestPAL\Definitions.TestPAL.h</ForcedIncludeFiles>
       <AdditionalOptions>$(AdditionalOptions) /Yu"D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\TestPAL\Development\Core\SharedPCH.Core.ShadowErrors.h"</AdditionalOptions>
     </ClCompile>
-    <ClInclude Include="..\..\..\UE5\Engine\Source\Programs\TestPAL\Private\TestDirectoryWatcher.h"/>
-    <ClInclude Include="..\..\..\UE5\Engine\Source\Programs\TestPAL\Private\TestPALLog.h"/>
+    <ClInclude Include="..\..\..\..\UE5\Engine\Source\Programs\TestPAL\Private\TestDirectoryWatcher.h"/>
+    <ClInclude Include="..\..\..\..\UE5\Engine\Source\Programs\TestPAL\Private\TestPALLog.h"/>
   </ItemGroup>
   <ItemDefinitionGroup>
   </ItemDefinitionGroup>

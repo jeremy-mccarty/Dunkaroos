@@ -117,60 +117,60 @@
     <AdditionalOptions>/std:c++17</AdditionalOptions>
   </PropertyGroup>
   <ItemGroup>
-    <None Include="..\..\..\UE5\Engine\Source\Programs\EpicWebHelper\EpicWebHelper.Target.cs"/>
-    <None Include="..\..\..\UE5\Engine\Source\Programs\EpicWebHelper\EpicWebHelper.Build.cs"/>
-    <ClCompile Include="..\..\..\UE5\Engine\Source\Programs\EpicWebHelper\Private\EpicWebHelper.cpp">
+    <None Include="..\..\..\..\UE5\Engine\Source\Programs\EpicWebHelper\EpicWebHelper.Target.cs"/>
+    <None Include="..\..\..\..\UE5\Engine\Source\Programs\EpicWebHelper\EpicWebHelper.Build.cs"/>
+    <ClCompile Include="..\..\..\..\UE5\Engine\Source\Programs\EpicWebHelper\Private\EpicWebHelper.cpp">
       <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\Repos\Personal\UE5\Engine\Source\ThirdParty\mimalloc\include;D:\Repos\Personal\UE5\Engine\Source\ThirdParty\CEF3\cef_binary_84.1.6+gc551bc2+chromium-84.0.4147.38_windows64;</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\EpicWebHelper\Development\Core\SharedPCH.Core.ShadowErrors.h;D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\EpicWebHelper\Development\EpicWebHelper\Definitions.EpicWebHelper.h</ForcedIncludeFiles>
       <AdditionalOptions>$(AdditionalOptions) /Yu"D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\EpicWebHelper\Development\Core\SharedPCH.Core.ShadowErrors.h"</AdditionalOptions>
     </ClCompile>
-    <ClInclude Include="..\..\..\UE5\Engine\Source\Programs\EpicWebHelper\Private\EpicWebHelper.h"/>
-    <ClCompile Include="..\..\..\UE5\Engine\Source\Programs\EpicWebHelper\Private\EpicWebHelperApp.cpp">
+    <ClInclude Include="..\..\..\..\UE5\Engine\Source\Programs\EpicWebHelper\Private\EpicWebHelper.h"/>
+    <ClCompile Include="..\..\..\..\UE5\Engine\Source\Programs\EpicWebHelper\Private\EpicWebHelperApp.cpp">
       <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\Repos\Personal\UE5\Engine\Source\ThirdParty\mimalloc\include;D:\Repos\Personal\UE5\Engine\Source\ThirdParty\CEF3\cef_binary_84.1.6+gc551bc2+chromium-84.0.4147.38_windows64;</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\EpicWebHelper\Development\Core\SharedPCH.Core.ShadowErrors.h;D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\EpicWebHelper\Development\EpicWebHelper\Definitions.EpicWebHelper.h</ForcedIncludeFiles>
       <AdditionalOptions>$(AdditionalOptions) /Yu"D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\EpicWebHelper\Development\Core\SharedPCH.Core.ShadowErrors.h"</AdditionalOptions>
     </ClCompile>
-    <ClInclude Include="..\..\..\UE5\Engine\Source\Programs\EpicWebHelper\Private\EpicWebHelperApp.h"/>
-    <ClCompile Include="..\..\..\UE5\Engine\Source\Programs\EpicWebHelper\Private\EpicWebHelperCallbackRegistry.cpp">
+    <ClInclude Include="..\..\..\..\UE5\Engine\Source\Programs\EpicWebHelper\Private\EpicWebHelperApp.h"/>
+    <ClCompile Include="..\..\..\..\UE5\Engine\Source\Programs\EpicWebHelper\Private\EpicWebHelperCallbackRegistry.cpp">
       <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\Repos\Personal\UE5\Engine\Source\ThirdParty\mimalloc\include;D:\Repos\Personal\UE5\Engine\Source\ThirdParty\CEF3\cef_binary_84.1.6+gc551bc2+chromium-84.0.4147.38_windows64;</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\EpicWebHelper\Development\Core\SharedPCH.Core.ShadowErrors.h;D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\EpicWebHelper\Development\EpicWebHelper\Definitions.EpicWebHelper.h</ForcedIncludeFiles>
       <AdditionalOptions>$(AdditionalOptions) /Yu"D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\EpicWebHelper\Development\Core\SharedPCH.Core.ShadowErrors.h"</AdditionalOptions>
     </ClCompile>
-    <ClInclude Include="..\..\..\UE5\Engine\Source\Programs\EpicWebHelper\Private\EpicWebHelperCallbackRegistry.h"/>
-    <ClInclude Include="..\..\..\UE5\Engine\Source\Programs\EpicWebHelper\Private\EpicWebHelperLibCEFIncludes.h"/>
-    <ClCompile Include="..\..\..\UE5\Engine\Source\Programs\EpicWebHelper\Private\EpicWebHelperRemoteMethodHandler.cpp">
+    <ClInclude Include="..\..\..\..\UE5\Engine\Source\Programs\EpicWebHelper\Private\EpicWebHelperCallbackRegistry.h"/>
+    <ClInclude Include="..\..\..\..\UE5\Engine\Source\Programs\EpicWebHelper\Private\EpicWebHelperLibCEFIncludes.h"/>
+    <ClCompile Include="..\..\..\..\UE5\Engine\Source\Programs\EpicWebHelper\Private\EpicWebHelperRemoteMethodHandler.cpp">
       <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\Repos\Personal\UE5\Engine\Source\ThirdParty\mimalloc\include;D:\Repos\Personal\UE5\Engine\Source\ThirdParty\CEF3\cef_binary_84.1.6+gc551bc2+chromium-84.0.4147.38_windows64;</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\EpicWebHelper\Development\Core\SharedPCH.Core.ShadowErrors.h;D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\EpicWebHelper\Development\EpicWebHelper\Definitions.EpicWebHelper.h</ForcedIncludeFiles>
       <AdditionalOptions>$(AdditionalOptions) /Yu"D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\EpicWebHelper\Development\Core\SharedPCH.Core.ShadowErrors.h"</AdditionalOptions>
     </ClCompile>
-    <ClInclude Include="..\..\..\UE5\Engine\Source\Programs\EpicWebHelper\Private\EpicWebHelperRemoteMethodHandler.h"/>
-    <ClCompile Include="..\..\..\UE5\Engine\Source\Programs\EpicWebHelper\Private\EpicWebHelperRemoteScripting.cpp">
+    <ClInclude Include="..\..\..\..\UE5\Engine\Source\Programs\EpicWebHelper\Private\EpicWebHelperRemoteMethodHandler.h"/>
+    <ClCompile Include="..\..\..\..\UE5\Engine\Source\Programs\EpicWebHelper\Private\EpicWebHelperRemoteScripting.cpp">
       <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\Repos\Personal\UE5\Engine\Source\ThirdParty\mimalloc\include;D:\Repos\Personal\UE5\Engine\Source\ThirdParty\CEF3\cef_binary_84.1.6+gc551bc2+chromium-84.0.4147.38_windows64;</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\EpicWebHelper\Development\Core\SharedPCH.Core.ShadowErrors.h;D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\EpicWebHelper\Development\EpicWebHelper\Definitions.EpicWebHelper.h</ForcedIncludeFiles>
       <AdditionalOptions>$(AdditionalOptions) /Yu"D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\EpicWebHelper\Development\Core\SharedPCH.Core.ShadowErrors.h"</AdditionalOptions>
     </ClCompile>
-    <ClInclude Include="..\..\..\UE5\Engine\Source\Programs\EpicWebHelper\Private\EpicWebHelperRemoteScripting.h"/>
-    <ClCompile Include="..\..\..\UE5\Engine\Source\Programs\EpicWebHelper\Private\Linux\EpicWebHelperLinux.cpp">
+    <ClInclude Include="..\..\..\..\UE5\Engine\Source\Programs\EpicWebHelper\Private\EpicWebHelperRemoteScripting.h"/>
+    <ClCompile Include="..\..\..\..\UE5\Engine\Source\Programs\EpicWebHelper\Private\Linux\EpicWebHelperLinux.cpp">
       <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\Repos\Personal\UE5\Engine\Source\ThirdParty\mimalloc\include;D:\Repos\Personal\UE5\Engine\Source\ThirdParty\CEF3\cef_binary_84.1.6+gc551bc2+chromium-84.0.4147.38_windows64;</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\EpicWebHelper\Development\Core\SharedPCH.Core.ShadowErrors.h;D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\EpicWebHelper\Development\EpicWebHelper\Definitions.EpicWebHelper.h</ForcedIncludeFiles>
       <AdditionalOptions>$(AdditionalOptions) /Yu"D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\EpicWebHelper\Development\Core\SharedPCH.Core.ShadowErrors.h"</AdditionalOptions>
     </ClCompile>
-    <ClCompile Include="..\..\..\UE5\Engine\Source\Programs\EpicWebHelper\Private\Mac\EpicWebHelperMac.cpp">
+    <ClCompile Include="..\..\..\..\UE5\Engine\Source\Programs\EpicWebHelper\Private\Mac\EpicWebHelperMac.cpp">
       <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\Repos\Personal\UE5\Engine\Source\ThirdParty\mimalloc\include;D:\Repos\Personal\UE5\Engine\Source\ThirdParty\CEF3\cef_binary_84.1.6+gc551bc2+chromium-84.0.4147.38_windows64;</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\EpicWebHelper\Development\Core\SharedPCH.Core.ShadowErrors.h;D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\EpicWebHelper\Development\EpicWebHelper\Definitions.EpicWebHelper.h</ForcedIncludeFiles>
       <AdditionalOptions>$(AdditionalOptions) /Yu"D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\EpicWebHelper\Development\Core\SharedPCH.Core.ShadowErrors.h"</AdditionalOptions>
     </ClCompile>
-    <ClCompile Include="..\..\..\UE5\Engine\Source\Programs\EpicWebHelper\Private\Windows\EpicWebHelperWindows.cpp">
+    <ClCompile Include="..\..\..\..\UE5\Engine\Source\Programs\EpicWebHelper\Private\Windows\EpicWebHelperWindows.cpp">
       <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\Repos\Personal\UE5\Engine\Source\ThirdParty\mimalloc\include;D:\Repos\Personal\UE5\Engine\Source\ThirdParty\CEF3\cef_binary_84.1.6+gc551bc2+chromium-84.0.4147.38_windows64;</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\EpicWebHelper\Development\Core\SharedPCH.Core.ShadowErrors.h;D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\EpicWebHelper\Development\EpicWebHelper\Definitions.EpicWebHelper.h</ForcedIncludeFiles>
       <AdditionalOptions>$(AdditionalOptions) /Yu"D:\Repos\Personal\UE5\Engine\Intermediate\Build\Win64\EpicWebHelper\Development\Core\SharedPCH.Core.ShadowErrors.h"</AdditionalOptions>
     </ClCompile>
-    <None Include="..\..\..\UE5\Engine\Source\Programs\EpicWebHelper\Resources\Mac\Info.plist"/>
-    <Manifest Include="..\..\..\UE5\Engine\Source\Programs\EpicWebHelper\Resources\Windows\Debug-EpicWebHelper-Win32.manifest"/>
-    <Manifest Include="..\..\..\UE5\Engine\Source\Programs\EpicWebHelper\Resources\Windows\Debug-EpicWebHelper-Win64.manifest"/>
-    <Manifest Include="..\..\..\UE5\Engine\Source\Programs\EpicWebHelper\Resources\Windows\EpicWebHelper-Win32.manifest"/>
-    <Manifest Include="..\..\..\UE5\Engine\Source\Programs\EpicWebHelper\Resources\Windows\EpicWebHelper-Win64.manifest"/>
-    <ResourceCompile Include="..\..\..\UE5\Engine\Source\Programs\EpicWebHelper\Resources\Windows\EpicWebHelper.rc"/>
+    <None Include="..\..\..\..\UE5\Engine\Source\Programs\EpicWebHelper\Resources\Mac\Info.plist"/>
+    <Manifest Include="..\..\..\..\UE5\Engine\Source\Programs\EpicWebHelper\Resources\Windows\Debug-EpicWebHelper-Win32.manifest"/>
+    <Manifest Include="..\..\..\..\UE5\Engine\Source\Programs\EpicWebHelper\Resources\Windows\Debug-EpicWebHelper-Win64.manifest"/>
+    <Manifest Include="..\..\..\..\UE5\Engine\Source\Programs\EpicWebHelper\Resources\Windows\EpicWebHelper-Win32.manifest"/>
+    <Manifest Include="..\..\..\..\UE5\Engine\Source\Programs\EpicWebHelper\Resources\Windows\EpicWebHelper-Win64.manifest"/>
+    <ResourceCompile Include="..\..\..\..\UE5\Engine\Source\Programs\EpicWebHelper\Resources\Windows\EpicWebHelper.rc"/>
   </ItemGroup>
   <ItemDefinitionGroup>
   </ItemDefinitionGroup>
