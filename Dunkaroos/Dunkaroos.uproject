@@ -1,6 +1,6 @@
 {
 	"FileVersion": 3,
-	"EngineAssociation": "{2EEB3A86-433B-05BB-40EE-45829031B163}",
+	"EngineAssociation": "{0B55A37F-45CE-35F0-A51D-84874021F41D}",
 	"Category": "",
 	"Description": "",
 	"Modules": [
@@ -10,7 +10,8 @@
 			"LoadingPhase": "Default",
 			"AdditionalDependencies": [
 				"UMG",
-				"Engine"
+				"Engine",
+				"CoreUObject"
 			]
 		}
 	],
