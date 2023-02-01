@@ -76,3 +76,6 @@ Dunkaroos/DerivedDataCache/*
 
 # Logs
 *.log
+
+# Rider files
+Dunkaroos/.idea/
