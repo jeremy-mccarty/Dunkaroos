@@ -27,9 +27,11 @@ UD_WidgetMinimal * UD_WidgetUtilities::CreateAndAddWidgetToViewport(TSubclassOf<
 {
 	if (owner != nullptr && IsValid(widgetClass))
 	{
-		UD_WidgetMinimal * result = CreateWidget<UD_WidgetMinimal>(owner, widgetClass);
-		result->AddToViewport(zOrder);
-		return result;
+		if (UD_WidgetMinimal * result = CreateWidget<UD_WidgetMinimal>(owner, widgetClass))
+		{
+			result->AddToViewport(zOrder);
+			return result;
+		}
 	}
 
 	return nullptr;
@@ -66,7 +68,7 @@ UD_GameInstance * UD_WidgetUtilities::GetGameInstance(const UObject * worldConte
 {
 	if (worldContextObject != nullptr)
 	{
-		if (UWorld * world = worldContextObject->GetWorld())
+		if (const UWorld * world = worldContextObject->GetWorld())
 		{
 			return Cast<UD_GameInstance>(world->GetGameInstance());
 		}
@@ -89,7 +91,7 @@ UD_WidgetMinimal * UD_WidgetUtilities::LoadScreen(const FName namedScreen, AD_Pl
 {
 	if (UD_GlobalsData * globalsData = GetGlobalsData(owner, FName("Core")))
 	{
-		if (TSubclassOf<UD_WidgetMinimal> * screen = globalsData->NamedScreens.Find(namedScreen))
+		if (const TSubclassOf<UD_WidgetMinimal> * screen = globalsData->NamedScreens.Find(namedScreen))
 		{
 			return CreateAndAddWidgetToViewport(*screen, owner, zOrder);
 		}

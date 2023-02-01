@@ -10,11 +10,12 @@
 
 void UD_GameInstance::Init()
 {
+	Super::Init();
 }
 
 UD_GlobalsData * UD_GameInstance::GetGlobalsData(const FName globalsName)
 {
-	if (TSoftObjectPtr<UD_GlobalsData> * globalsData = GlobalsData.Find(globalsName))
+	if (const TSoftObjectPtr<UD_GlobalsData> * globalsData = GlobalsData.Find(globalsName))
 	{
 		if (globalsData->IsValid())
 		{

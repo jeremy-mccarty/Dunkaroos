@@ -22,6 +22,6 @@ AD_PlayerController * UD_WidgetMinimal::GetOwningDunkaroosPlayerController() con
 
 AD_HUD * UD_WidgetMinimal::GetDunkaroosHUD() const
 {
-	AD_PlayerController * playerController = GetOwningDunkaroosPlayerController();
+	const AD_PlayerController * playerController = GetOwningDunkaroosPlayerController();
 	return playerController != nullptr ? playerController->GetDunkaroosHUD() : nullptr;
 }
