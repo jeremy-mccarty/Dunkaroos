@@ -27,10 +27,6 @@ public:
 	// TODO This should be TAssetSubclassOf
 	UPROPERTY(EditAnywhere, Category = "Dunkaroos")
 	TMap<FName, TSubclassOf<class UD_WidgetMinimal>> NamedScreens;
-
-	// TODO: Should this be TSoftObjectPtr
-	UPROPERTY(EditAnywhere, Category = "Dunkaroos")
-	class UDataTable * SafeColors;
 };
 
 USTRUCT(Category = "Dunkaroos|Data Types", DisplayName = "Dunkaroos Color")
@@ -65,4 +61,32 @@ public:
 	static DUNKAROOS_API const FD_SafeColor Blue;
 	static DUNKAROOS_API const FD_SafeColor Yellow;
 	static DUNKAROOS_API const FD_SafeColor Debug;
+};
+
+UCLASS(Category = "Dunkaroos|Data Types", DisplayName = "Dunkaroos Global Data")
+class UD_CoreGlobalsData : public UD_GlobalsData
+{
+	GENERATED_BODY()
+
+	// -- Blueprint public interface
+public:
+	UPROPERTY(EditAnywhere, Category = "Dunkaroos")
+	class UDataTable * SafeColors;
+
+	UPROPERTY(EditAnywhere, Category = "Dunkaroos")
+	class UStringTable * StringTable;
+};
+
+USTRUCT(Category = "Dunkaroos|Data Types", DisplayName = "Dunkaroos Localized Text")
+struct FD_LocalizedText : public FTableRowBase
+{
+	GENERATED_BODY()
+
+	// -- Blueprint public interface:
+public:
+	UPROPERTY(EditAnywhere, Category = "Dunkaroos")
+	FText Text;
+
+	UPROPERTY(EditAnywhere, Category = "Dunkaroos")
+	FString Description;
 };

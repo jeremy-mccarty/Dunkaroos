@@ -27,15 +27,15 @@ public:
 	// Returns a reference to the globals that have been loaded
 	const TMap<FName, class UD_GlobalsData *> & GetLoadedGlobals() const;
 
-	bool LoadGlobalsDataWithDelegate(const FName globalsName, TSoftObjectPtr<UD_GlobalsData> globalsData, FStreamableDelegate delegateToCall, TSharedPtr<FStreamableHandle> & outHandle);
+	bool LoadGlobalsDataWithDelegate(const FName globalsName, TSoftObjectPtr<UD_GlobalsData> globalsData, FStreamableDelegate delegateToCall, TSharedPtr<FStreamableHandle> & outHandle, bool bForceLoad = false);
 
 	// -- Blueprint public interface
 public:
 	UFUNCTION(BlueprintCallable, Category = "Dunkaroos|Game Instance")
 	class UD_GlobalsData * GetGlobalsData(const FName globalsName);
 
-	UFUNCTION(BlueprintCallable, Category = "Dunkaroos|Game Instance")
-	bool LoadGlobalsData(const FName globalsName, TSoftObjectPtr<UD_GlobalsData> globalsData);
+	UFUNCTION(BlueprintCallable, Category = "Dunkaroos|Game Instance", meta = (AdvancedDisplay = "bForceLoad"))
+	bool LoadGlobalsData(const FName globalsName, TSoftObjectPtr<UD_GlobalsData> globalsData, bool bForceLoad = false);
 
 	UFUNCTION(BlueprintCallable, Category = "Dunkaroos|Game Instance")
 	void ReleaseGlobalsData(const FName globalsName);
@@ -45,6 +45,12 @@ public:
 
 	UPROPERTY(BlueprintAssignable, Category = "Dunkaroos|Game Instance|Delegates")
 	FS_OnGlobalsDataChanged OnGlobalsDataReleased;
+
+	// -- Blueprint protected interface
+protected:
+	// The core globals data asset, used to initially load globals for the life of the game
+	UPROPERTY(EditDefaultsOnly, Category = "Dunkaroos|Game Instance")
+	TSoftObjectPtr<class UD_GlobalsData> CoreGlobals;
 
 	// -- C++ private interface
 private:

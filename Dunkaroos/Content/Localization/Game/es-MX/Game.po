@@ -1,0 +1,36 @@
+﻿# Game Spanish (Mexico) translation.
+# Copyright Epic Games, Inc. All Rights Reserved.
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: Game\n"
+"POT-Creation-Date: 2023-02-05 06:18\n"
+"PO-Revision-Date: 2023-02-05 06:18\n"
+"Language-Team: \n"
+"Language: es-MX\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. Key:	07328C02431D5C8701E726AA0821FD76
+#. SourceLocation:	/Game/Core/DataTypes/DT_LocalizedText.DT_LocalizedText.title_text.Text
+#: /Game/Core/DataTypes/DT_LocalizedText.DT_LocalizedText.title_text.Text
+msgctxt ",07328C02431D5C8701E726AA0821FD76"
+msgid "Dunkaroos"
+msgstr "Dunkaroos"
+
+#. Key:	29E129BD43ED236DDED368B20FAAE79B
+#. SourceLocation:	/Game/Core/DataTypes/DT_LocalizedText.DT_LocalizedText.welcome_text.Text
+#: /Game/Core/DataTypes/DT_LocalizedText.DT_LocalizedText.welcome_text.Text
+msgctxt ",29E129BD43ED236DDED368B20FAAE79B"
+msgid "Welcome to Dunkaroos"
+msgstr "Bienvenido a Dunkaroos"
+
+#. Key:	title_text
+#. SourceLocation:	/Game/Core/DataTypes/DT_LocalizedStrings.DT_LocalizedStrings
+#: /Game/Core/DataTypes/DT_LocalizedStrings.DT_LocalizedStrings
+msgctxt "DT_LocalizedStrings,title_text"
+msgid "Dunkaroos, but Strings"
+msgstr "Dunkaroos, pero cuerdas"
+

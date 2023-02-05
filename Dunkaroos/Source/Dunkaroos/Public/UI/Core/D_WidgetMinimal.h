@@ -7,6 +7,7 @@
 #include "Blueprint/UserWidget.h"
 
 // Game includes
+#include "Core/DataTypes/D_UIEnums.h"
 
 // Must be last include
 #include "D_WidgetMinimal.generated.h"
@@ -34,4 +35,14 @@ protected:
 	// Returns the game instance cast to the dunkaroos base class
 	UFUNCTION(BlueprintCallable, Category = "Dunkaroos|UI")
 	class UD_GameInstance * GetDunkaroosGameInstance();
+
+	UFUNCTION(BlueprintCallable, Category = "Dunkaroos|UI")
+	FLinearColor GetSafeColor(const FName colorId, TEnumAsByte<UD_ColorMode::Type> colorMode);
+	
+	UFUNCTION(BlueprintCallable, Category = "Dunkaroos|UI")
+	FText GetLocalizedText(const FName textId);
+
+	// -- C++ private interface
+private:
+	class UD_CoreGlobalsData * GetCoreGlobalsData();
 };

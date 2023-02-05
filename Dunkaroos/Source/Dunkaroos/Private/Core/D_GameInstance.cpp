@@ -8,9 +8,13 @@
 // Game includes
 #include "Core/DataTypes/D_UIDataTypes.h"
 
+static const FName k_coreId = FName("Core");
 void UD_GameInstance::Init()
 {
 	Super::Init();
+
+	// Force load the core globals at the start of the game
+	LoadGlobalsData(k_coreId, CoreGlobals, true);
 }
 
 const TMap<FName, UD_GlobalsData*>& UD_GameInstance::GetLoadedGlobals() const
@@ -18,13 +22,26 @@ const TMap<FName, UD_GlobalsData*>& UD_GameInstance::GetLoadedGlobals() const
 	return m_loadedGlobals;
 }
 
-bool UD_GameInstance::LoadGlobalsDataWithDelegate(const FName globalsName, TSoftObjectPtr<UD_GlobalsData> globalsData, FStreamableDelegate delegateToCall, TSharedPtr<FStreamableHandle> & outHandle)
+bool UD_GameInstance::LoadGlobalsDataWithDelegate(const FName globalsName, TSoftObjectPtr<UD_GlobalsData> globalsData, FStreamableDelegate delegateToCall, TSharedPtr<FStreamableHandle> & outHandle, bool bForceLoad /*= false*/)
 {
 	bool result = false;
+
+	// Ensure the handle is ready to go for the new request
+	outHandle.Reset();
 	
 	if (ValidateGlobalsDataPendingLoad(globalsName, globalsData))
 	{
-		outHandle = UAssetManager::GetStreamableManager().RequestAsyncLoad(globalsData.ToSoftObjectPath(), FStreamableDelegate::CreateUObject(this, &UD_GameInstance::HandleLoadedGlobalsData, globalsName, delegateToCall));
+		const FSoftObjectPath path = globalsData.ToSoftObjectPath();
+		if (bForceLoad)
+		{
+			outHandle = UAssetManager::GetStreamableManager().RequestSyncLoad(path);
+		}
+		else
+		{
+			outHandle = UAssetManager::GetStreamableManager().RequestAsyncLoad(path, FStreamableDelegate::CreateUObject(this, &UD_GameInstance::HandleLoadedGlobalsData, globalsName, delegateToCall));
+		}
+
+		// Ensure to track if the request was successful
 		result = outHandle.IsValid();
 	}
 
@@ -32,6 +49,12 @@ bool UD_GameInstance::LoadGlobalsDataWithDelegate(const FName globalsName, TSoft
 	{
 		// Log the handle in the pending globals map so we can cache it when it actually loads
 		m_pendingGlobals.Add(globalsName, outHandle);
+
+		if (bForceLoad)
+		{
+			// If a force load was requested, go ahead and handle the delegate that would have been used with the async load
+			HandleLoadedGlobalsData(globalsName, delegateToCall);
+		}
 	}
 	else
 	{
@@ -51,11 +74,11 @@ UD_GlobalsData * UD_GameInstance::GetGlobalsData(const FName globalsName)
 	return nullptr;
 }
 
-bool UD_GameInstance::LoadGlobalsData(const FName globalsName, TSoftObjectPtr<UD_GlobalsData> globalsData)
+bool UD_GameInstance::LoadGlobalsData(const FName globalsName, TSoftObjectPtr<UD_GlobalsData> globalsData, bool bForceLoad /*= false*/)
 {
 	const FStreamableDelegate delegate;
 	TSharedPtr<FStreamableHandle> handle;
-	return LoadGlobalsDataWithDelegate(globalsName, globalsData, delegate, OUT handle);
+	return LoadGlobalsDataWithDelegate(globalsName, globalsData, delegate, OUT handle, bForceLoad);
 }
 
 void UD_GameInstance::ReleaseGlobalsData(const FName globalsName)

@@ -86,28 +86,3 @@ UD_WidgetMinimal * UD_WidgetUtilities::LoadScreen(const FName namedScreen, AD_Pl
 	
 	return result;
 }
-
-FLinearColor UD_WidgetUtilities::GetSafeColor(const FName colorId, TEnumAsByte<UD_ColorMode::Type> colorMode, const UObject * worldContextObject)
-{
-	FD_SafeColor foundColor = FD_SafeColor::Debug;
-
-	if (const UD_GameInstance * gameInstance = GetGameInstance(worldContextObject))
-	{
-		for (const TPair<FName, UD_GlobalsData *> & pair : gameInstance->GetLoadedGlobals())
-		{
-			if (const UD_GlobalsData * globalsData = pair.Value)
-			{
-				if (const UDataTable * dataTable = globalsData->SafeColors)
-				{
-					if (const FD_SafeColor * safeColor = dataTable->FindRow<FD_SafeColor>(colorId, TEXT("UD_WidgetUtilities::GetSafeColor")))
-					{
-						foundColor = *safeColor;
-						break;
-					}
-				}
-			}
-		}
-	}
-
-	return foundColor.GetLinearColor(colorMode);
-}
