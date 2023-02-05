@@ -37,33 +37,6 @@ UD_WidgetMinimal * UD_WidgetUtilities::CreateAndAddWidgetToViewport(TSubclassOf<
 	return nullptr;
 }
 
-void UD_WidgetUtilities::LoadScreenReference(const FName screenName)
-{
-	if (UAssetManager * assetManager = UAssetManager::GetIfValid())
-	{
-		//FD_ScreenReferences * item;
-		//FStreamableManager & streamableManager = assetManager->GetStreamableManager();
-		//streamableManager.RequestAsyncLoad(
-		//	item->Screen.ToSoftObjectPath(),
-		//	FStreamableDelegate::CreateLambda([]()
-		//	{
-
-		//	}));
-	}
-	TArray<FSoftObjectPath> array;
-	FStreamableManager streamableManager;
-	streamableManager.RequestAsyncLoad(array);
-	//FStreamableManager::RequestAsyncLoad(array);
-	//world->GetStreama
-
-	//// Getting our StreamableManager
-	//StreamableManager.RequestAsyncLoad(ToStream,
-	//	FStreamableDelegate::CreateUObject(this,
-	//		UMyStreamExample::OnAssetsLoaded
-	//	)
-	//);
-}
-
 UD_GameInstance * UD_WidgetUtilities::GetGameInstance(const UObject * worldContextObject)
 {
 	if (worldContextObject != nullptr)
@@ -89,13 +62,52 @@ UD_GlobalsData * UD_WidgetUtilities::GetGlobalsData(const UObject * worldContext
 
 UD_WidgetMinimal * UD_WidgetUtilities::LoadScreen(const FName namedScreen, AD_PlayerController * owner, int32 zOrder)
 {
-	if (UD_GlobalsData * globalsData = GetGlobalsData(owner, FName("Core")))
+	UD_WidgetMinimal * result = nullptr;
+	
+	if (const UD_GameInstance * gameInstance = GetGameInstance(owner))
 	{
-		if (const TSubclassOf<UD_WidgetMinimal> * screen = globalsData->NamedScreens.Find(namedScreen))
+		for (const TPair<FName, UD_GlobalsData *> & pair : gameInstance->GetLoadedGlobals())
 		{
-			return CreateAndAddWidgetToViewport(*screen, owner, zOrder);
+			if (UD_GlobalsData * globalsData = pair.Value)
+			{
+				if (const TSubclassOf<UD_WidgetMinimal> * screen = globalsData->GetScreen(namedScreen))
+				{
+					result = CreateAndAddWidgetToViewport(*screen, owner, zOrder);
+					break;
+				}
+			}
 		}
 	}
 
-	return nullptr;
+	if (result == nullptr)
+	{
+		// Log an error?
+	}
+	
+	return result;
+}
+
+FLinearColor UD_WidgetUtilities::GetSafeColor(const FName colorId, TEnumAsByte<UD_ColorMode::Type> colorMode, const UObject * worldContextObject)
+{
+	FD_SafeColor foundColor = FD_SafeColor::Debug;
+
+	if (const UD_GameInstance * gameInstance = GetGameInstance(worldContextObject))
+	{
+		for (const TPair<FName, UD_GlobalsData *> & pair : gameInstance->GetLoadedGlobals())
+		{
+			if (const UD_GlobalsData * globalsData = pair.Value)
+			{
+				if (const UDataTable * dataTable = globalsData->SafeColors)
+				{
+					if (const FD_SafeColor * safeColor = dataTable->FindRow<FD_SafeColor>(colorId, TEXT("UD_WidgetUtilities::GetSafeColor")))
+					{
+						foundColor = *safeColor;
+						break;
+					}
+				}
+			}
+		}
+	}
+
+	return foundColor.GetLinearColor(colorMode);
 }

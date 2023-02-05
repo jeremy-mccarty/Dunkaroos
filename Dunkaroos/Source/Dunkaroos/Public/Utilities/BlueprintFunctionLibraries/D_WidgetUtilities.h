@@ -7,6 +7,7 @@
 #include "Kismet/BlueprintFunctionLibrary.h"
 
 // Game includes
+#include "Core/DataTypes/D_UIEnums.h"
 
 // Must be last include
 #include "D_WidgetUtilities.generated.h"
@@ -24,9 +25,6 @@ public:
 	UFUNCTION(BlueprintCallable, Category = "Dunkaroos|Widget Utilities", meta = (AdvancedDisplay = "ZOrder"))
 	static class UD_WidgetMinimal * CreateAndAddWidgetToViewport(TSubclassOf<class UD_WidgetMinimal> widgetClass, class AD_PlayerController * owner, int32 zOrder = 0);
 
-	UFUNCTION(BlueprintCallable, Category = "Dunkaroos|Widget Utilities")
-	static void LoadScreenReference(const FName screenName);
-
 	UFUNCTION(BlueprintCallable, Category = "Dunkaroos|Widget Utilities", meta = (WorldContext = "worldContextObject"))
 	static class UD_GameInstance * GetGameInstance(const class UObject * worldContextObject);
 
@@ -35,4 +33,7 @@ public:
 
 	UFUNCTION(BlueprintCallable, Category = "Dunkaroos|Widget Utilities", meta = (AdvancedDisplay = "ZOrder"))
 	static class UD_WidgetMinimal * LoadScreen(const FName namedScreen, class AD_PlayerController * owner, int32 zOrder = 0);
+
+	UFUNCTION(BlueprintCallable, Category = "Dunkaroos|Widget Utilities", meta = (WorldContext = "worldContextObject"))
+	static FLinearColor GetSafeColor(const FName colorId, TEnumAsByte<UD_ColorMode::Type> colorMode, const class UObject * worldContextObject);
 };

@@ -6,8 +6,9 @@
 // Engine includes
 
 // Game includes
-#include "Utilities/BlueprintFunctionLibraries/D_WidgetUtilities.h"
+#include "Core/D_GameInstance.h"
 #include "Core/PlayerControllers/D_PlayerController.h"
+#include "Utilities/BlueprintFunctionLibraries/D_WidgetUtilities.h"
 
 void UD_WidgetMinimal::NativeConstruct()
 {
@@ -24,4 +25,9 @@ AD_HUD * UD_WidgetMinimal::GetDunkaroosHUD() const
 {
 	const AD_PlayerController * playerController = GetOwningDunkaroosPlayerController();
 	return playerController != nullptr ? playerController->GetDunkaroosHUD() : nullptr;
+}
+
+UD_GameInstance* UD_WidgetMinimal::GetDunkaroosGameInstance()
+{
+	return Cast<UD_GameInstance>(GetGameInstance());
 }

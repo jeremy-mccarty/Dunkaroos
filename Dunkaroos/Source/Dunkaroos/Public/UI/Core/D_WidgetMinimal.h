@@ -18,15 +18,20 @@ class DUNKAROOS_API UD_WidgetMinimal : public UUserWidget
 
 	// -- C++ public interface
 public:
+	// Overrides
 	virtual void NativeConstruct() override;
 
 	// -- Blueprint protected interface
 protected:
-
 	// Returns the player controller cast to the dunkaroos base class
 	UFUNCTION(BlueprintPure, Category = "Dunkaroos|UI")
 	class AD_PlayerController * GetOwningDunkaroosPlayerController() const;
 
+	// Returns the hud cast to the dunkaroos base class
 	UFUNCTION(BlueprintPure, Category = "Dunkaroos|UI")
 	class AD_HUD * GetDunkaroosHUD() const;
+
+	// Returns the game instance cast to the dunkaroos base class
+	UFUNCTION(BlueprintCallable, Category = "Dunkaroos|UI")
+	class UD_GameInstance * GetDunkaroosGameInstance();
 };
