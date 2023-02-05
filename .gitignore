@@ -79,3 +79,4 @@ Dunkaroos/DerivedDataCache/*
 
 # Rider files
 Dunkaroos/.idea/
+*.DotSettings
