@@ -8,7 +8,7 @@ public class DunkaroosEditorTarget : TargetRules
 	public DunkaroosEditorTarget( TargetInfo Target) : base(Target)
 	{
 		Type = TargetType.Editor;
-		DefaultBuildSettings = BuildSettingsVersion.V2;
+		DefaultBuildSettings = BuildSettingsVersion.Latest;
 		ExtraModuleNames.AddRange( new string[] { "Dunkaroos" } );
 	}
 }
